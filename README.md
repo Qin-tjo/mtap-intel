@@ -4,7 +4,7 @@ A single-page, self-contained research dashboard summarizing the genomic, mechan
 clinical, and synthesis landscape for **MTAP** (and the MTAP / PRMT5 synthetic-lethal
 axis) across the 33 TCGA indications.
 
-**Live view:** https://<your-username>.github.io/<repo-name>/
+**Live view:** https://qin-tjo.github.io/mtap-intel/
 
 ## What it covers
 
