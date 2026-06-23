@@ -21,6 +21,8 @@ def check_url(url: str, timeout: float = 15.0) -> dict[str, Any]:
         r = subprocess.run(
             [
                 "curl", "-sL", "--max-time", str(int(timeout)),
+                "--max-filesize", "10485760",   # 10 MB cap (title lives in head)
+                "--proto", "=http,https",       # block file://, gopher://, dict://, etc.
                 "-A", "Mozilla/5.0 (compatible; mtap-intel-audit/1.0)",
                 "-H", "Accept: text/html,application/xhtml+xml,application/xml;q=0.9",
                 "-w", "%{http_code}",
