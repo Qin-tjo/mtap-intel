@@ -9,11 +9,21 @@ from pathlib import Path
 SNAPSHOTS_DIR = Path(__file__).resolve().parent.parent / "snapshots"
 
 
+MAX_SNAPSHOT_BYTES = 20 * 1024 * 1024   # 20 MB cap to prevent disk-fill DoS
+
+
 def snapshot(url: str, source_key: str, timeout: int = 20) -> dict:
     """Fetch the URL with curl and write to snapshots/<source_key>__<YYYY-MM-DD>.html.
 
     Returns {'path': ..., 'status': ok|error, 'code': int, 'bytes': int}.
+
+    Security: only http/https schemes are allowed (no file://, gopher://, dict://,
+    or other curl protocols). Response size is capped at MAX_SNAPSHOT_BYTES.
     """
+    if not url or not isinstance(url, str) or not url.startswith(("http://", "https://")):
+        return {"path": None, "status": "error", "code": None, "bytes": 0,
+                "error": f"invalid scheme (only http/https allowed): {url[:60]!r}"}
+
     SNAPSHOTS_DIR.mkdir(parents=True, exist_ok=True)
     today = dt.date.today().isoformat()
     fname = f"{_safe(source_key)}__{today}.html"
@@ -22,6 +32,8 @@ def snapshot(url: str, source_key: str, timeout: int = 20) -> dict:
     r = subprocess.run(
         [
             "curl", "-sL", "--max-time", str(timeout),
+            "--max-filesize", str(MAX_SNAPSHOT_BYTES),
+            "--proto", "=http,https",   # belt-and-braces: also bind libcurl to the safe protocol set
             "-A", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
             "-H", "Accept: text/html,application/xhtml+xml",
             "-w", "%{http_code}",
