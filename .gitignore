@@ -1,1 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Secrets (defense in depth — none committed today, prevent future drift)
+.env
+.env.*
+*.secret
+*.key
+*.pem
+credentials*.json
+secrets*.json
+~/.aws/
+*.envrc
+
+# Local IDE / OS
+.vscode/settings.json
+.idea/
 .DS_Store
+Thumbs.db
+*.swp
+
+# Local dev artefacts (kept out of git; reproducible from sources)
+/tmp/
+*.log
+.cache/
