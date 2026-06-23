@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_render": "2026-06-23T07:51:39.447855Z",
+  "last_render": "2026-06-23T08:06:54.226805Z",
   "scope_doc_version": 1,
   "trials": {
     "NCT05094336": {
@@ -15,15 +15,25 @@
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "Advanced MTAP-null Solid Tumors"
+        ],
+        "interventions": [
+          "Anvumetostat",
+          "Docetaxel",
+          "Comparator Anvumetostat Test Tablet"
+        ],
+        "primary_endpoints": [
+          "Parts 1 and 2: Number of Participants Who Experience a Dose-Limiting Toxicity (DLT)",
+          "Parts 1 and 2: Number of Participants Who Experience a Treatment-emergent Adverse Event (TEAE)",
+          "Part 3: Objective Response Rate (ORR)"
+        ],
         "start_date": "2022-02-01",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05094336",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -79,14 +89,25 @@
           "Phase 2"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "MTAP-null Non-Small-Cell Lung Cancer",
+          "MTAP-null Solid Tumors"
+        ],
+        "interventions": [
+          "Anvumetostat",
+          "IDE397"
+        ],
+        "primary_endpoints": [
+          "Part 1: Number of Participants Experiencing Dose Limiting Toxicities (DLTs)",
+          "Part 1: Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+          "Part 1: Number of Participants Experiencing Serious Adverse Events (SAEs)",
+          "Part 2: Objective Response (OR) per modified Response Evaluation Criteria in Solid Tumors (RECIST) 1.1"
+        ],
         "start_date": "2023-08-01",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05975073",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -140,15 +161,27 @@
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "Advanced Gastrointestinal, Biliary Tract, and Pancreatic Cancers"
+        ],
+        "interventions": [
+          "Anvumetostat",
+          "Gemcitabine",
+          "Nab-paclitaxel",
+          "Modified FOLFIRINOX",
+          "RMC-6236"
+        ],
+        "primary_endpoints": [
+          "Number of Participants Experiencing Dose Limiting Toxicities (DLT)",
+          "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAE)",
+          "Number of Participants Experiencing Serious Adverse Events (SAE)"
+        ],
         "start_date": "2024-05-29",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06360354",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -202,15 +235,29 @@
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "Thoracic Tumors",
+          "Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Anvumetostat",
+          "Carboplatin",
+          "Paclitaxel",
+          "Pembrolizumab",
+          "Pemetrexed",
+          "Sotorasib"
+        ],
+        "primary_endpoints": [
+          "Number of Participants Experiencing Dose Limiting Toxicities (DLT)",
+          "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAE)",
+          "Number of Participants Experiencing Serious Adverse Events (SAE)"
+        ],
         "start_date": "2024-09-17",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06333951",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -258,22 +305,32 @@
         "nct_id": "NCT07076121",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 2",
           "Phase 3"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "Pancreatic Ductal Adenocarcinoma"
+        ],
+        "interventions": [
+          "Navlimetostat",
+          "Gemcitabine",
+          "Nab-paclitaxel",
+          "Placebo"
+        ],
+        "primary_endpoints": [
+          "Progression-Free Survival as assessed by Response Evaluation Criteria in Solid Tumors version v1.1 (RECIST v1.1)",
+          "Overall Survival (OS)"
+        ],
         "start_date": "2025-10-23",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07076121",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -321,22 +378,37 @@
         "nct_id": "NCT07063745",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 2",
           "Phase 3"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Metastatic Non-small Cell Lung Cancer With MTAP Deletion"
+        ],
+        "interventions": [
+          "BMS-986504",
+          "Pembrolizumab",
+          "Placebo",
+          "Cisplatin",
+          "Carboplatin",
+          "Pemetrexed",
+          "Paclitaxel",
+          "Nab-paclitaxel"
+        ],
+        "primary_endpoints": [
+          "Progression-free survival (PFS) by RECIST v1.1",
+          "PFS by RECIST v1.1 per BICR",
+          "Overall Survival (OS)"
+        ],
         "start_date": "2026-01-02",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07063745",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -384,21 +456,27 @@
         "nct_id": "NCT06855771",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Carcinoma, Non-Small-Cell Lung"
+        ],
+        "interventions": [
+          "BMS-986504"
+        ],
+        "primary_endpoints": [
+          "Number of participants who achieve Objective Response (OR) utilizing the Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+        ],
         "start_date": "2025-09-09",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06855771",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -446,21 +524,27 @@
         "nct_id": "NCT07602946",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "University of Southampton",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 2"
         ],
-        "status": "Planned",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Not yet recruiting",
+        "conditions": [
+          "Mesothelioma"
+        ],
+        "interventions": [
+          "BMS-986504"
+        ],
+        "primary_endpoints": [
+          "SELECTmeso Platform : Molecular profiling of participant's tumour block SELECTmeso1: Disease Control Rate (DCR) using RECIST 1.1 at 12 weeks."
+        ],
         "start_date": "2026-05-11",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07602946",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -508,21 +592,32 @@
         "nct_id": "NCT07283705",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "M.D. Anderson Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Phase 2 Study",
+          "BMS-986504",
+          "MTAP-deleted Pancreatic Cancer"
+        ],
+        "interventions": [
+          "BMS-986504",
+          "Gemcitabine",
+          "Nab-paclitaxel",
+          "mFOLFIRINOX"
+        ],
+        "primary_endpoints": [
+          "Safety and adverse events (AEs)"
+        ],
         "start_date": "2026-05-18",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07283705",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -570,21 +665,44 @@
         "nct_id": "NCT07492680",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 2"
         ],
-        "status": "Planned",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Not yet recruiting",
+        "conditions": [
+          "Solid Tumors"
+        ],
+        "interventions": [
+          "BMS-986504",
+          "Daraxonrasib",
+          "Nivolumab + Relatlimab FDC",
+          "Temozolomide",
+          "Pumitamig",
+          "Pemetrexed",
+          "Carboplatin",
+          "Nab-paclitaxel",
+          "Gemcitabine",
+          "Paclitaxel"
+        ],
+        "primary_endpoints": [
+          "Part 1: Number of participants who achieve Objective Response (OR)",
+          "Part 2: Number of participants with adverse events meeting protocol defined dose limiting toxicities (DLTs) criteria",
+          "Part 2: Number of participants with adverse events (AE)",
+          "Part 2: Number of participants with Serious AEs (SAEs)",
+          "Part 2: Number of participants with treatment related AEs",
+          "Part 2: Number of participants with treatment related SAEs",
+          "Part 2: Number of participants with AEs leading to study treatment discontinuation",
+          "Part 2: Number of participants with AEs leading to death",
+          "Part 2: Number of participants with laboratory abnormalities"
+        ],
         "start_date": "2026-07-17",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07492680",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -632,22 +750,29 @@
         "nct_id": "NCT07549022",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Ankit Mangla, MD",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Planned",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
-        "start_date": "2026-04",
+        "status": "Not yet recruiting",
+        "conditions": [
+          "Malignant Peripheral Nerve Sheath Tumors",
+          "MPNST"
+        ],
+        "interventions": [
+          "BMS-986504"
+        ],
+        "primary_endpoints": [
+          "Objective response rate (ORR)"
+        ],
+        "start_date": "2026-08",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07549022",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -695,22 +820,29 @@
         "nct_id": "NCT07579221",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "M.D. Anderson Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Planned",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Not yet recruiting",
+        "conditions": [
+          "Non-Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "Navlimetostat",
+          "Pumitamig"
+        ],
+        "primary_endpoints": [
+          "Safety and Adverse Events (AEs)"
+        ],
         "start_date": "2026-11-30",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07579221",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -758,22 +890,42 @@
         "nct_id": "NCT07594626",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Northwestern University",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Planned",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Not yet recruiting",
+        "conditions": [
+          "Metastatic Biliary Tract Carcinoma",
+          "Metastatic Colon Carcinoma",
+          "Metastatic Esophageal Carcinoma",
+          "Metastatic Malignant Digestive System Neoplasm",
+          "Metastatic Malignant Solid Neoplasm",
+          "Metastatic Pancreatic Carcinoma",
+          "Stage IV Colon Cancer AJCC v8",
+          "Stage IV Pancreatic Cancer AJCC v8"
+        ],
+        "interventions": [
+          "Biospecimen Collection",
+          "Computed Tomography",
+          "Pemetrexed",
+          "PRMT5 Inhibitor BMS-986504"
+        ],
+        "primary_endpoints": [
+          "Dose limiting toxicity",
+          "Incidence of treatment-emergent adverse events (AEs)",
+          "Incidence of serious AEs",
+          "Incidence of grade 3 or greater adverse events",
+          "Number of patients who discontinue treatment due to toxicity"
+        ],
         "start_date": "2027-12-09",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07594626",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -821,21 +973,38 @@
         "nct_id": "NCT05245500",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Mesothelioma",
+          "Non Small Cell Lung Cancer",
+          "Malignant Peripheral Nerve Sheath Tumors",
+          "Solid Tumor",
+          "Pancreatic Adenocarcinoma",
+          "Advanced Solid Tumor"
+        ],
+        "interventions": [
+          "MRTX1719"
+        ],
+        "primary_endpoints": [
+          "Number of Patients who Experience Dose-Limiting Toxicity",
+          "Number of patients who experience a treatment-related adverse event",
+          "Objective response rate (ORR)",
+          "Duration of response (DOR)",
+          "Progression free survival (PFS)",
+          "Overall survival (OS)",
+          "Number of Patients With Clinically Significant Laboratory Assessments"
+        ],
         "start_date": "2022-06-09",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05245500",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -883,21 +1052,46 @@
         "nct_id": "NCT06672523",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumors With Homozygous MTAP Deletion"
+        ],
+        "interventions": [
+          "BMS-986504",
+          "[14C]-BMS-986504"
+        ],
+        "primary_endpoints": [
+          "Maximum observed concentration (Cmax)",
+          "Time of maximum observed drug concentration (Tmax)",
+          "Area under the concentration-time curve from time zero to the time of the last quantifiable concentration (AUC(0-T))",
+          "Area under the concentration-time curve from time zero extrapolated to infinite time (AUC(INF))",
+          "Terminal elimination half-life (T-HALF)",
+          "Apparent total body clearance (CLT/F)",
+          "Apparent volume of distribution during the terminal phase (Vz/F)",
+          "Percentage of estimated part for the calculation of AUC(INF) (%AUC(INF))",
+          "Blood-to-plasma total radioactivity (TRA) ratio",
+          "Total amount of administered dose recovered in urine (UR)",
+          "Percent of administered dose recovered in urine (%UR)",
+          "Renal clearance (CLR) in urine",
+          "Total radioactivity in UR",
+          "Total radioactivity in %UR",
+          "Total radioactivity in total amount of administered dose recovered in feces (FR)",
+          "Total radioactivity in percent of administered dose recovered in feces (%FR)",
+          "Total amount of radioactivity recovered (Rtotal)",
+          "Total percent of radioactivity recovered (%TOTAL)",
+          "TRA amount recovered and fraction of the radioactive dose in vomit if applicable"
+        ],
         "start_date": "2025-03-24",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06672523",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -945,21 +1139,32 @@
         "nct_id": "NCT06883747",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Nader Sanai",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
-          "Phase 1"
+          "Phase 0/1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Glioblastoma WHO Grade IV"
+        ],
+        "interventions": [
+          "BMS-986504"
+        ],
+        "primary_endpoints": [
+          "BMS-986504 Concentration in Tumor Tissue",
+          "Number of Treatment-Emergent Adverse Events",
+          "Number of Treatment-Related Adverse Events",
+          "Number of Serious Adverse Events",
+          "Number of Clinical Laboratory Abnormalities",
+          "Number of Drug-Related Toxicities"
+        ],
         "start_date": "2025-04-28",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06883747",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1007,21 +1212,32 @@
         "nct_id": "NCT07077434",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumors"
+        ],
+        "interventions": [
+          "BMS-986504"
+        ],
+        "primary_endpoints": [
+          "Maximum Plasma Concentration (Cmax) of BMS-986504",
+          "Time to Reach Maximum Plasma Concentration (Tmax) of BMS-986504",
+          "Area Under Curve (AUC) of BMS-986504",
+          "Mean Elimination Half-life (T-HALF) of BMS-986504",
+          "Apparent Total Body Clearance (CLT/F) of BMS-986504",
+          "Apparent Volume of Distribution During the Terminal Phase (Vz/F) of BMS-986504"
+        ],
         "start_date": "2025-10-15",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07077434",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1069,21 +1285,29 @@
         "nct_id": "NCT07382544",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "M.D. Anderson Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Cancer",
+          "Solid Tumor"
+        ],
+        "interventions": [
+          "MRTX1719",
+          "Olaparib"
+        ],
+        "primary_endpoints": [
+          "Safety and Adverse Events (AEs)"
+        ],
         "start_date": "2026-02-12",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07382544",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1131,21 +1355,36 @@
         "nct_id": "NCT07532902",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Memorial Sloan Kettering Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Diffuse Pleural Mesothelioma",
+          "Gastroesophageal Carcinoma",
+          "Urothelial Carcinoma"
+        ],
+        "interventions": [
+          "BMS-986504",
+          "Ipilimumab",
+          "Nivolumab",
+          "5-FU",
+          "Leucovorin",
+          "Oxaliplatin",
+          "Gemcitabine",
+          "Platinum"
+        ],
+        "primary_endpoints": [
+          "determine a recommended phase II dose (RP2D) of BMS-986504 in combination with standard-of-care therapy"
+        ],
         "start_date": "2026-04-07",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07532902",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1193,21 +1432,35 @@
         "nct_id": "NCT07544628",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bristol Myers Squibb (acquired from Mirati Therapeutics)",
+        "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Healthy Participants"
+        ],
+        "interventions": [
+          "Navlimetostat"
+        ],
+        "primary_endpoints": [
+          "Maximum Plasma Concentration (Cmax)",
+          "Area under the concentration-time curve from time zero to time of last quantifiable concentration [AUC(0-T)]",
+          "Area under the concentration-time curve from time zero extrapolated to infinite time [AUC(INF)]",
+          "Number of participants with Adverse Events (AE)",
+          "Number of participants with Serious Adverse Events (AE)",
+          "Number of participants with clinically significant changes in Physical Examinations (PE)",
+          "Number of participants with clinically significant changes in vital signs (VS)",
+          "Number of participants with clinically significant changes in 12-lead ECGs",
+          "Number of participants with clinically significant changes in laboratory tests results"
+        ],
         "start_date": "2026-04-27",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07544628",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1255,22 +1508,31 @@
         "nct_id": "NCT05732831",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Tango Therapeutics",
+        "sponsor": "Tango Therapeutics, Inc.",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Locally Advanced Solid Tumor"
+        ],
+        "interventions": [
+          "TNG462",
+          "Pembrolizumab"
+        ],
+        "primary_endpoints": [
+          "Phase 1 Maximum Tolerated Dose",
+          "Phase 1 Dosing Schedule",
+          "Phase 2 Anti-neoplastic Activity"
+        ],
         "start_date": "2023-05-26",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05732831",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1318,22 +1580,32 @@
         "nct_id": "NCT06188702",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Tango Therapeutics",
+        "sponsor": "Servier Bio-Innovation LLC",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "MTAP-deleted Solid Tumors"
+        ],
+        "interventions": [
+          "S095035",
+          "TNG462"
+        ],
+        "primary_endpoints": [
+          "Dose limiting toxicities (DLTs)",
+          "Total number of adverse events (AEs)",
+          "Total number of serious adverse events (SAEs)",
+          "Objective response rate (ORR)"
+        ],
         "start_date": "2024-04-29",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06188702",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1381,22 +1653,41 @@
         "nct_id": "NCT06922591",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Tango Therapeutics",
+        "sponsor": "Tango Therapeutics, Inc.",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "PDAC",
+          "PDAC - Pancreatic Ductal Adenocarcinoma",
+          "NSCLC",
+          "RAS Mutation",
+          "MTAP Deletion",
+          "Lung Cancer",
+          "Pancreatic Cancer Metastatic",
+          "Thoracic Cancer"
+        ],
+        "interventions": [
+          "TNG462",
+          "RMC-9805",
+          "RMC-6236",
+          "mFOLFIRINOX",
+          "gemcitabine/nab-paclitaxel"
+        ],
+        "primary_endpoints": [
+          "Phase 1: Maximum Tolerated Dose",
+          "Phase 1: Maximum Tolerated Dose",
+          "Phase 2: Combination Anti-neoplastic Activity"
+        ],
         "start_date": "2025-05-31",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06922591",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1444,7 +1735,7 @@
         "nct_id": "NCT05275478",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Tango Therapeutics",
+        "sponsor": "Tango Therapeutics, Inc.",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
@@ -1452,14 +1743,21 @@
           "Phase 2"
         ],
         "status": "Terminated",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Locally Advanced Solid Tumor"
+        ],
+        "interventions": [
+          "TNG908"
+        ],
+        "primary_endpoints": [
+          "Phase 1:",
+          "Phase 2:"
+        ],
         "start_date": "2022-03-23",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05275478",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1507,22 +1805,34 @@
         "nct_id": "NCT05312372",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Agios / Servier",
+        "sponsor": "Institut de Recherches Internationales Servier",
         "sponsor_history": [],
         "mechanism_class": "MAT2A inhibitor",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Terminated",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Withdrawn",
+        "conditions": [
+          "Esophageal Squamous Cell Carcinoma"
+        ],
+        "interventions": [
+          "Combination (S095033 + paclitaxel)"
+        ],
+        "primary_endpoints": [
+          "Dose-limiting toxicities (DLTs) associated with S095033 administration during the first cycle of treatment (Phase 1)",
+          "Adverse events (AEs) (Phase 1)",
+          "Changes in laboratory assessments (hematology and blood biochemistry) (Phase 1)",
+          "Changes in physical examination and in performance status (ECOG) (Phase 1)",
+          "Abnormalities in 12-lead ECG parameters (Phase 1)",
+          "Changes in vital signs: SBP, DBP, respiratory rate and temperature (Phase 1)",
+          "Objective response per central review of antitumor activity (using Response Evaluation Criteria in Solid Tumors [RECIST] version 1.1) (Phase 2)"
+        ],
         "start_date": "2025-05",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05312372",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1570,21 +1880,35 @@
         "nct_id": "NCT03435250",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Agios / Servier",
+        "sponsor": "Institut de Recherches Internationales Servier",
         "sponsor_history": [],
         "mechanism_class": "MAT2A inhibitor",
         "phases": [
           "Phase 1"
         ],
         "status": "Terminated",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Advanced Solid Tumors",
+          "Lymphoma"
+        ],
+        "interventions": [
+          "AG-270",
+          "AG-270",
+          "AG-270",
+          "docetaxel",
+          "nab-paclitaxel",
+          "gemcitabine"
+        ],
+        "primary_endpoints": [
+          "Percentage of Participants with DLTs Associated with AG-270 Administration During the First Cycle (First 28 Days) of Treatment",
+          "Percentage of Participants with DLTs Associated with the Combination of AG-270 and Docetaxel Administration During the First Cycle (First 28 Days) of Treatment",
+          "Percentage of Participants with DLTs Associated with the Combination of AG-270, nab-paclitaxel, and Gemcitabine Administration During the First Cycle (First 28 Days) of Treatment"
+        ],
         "start_date": "2018-03-04",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03435250",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1632,7 +1956,7 @@
         "nct_id": "NCT05975073",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "IDEAYA Biosciences",
+        "sponsor": "Amgen",
         "sponsor_history": [],
         "mechanism_class": "MAT2A inhibitor",
         "phases": [
@@ -1640,14 +1964,25 @@
           "Phase 2"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "MTAP-null Non-Small-Cell Lung Cancer",
+          "MTAP-null Solid Tumors"
+        ],
+        "interventions": [
+          "Anvumetostat",
+          "IDE397"
+        ],
+        "primary_endpoints": [
+          "Part 1: Number of Participants Experiencing Dose Limiting Toxicities (DLTs)",
+          "Part 1: Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+          "Part 1: Number of Participants Experiencing Serious Adverse Events (SAEs)",
+          "Part 2: Objective Response (OR) per modified Response Evaluation Criteria in Solid Tumors (RECIST) 1.1"
+        ],
         "start_date": "2023-08-01",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05975073",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1701,15 +2036,26 @@
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "Solid Tumor"
+        ],
+        "interventions": [
+          "IDE397",
+          "Sacituzumab govitecan"
+        ],
+        "primary_endpoints": [
+          "Dose-limiting Toxicities (DLTs) of IDE397",
+          "Dose-limiting Toxicities (DLTs) of IDE397 in combination with sacituzumab govitecan",
+          "Maximum Tolerated Dose (MTD) and/or Recommended Phase 2 Dose (RP2D) of IDE397",
+          "Maximum Tolerated Dose (MTD) and/or Recommended Phase 2 Dose (RP2D) of IDE397 in combination with sacituzumab govitecan",
+          "To evaluate preliminary anti-tumor activity of IDE397 as monotherapy and in combination with sacituzumab govitecan-hziy in expansion arms"
+        ],
         "start_date": "2021-04-14",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT04794699",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1763,15 +2109,36 @@
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "NSCLC Adenocarcinoma",
+          "Gastroesophageal Cancer (GC)",
+          "Gastric Adenocarcinoma",
+          "Adenocarcinoma of Esophagus",
+          "Squamous Cell Car. - Esophagus",
+          "Urothelial Carcinoma (UC)",
+          "Bladder Cancer",
+          "Mesothelioma",
+          "Pleural Mesothelioma",
+          "Peritoneal Mesothelioma",
+          "Non-Small Cell Lung Cancer NSCLC",
+          "Pancreatic Cancer",
+          "Biliary Tract Carcinoma"
+        ],
+        "interventions": [
+          "IDE892",
+          "IDE397"
+        ],
+        "primary_endpoints": [
+          "Incidence of Dose-limiting Toxicities (DLTs) of IDE892 (Parts 1 and 3)",
+          "Incidence of AEs and SAEs (Parts 1, 2, 3, and 4)",
+          "Objective response rate (ORR) and duration of response (DOR) per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (Parts 2 and 4)"
+        ],
         "start_date": "2026-03-04",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07277413",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1819,21 +2186,27 @@
         "nct_id": "NCT04676516",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "GlaxoSmithKline (originally Epizyme)",
+        "sponsor": "Ottawa Hospital Research Institute",
         "sponsor_history": [],
         "mechanism_class": "First-gen PRMT5i (SAM-competitive)",
         "phases": [
           "Phase 2"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Breast Cancer"
+        ],
+        "interventions": [
+          "GSK3326595"
+        ],
+        "primary_endpoints": [
+          "Complete cell cycle arrest (CCCA)"
+        ],
         "start_date": "2021-06-08",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT04676516",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1881,7 +2254,7 @@
         "nct_id": "NCT03614728",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "GlaxoSmithKline (originally Epizyme)",
+        "sponsor": "GlaxoSmithKline",
         "sponsor_history": [],
         "mechanism_class": "First-gen PRMT5i (SAM-competitive)",
         "phases": [
@@ -1889,14 +2262,25 @@
           "Phase 2"
         ],
         "status": "Terminated",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Neoplasms"
+        ],
+        "interventions": [
+          "GSK3326595",
+          "5-Azacitidine"
+        ],
+        "primary_endpoints": [
+          "Part 1: Percentage of Participants With Clinical Benefit Rate (CBR)",
+          "Part 2: Number of Participants With Non-serious Treatment-emergent Adverse Events (Non-STEAEs) and Serious Treatment Emergent Adverse Events (STEAEs)",
+          "Part 2: Number of Participants With AEs by Severity",
+          "Part 2: Number of Participants With Dose Limiting Toxicities (DLTs)",
+          "Part 2: Number of Participants With AEs Leading to Dose Interruptions, Dose Reductions and Treatment Discontinuation Due to AEs"
+        ],
         "start_date": "2018-10-16",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03614728",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -1944,21 +2328,48 @@
         "nct_id": "NCT02783300",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "GlaxoSmithKline (originally Epizyme)",
+        "sponsor": "GlaxoSmithKline",
         "sponsor_history": [],
         "mechanism_class": "First-gen PRMT5i (SAM-competitive)",
         "phases": [
           "Phase 1"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Neoplasms"
+        ],
+        "interventions": [
+          "GSK3326595",
+          "Pembrolizumab"
+        ],
+        "primary_endpoints": [
+          "Part 1: Number of Participants With Any Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+          "Part 1: Number of Participants Withdrawn Due to AEs",
+          "Part 1: Number of Participants With Dose Limiting Toxicities (DLTs)",
+          "Part 1: Number of Participants With Dose Modifications of GSK3326595",
+          "Part 1: Number of Participants With Worst Case Change From Baseline in Clinical Chemistry Parameters",
+          "Part 1: Number of Participants With Worst Case Change From Baseline in Hematology Parameters",
+          "Part 1: Number of Participants With Worst Case Change From Baseline in Coagulation Parameters",
+          "Part 1: Number of Participants With Worst Case Change From Baseline in Urinalysis Parameters",
+          "Part 1: Changes From Baseline in Urine Potential of Hydrogen (pH)",
+          "Part 1: Changes From Baseline in Urine Specific Gravity",
+          "Part 1: Number of Participants With Maximum Grade Worst Case Increase Post-baseline Relative to Baseline in Vital Signs",
+          "Part 3: Number of Participants With Any Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+          "Part 3: Number of Participants Withdrawn Due to AEs",
+          "Part 3: Number of Participants With Dose Modifications of GSK3326595 and Pembrolizumab",
+          "Part 3: Number of Participants With Worst Case Change From Baseline in Clinical Chemistry Parameters",
+          "Part 3: Number of Participants With Worst Case Change From Baseline in Hematology Parameters",
+          "Part 3: Number of Participants With Worst Case Change From Baseline in Coagulation Parameters",
+          "Part 3: Number of Participants With Worst Case Change From Baseline in Urinalysis Parameters",
+          "Part 3: Changes From Baseline in Urine Potential of Hydrogen (pH)",
+          "Part 3: Changes From Baseline in Urine Specific Gravity",
+          "Part 3: Number of Participants With Maximum Worst-case Increase Post-baseline Relative to Baseline in Vital Signs"
+        ],
         "start_date": "2016-08-30",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT02783300",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2006,21 +2417,30 @@
         "nct_id": "NCT03573310",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Johnson & Johnson / Janssen",
+        "sponsor": "Janssen Research & Development, LLC",
         "sponsor_history": [],
         "mechanism_class": "First-gen PRMT5i (SAM-competitive)",
         "phases": [
           "Phase 1"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Neoplasms",
+          "Solid Tumor, Adult",
+          "Non-Hodgkin Lymphoma",
+          "Myelodysplastic Syndromes"
+        ],
+        "interventions": [
+          "JNJ-64619178"
+        ],
+        "primary_endpoints": [
+          "Part 1 and Part 2: Number of Participants with Dose-limiting Toxicities (DLTs)"
+        ],
         "start_date": "2018-07-13",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03573310",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2068,21 +2488,41 @@
         "nct_id": "NCT06788509",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Johnson & Johnson / Janssen",
+        "sponsor": "Janssen Research & Development, LLC",
         "sponsor_history": [],
         "mechanism_class": "First-gen PRMT5i (SAM-competitive)",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Enrolling by invitation",
+        "conditions": [
+          "Leukemia, Myeloid, Acute",
+          "Leukemia, Lymphocytic, Chronic, B-Cell",
+          "Lymphoma, Non-Hodgkin",
+          "Myelodysplastic Syndromes",
+          "Neoplasms",
+          "Solid Tumor, Adult",
+          "Prostatic Neoplasms, Castration-Resistant"
+        ],
+        "interventions": [
+          "JNJ-75348780",
+          "JNJ-67856633",
+          "JNJ-54179060",
+          "JNJ-64264681",
+          "JNJ-74856665",
+          "JNJ-70218902",
+          "JNJ-64619178",
+          "JNJ-80948543",
+          "JNJ-87801493"
+        ],
+        "primary_endpoints": [
+          "Number of Participants with Serious Adverse Events (SAEs) and Grade Greater than or equals to (>=) 3 Related Adverse Events (AEs)"
+        ],
         "start_date": "2024-12-30",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06788509",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2137,14 +2577,28 @@
           "Phase 1"
         ],
         "status": "Terminated",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Advanced Solid Tumors",
+          "Metastatic Solid Tumors"
+        ],
+        "interventions": [
+          "PF-06939999 dose escalation",
+          "PF-06939999 monotherapy",
+          "PF-06939999 in combination with docetaxel"
+        ],
+        "primary_endpoints": [
+          "Part 1A: Number of Participants With Dose-Limiting Toxicities (DLT)",
+          "Part 1A: Number of Participants With Treatment-Emergent Adverse Events (TEAE)",
+          "Part 1A: Number of Participants With Laboratory Abnormalities",
+          "Part 2: Number of Participants With TEAEs",
+          "Part 2: Number of Participants With Laboratory Abnormalities",
+          "Part 2: Number of Participants With Best Overall Response (BOR) Based on Investigator Assessment (RECIST, Version 1.1)"
+        ],
         "start_date": "2019-03-14",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03854227",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2199,14 +2653,29 @@
           "Phase 1"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Relapsed/Refractory Advanced Solid Tumors",
+          "Relapsed/Refractory Diffuse Large B-cell Lymphoma",
+          "Relapsed/Refractory Myelodysplasia",
+          "Relapsed/Refractory Myelofibrosis",
+          "Adenoid Cystic Carcinoma",
+          "Relapsed/Refractory Mantle Cell Lymphoma",
+          "Relapsed/Refractory Acute Myeloid Leukemia",
+          "Refractory Chronic Myelomonocytic Leukemia"
+        ],
+        "interventions": [
+          "PRT543"
+        ],
+        "primary_endpoints": [
+          "To describe dose limiting toxicities (DLT) of PRT543",
+          "To determine the maximally tolerated dose (MTD)",
+          "To determine the recommended phase 2 dose (RP2D) and schedule of PRT543"
+        ],
         "start_date": "2019-02-11",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03886831",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2261,14 +2730,23 @@
           "Phase 1"
         ],
         "status": "Completed",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "conditions": [
+          "Advanced Solid Tumor",
+          "Recurrent Glioma"
+        ],
+        "interventions": [
+          "PRT811"
+        ],
+        "primary_endpoints": [
+          "To describe dose limiting toxicities (DLT) of PRT811",
+          "To determine the maximally tolerated dose (MTD)",
+          "To determine the recommended phase 2 dose (RP2D) and schedule of PRT811"
+        ],
         "start_date": "2019-11-06",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT04089449",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2323,15 +2801,29 @@
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
-        "start_date": "2023-10-01",
+        "status": "Recruiting",
+        "conditions": [
+          "Lymphoma",
+          "Non-Hodgkin Lymphoma",
+          "Hodgkin Lymphoma",
+          "Peripheral T-cell Lymphoma (PTCL)",
+          "PTCL-NOS",
+          "ALCL",
+          "AITL"
+        ],
+        "interventions": [
+          "AZD3470",
+          "Pembrolizumab"
+        ],
+        "primary_endpoints": [
+          "Incidence and severity of adverse events (AEs) and serious adverse events (SAEs)",
+          "Incidence of DLTs (Dose Escalation Cohorts only)"
+        ],
+        "start_date": "2024-01-23",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06137144",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2386,15 +2878,24 @@
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
-        "start_date": "2023-09-01",
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumors That Are MTAP Deficient"
+        ],
+        "interventions": [
+          "AZD3470",
+          "Datopotamab deruxtecan"
+        ],
+        "primary_endpoints": [
+          "All Modules: Incidence of adverse events (AEs) and serious adverse events (SAEs). To determine the RP2D of AZD3470 as monotherapy and in combination with anticancer agents",
+          "Module 1: Incidence of dose-limiting toxicities (DLT)",
+          "Module 2: Progression Free Survival assessed by the Investigator according to RECIST v1.1"
+        ],
+        "start_date": "2024-01-18",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06130553",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2442,21 +2943,30 @@
         "nct_id": "NCT06968572",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Haisco Pharmaceutical",
+        "sponsor": "Haisco Pharmaceutical Group Co., Ltd.",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumors"
+        ],
+        "interventions": [
+          "HSK41959"
+        ],
+        "primary_endpoints": [
+          "DLTs",
+          "MTD",
+          "AEs",
+          "RP2D"
+        ],
         "start_date": "2025-04-11",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06968572",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2504,21 +3014,41 @@
         "nct_id": "NCT06914128",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Bayer / Puhe BioPharma",
+        "sponsor": "Bayer",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
-          "Phase 1"
+          "Phase 1",
+          "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
+        "status": "Recruiting",
+        "conditions": [
+          "MTAP-deleted Solid Tumors"
+        ],
+        "interventions": [
+          "BAY 3713372"
+        ],
+        "primary_endpoints": [
+          "Dose Escalation (Master and Intervention Cohort 1): Number of participants with treatment-emergent adverse events (TEAEs)",
+          "Dose Escalation (Master and Intervention Cohort 1): Number of participants with treatment-emergent serious adverse events (TESAEs)",
+          "Dose Escalation (Master and Intervention Cohort 1): Severity of treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+          "Dose Escalation (Master and Intervention Cohort 1): Incidence of dose-limiting toxicities (DLTs)",
+          "Dose Escalation (Master and Intervention Cohort 1): Number of participants with DLTs",
+          "Dose Escalation (Master and Intervention Cohort 1): Maximum concentration (Cmax) of the respective dosing interval of BAY 3713372",
+          "Dose Escalation (Master and Intervention Cohort 1): Area under the curve (AUC) of the respective dosing interval of BAY 3713372",
+          "Dose Expansion (Master, Intervention Cohorts 1 - 6): Objective response rate (ORR)",
+          "Dose Expansion (Intervention Cohorts 3, 4 and 6): Number of participants with DLTs",
+          "Intervention Cohort 7: Number of participants with treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+          "Intervention Cohort 7: Severity of treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+          "Intervention Cohort 7: Number of participants with DLTs",
+          "Intervention Cohort 7: Brain and brain tumor PK concentration of BAY 3713372",
+          "Intervention Cohort 7: Tumor tissue SDMA levels"
+        ],
         "start_date": "2025-03-21",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06914128",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
@@ -2566,22 +3096,37 @@
         "nct_id": "NCT06810544",
         "drug_canonical": null,
         "drug_aliases": [],
-        "sponsor": "Tango Therapeutics",
+        "sponsor": "Tango Therapeutics, Inc.",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
         "phases": [
           "Phase 1",
           "Phase 2"
         ],
-        "status": "Active",
-        "conditions": [],
-        "interventions": [],
-        "primary_endpoints": [],
-        "start_date": "2025-05-21",
+        "status": "Recruiting",
+        "conditions": [
+          "Non Small Cell Lung Cancer",
+          "Glioma Glioblastoma Multiforme",
+          "Glioma, Malignant",
+          "Solid Tumor",
+          "Non-Small Cell Adenocarcinoma",
+          "Lung Cancer",
+          "Brain Tumor"
+        ],
+        "interventions": [
+          "TNG456",
+          "abemaciclib"
+        ],
+        "primary_endpoints": [
+          "Phase 1 Maximum Tolerated Dose",
+          "Phase 2 Anti-neoplastic Activity Single Agent",
+          "Phase 2 Anti-neoplastic Activity Combination Treatment"
+        ],
+        "start_date": "2025-03-24",
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06810544",
-        "last_synced": null,
-        "last_synced_status": "never-synced"
+        "last_synced": "2026-06-23",
+        "last_synced_status": "synced-with-updates"
       },
       "tier_b_claims": [],
       "display": {
