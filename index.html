@@ -83,7 +83,9 @@
             margin-bottom: 8px; letter-spacing: 0.06em; text-transform: uppercase; }
   h1 { font-size: 26px; margin: 0 0 6px; font-weight: 700;
         letter-spacing: -0.01em; line-height: 1.2; }
-  .meta { font-size: 11.5px; color: var(--text3); font-family: "SF Mono", monospace; }
+  .meta { font-size: 11.5px; color: var(--text3); font-family: "SF Mono", monospace; line-height: 1.7; }
+  .meta .meta-row { display: block; }
+  .meta b { color: var(--text2); font-weight: 700; }
 
   /* Sections */
   section.section { padding: 28px 36px 40px; max-width: var(--content-max);
@@ -817,7 +819,12 @@
 <header class="db-h">
   <div class="tpill">target intelligence</div>
   <h1>MTAP target intelligence dashboard</h1>
-  <div class="meta">Generated 2026-06-23 · 53 clinical trials · 8 Tier-B verified · 40 citations · audit log at bottom</div>
+  <div class="meta">
+    <span class="meta-row"><b>Last audit pass:</b> 2026-06-23 · <b>53</b> clinical trials in scope · <b>48</b> documented out-of-scope</span>
+    <span class="meta-row"><b>Tier-A registry sync:</b> 0 mismatches · <b>Tier-B verbatim verified:</b> 8 / 9 efficacy-bearing rows (1 source bot-blocked)</span>
+    <span class="meta-row"><b>Completeness:</b> 52 / 52 in-state trials covered by ≥1 documented search · <b>Triangulation:</b> 30 / 30 review-cited NCTs present</span>
+    <span class="meta-row"><b>40</b> references · scope &amp; methodology in <a href="audit/scope.md">audit/scope.md</a> · audit log section at bottom</span>
+  </div>
 </header>
 
 <div id="scroll-progress" aria-hidden="true"></div>
