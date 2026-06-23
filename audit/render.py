@@ -220,7 +220,9 @@ def render_audit_log(state: dict, pass_record: dict | None, comp_pass: dict | No
     lines.append('  <ul class="audit-summary">')
     lines.append(f'    <li>Rows audited: <b>{s.get("trials_audited", 0)}</b></li>')
     lines.append(f'    <li>Tier-A registry sync mismatches: <b>{s.get("tier_a_mismatches", 0)}</b></li>')
-    lines.append(f'    <li>Rows with no structured Tier-B claims yet (extraction backlog): <b>{s.get("tier_b_rows_with_no_structured_claims", 0)}</b></li>')
+    lines.append(f'    <li>Tier-B <b>verified</b>: <b>{s.get("tier_b_verified", 0)}</b> · '
+                 f'<b>extraction backlog</b> (displays ORR but no structured claim): <b>{s.get("tier_b_extraction_backlog", 0)}</b> · '
+                 f'<b>no-claims-needed</b> (trial-in-progress, no efficacy yet): <b>{s.get("tier_b_no_claims_needed", 0)}</b></li>')
     if "urls_ok" in s:
         lines.append(f'    <li>Citation URLs verified: <b>{s.get("urls_ok", 0)} ok</b> · '
                      f'<b>{s.get("urls_bot_blocked", 0)} bot-blocked</b> (manual verify needed) · '
@@ -245,12 +247,18 @@ def render_audit_log(state: dict, pass_record: dict | None, comp_pass: dict | No
             mis = [f for f, info in tdiff.items() if info["status"] == "mismatch"]
             tier_a_status = '✅ match' if not mis else f'⚠️ {", ".join(mis)}'
         n_claims = len(row_rec.get("tier_b_claims", []))
-        if n_claims == 0:
-            tier_b_status = '🔄 backlog (no structured claims)'
-        else:
+        state_label = row_rec.get("tier_b_state", "no-claims-needed")
+        if n_claims:
             verified = sum(1 for c in row_rec["tier_b_claims"] if c["verbatim_match"])
             tier_b_status = f'{verified}/{n_claims} verified'
-        overall = '✅' if (tier_a_status.startswith('✅') and n_claims > 0) else '🔄'
+        elif state_label == "extraction-backlog":
+            tier_b_status = '🔄 displays ORR — needs verbatim'
+        else:
+            tier_b_status = '➖ no efficacy yet'
+        if tier_a_status.startswith('✅') and (n_claims or state_label == "no-claims-needed"):
+            overall = '✅'
+        else:
+            overall = '🔄'
         lines.append(
             f'      <tr><td><a href="https://clinicaltrials.gov/study/{e(nct)}" target="_blank" rel="noopener">{e(nct)}</a></td>'
             f'<td>{e(drug)}</td><td>{tier_a_status}</td><td>{tier_b_status}</td><td>{overall}</td></tr>'
