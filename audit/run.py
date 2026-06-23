@@ -44,6 +44,7 @@ def main():
     ap.add_argument("--sentinels-only", action="store_true")
     ap.add_argument("--skip-completeness", action="store_true")
     ap.add_argument("--skip-accuracy", action="store_true")
+    ap.add_argument("--skip-triangulation", action="store_true")
     args = ap.parse_args()
 
     start = dt.datetime.now()
@@ -72,6 +73,14 @@ def main():
             print(f"⚠️ accuracy exited rc={rc}; continuing")
     else:
         print("[run] skipping accuracy")
+
+    if not args.skip_triangulation:
+        tri_cmd = [sys.executable, str(AUDIT / "triangulate.py")]
+        rc = run(tri_cmd)
+        if rc != 0:
+            print(f"⚠️ triangulate exited rc={rc}; continuing")
+    else:
+        print("[run] skipping triangulation")
 
     rc = run([sys.executable, str(AUDIT / "render.py")])
 
