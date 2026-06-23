@@ -209,7 +209,14 @@ def latest_triangulation_pass() -> dict | None:
 
 def render_audit_log(state: dict, pass_record: dict | None, comp_pass: dict | None = None,
                      tri_pass: dict | None = None) -> str:
-    """Render the audit-log HTML block (goes between LOG markers, at bottom of dashboard)."""
+    """Render the audit-log HTML block (goes between LOG markers, at bottom of dashboard).
+
+    Three-block layout:
+      1. Pass-status overview — single grid covering accuracy / completeness / triangulation
+      2. Per-trial audit table — the 53-row workhorse
+      3. Methodology & known limitations
+    Detail expansions live in <details> elements within each block.
+    """
     from html import escape as e
     lines = []
     lines.append('<section id="audit-log" class="section audit-log">')
@@ -227,21 +234,105 @@ def render_audit_log(state: dict, pass_record: dict | None, comp_pass: dict | No
         return "\n".join(lines)
 
     s = pass_record.get("summary", {})
-    lines.append(f'  <h3>A.1 · Last full accuracy pass — {e(pass_record["pass_date"])}</h3>')
-    lines.append('  <ul class="audit-summary">')
-    lines.append(f'    <li>Rows audited: <b>{s.get("trials_audited", 0)}</b></li>')
-    lines.append(f'    <li>Tier-A registry sync mismatches: <b>{s.get("tier_a_mismatches", 0)}</b></li>')
-    lines.append(f'    <li>Tier-B <b>verified</b>: <b>{s.get("tier_b_verified", 0)}</b> · '
-                 f'<b>extraction backlog</b> (displays ORR but no structured claim): <b>{s.get("tier_b_extraction_backlog", 0)}</b> · '
-                 f'<b>no-claims-needed</b> (trial-in-progress, no efficacy yet): <b>{s.get("tier_b_no_claims_needed", 0)}</b></li>')
-    if "urls_ok" in s:
-        lines.append(f'    <li>Citation URLs verified: <b>{s.get("urls_ok", 0)} ok</b> · '
-                     f'<b>{s.get("urls_bot_blocked", 0)} bot-blocked</b> (manual verify needed) · '
-                     f'<b>{s.get("urls_broken", 0)} broken</b></li>')
-    lines.append('  </ul>')
+    cs = comp_pass.get("summary", {}) if comp_pass else {}
+    ts = tri_pass.get("summary", {}) if tri_pass else {}
 
-    # Per-trial table
-    lines.append('  <h3>A.2 · Per-trial audit status</h3>')
+    # ---------- Block 1: pass-status overview ----------
+    lines.append('  <div class="audit-overview">')
+    # Accuracy card
+    lines.append('    <div class="audit-card">')
+    lines.append(f'      <div class="audit-card-h"><b>Accuracy</b> <span class="audit-date">{e(pass_record["pass_date"])}</span></div>')
+    lines.append('      <ul>')
+    lines.append(f'        <li>Rows audited: <b>{s.get("trials_audited", 0)}</b></li>')
+    lines.append(f'        <li>Tier-A registry sync: <b>{s.get("tier_a_mismatches", 0)} mismatches</b></li>')
+    lines.append(f'        <li>Tier-B verified: <b>{s.get("tier_b_verified", 0)}</b> · backlog: <b>{s.get("tier_b_extraction_backlog", 0)}</b> · no efficacy yet: <b>{s.get("tier_b_no_claims_needed", 0)}</b></li>')
+    if "urls_ok" in s:
+        lines.append(f'        <li>Citation URLs: <b>{s.get("urls_ok", 0)} ok</b> · {s.get("urls_bot_blocked", 0)} bot-blocked · {s.get("urls_broken", 0)} broken</li>')
+    lines.append('      </ul></div>')
+
+    # Completeness card
+    if comp_pass:
+        lines.append('    <div class="audit-card">')
+        lines.append(f'      <div class="audit-card-h"><b>Completeness</b> <span class="audit-date">{e(comp_pass["pass_date"])}</span></div>')
+        lines.append('      <ul>')
+        lines.append(f'        <li>Search queries: <b>{cs.get("queries_run", 0)}</b> ({cs.get("queries_errored", 0)} errored)</li>')
+        lines.append(f'        <li>In-state trials covered by ≥1 query: <b>{cs.get("in_state_now_surfaced", 0)} / {cs.get("in_state", 0)}</b></li>')
+        if cs.get("in_state_but_not_surfaced", 0) > 0:
+            lines.append(f'        <li>⚠️ Search-registry gap: <b>{cs["in_state_but_not_surfaced"]}</b> in-state trial(s) with no query hit</li>')
+        lines.append(f'        <li>Newly surfaced needing triage: <b>{cs.get("newly_surfaced_to_review", 0)}</b></li>')
+        lines.append('      </ul></div>')
+
+    # Triangulation card
+    if tri_pass:
+        missed_ncts = ts.get("total_unique_missed_ncts", [])
+        missed_drugs = ts.get("total_unique_missed_drugs", [])
+        lines.append('    <div class="audit-card">')
+        lines.append(f'      <div class="audit-card-h"><b>Triangulation</b> <span class="audit-date">{e(tri_pass["pass_date"])}</span></div>')
+        lines.append('      <ul>')
+        lines.append(f'        <li>Reviews cross-checked: <b>{ts.get("reviews_processed", 0)}</b></li>')
+        if missed_ncts:
+            lines.append(f'        <li>⚠️ Review-cited NCTs not in state.json: <b>{len(missed_ncts)}</b></li>')
+        else:
+            lines.append('        <li>✅ All review-cited NCTs present in state.json</li>')
+        if missed_drugs:
+            lines.append(f'        <li>⚠️ Drugs in reviews not represented: <b>{", ".join(missed_drugs)}</b></li>')
+        else:
+            lines.append('        <li>✅ All review-mentioned clinical-stage drugs represented</li>')
+        lines.append('      </ul></div>')
+    lines.append('  </div>')
+
+    # ---------- Details collapsibles tied to the overview ----------
+    # Citation URL detail
+    if pass_record.get("citation_urls"):
+        bot_blocked = [u for u in pass_record["citation_urls"] if u.get("bucket") == "bot-blocked"]
+        broken = [u for u in pass_record["citation_urls"] if u.get("bucket") == "broken"]
+        if bot_blocked or broken:
+            lines.append('  <details class="audit-details">')
+            lines.append(f'    <summary>Citation URLs needing manual review ({len(bot_blocked)} bot-blocked · {len(broken)} broken)</summary>')
+            if broken:
+                lines.append('    <p class="audit-bad"><b>Broken (needs replacement):</b></p><ul class="audit-urls">')
+                for u in broken:
+                    lines.append(f'      <li>{e(u.get("status",""))} {e(str(u.get("code","")))} — <a href="{e(u["url"])}" target="_blank" rel="noopener">{e(u["url"][:120])}</a></li>')
+                lines.append('    </ul>')
+            if bot_blocked:
+                lines.append('    <p><b>Bot-blocked</b> (HTTP 403 to scripts; verify by hand on a normal browser):</p><ul class="audit-urls">')
+                for u in bot_blocked:
+                    lines.append(f'      <li><a href="{e(u["url"])}" target="_blank" rel="noopener">{e(u["url"][:120])}</a></li>')
+                lines.append('    </ul>')
+            lines.append('  </details>')
+
+    # Completeness candidate list
+    if comp_pass:
+        candidates = comp_pass.get("newly_surfaced_ncts", [])
+        if candidates:
+            lines.append('  <details class="audit-details">')
+            lines.append(f'    <summary>Newly surfaced NCTs needing triage ({len(candidates)})</summary>')
+            lines.append('    <ul class="audit-urls">')
+            for nct in candidates[:50]:
+                lines.append(f'      <li><a href="https://clinicaltrials.gov/study/{e(nct)}" target="_blank" rel="noopener">{e(nct)}</a></li>')
+            if len(candidates) > 50:
+                lines.append(f'      <li>… and {len(candidates) - 50} more (see <code>audit/passes/completeness/{e(comp_pass["pass_date"])}.json</code>)</li>')
+            lines.append('    </ul></details>')
+
+    # Triangulation per-review detail
+    if tri_pass and tri_pass.get("reviews"):
+        lines.append('  <details class="audit-details">')
+        lines.append(f'    <summary>Per-review detail ({len(tri_pass["reviews"])} reviews)</summary>')
+        lines.append('    <table class="audit-table">')
+        lines.append('      <thead><tr><th>Review</th><th>Tier</th><th>NCTs in review</th><th>Covered</th><th>Drugs mentioned</th></tr></thead>')
+        lines.append('      <tbody>')
+        for r in tri_pass["reviews"]:
+            meta = r.get("review_meta", {})
+            title = (meta.get("title") or "")[:80]
+            tier = meta.get("tier", "?")
+            n_in = len(r.get("ncts_in_review", []))
+            n_cov = len(r.get("ncts_covered", []))
+            n_drugs = len(r.get("drugs_in_review", []))
+            lines.append(f'        <tr><td>{e(title)} ({e(str(meta.get("year","")))})</td><td>T{e(str(tier))}</td><td>{n_in}</td><td>{n_cov}/{n_in}</td><td>{n_drugs}</td></tr>')
+        lines.append('      </tbody></table></details>')
+
+    # ---------- Block 2: per-trial table ----------
+    lines.append('  <h3>Per-trial audit status</h3>')
     lines.append('  <table class="audit-table">')
     lines.append('    <thead><tr><th>NCT</th><th>Drug</th><th>Tier-A sync</th><th>Tier-B claims</th><th>Status</th></tr></thead>')
     lines.append('    <tbody>')
@@ -274,97 +365,28 @@ def render_audit_log(state: dict, pass_record: dict | None, comp_pass: dict | No
             f'      <tr><td><a href="https://clinicaltrials.gov/study/{e(nct)}" target="_blank" rel="noopener">{e(nct)}</a></td>'
             f'<td>{e(drug)}</td><td>{tier_a_status}</td><td>{tier_b_status}</td><td>{overall}</td></tr>'
         )
-    lines.append('    </tbody>')
-    lines.append('  </table>')
+    lines.append('    </tbody></table>')
 
-    # Citation URL bucket
-    if pass_record.get("citation_urls"):
-        bot_blocked = [u for u in pass_record["citation_urls"] if u.get("bucket") == "bot-blocked"]
-        broken = [u for u in pass_record["citation_urls"] if u.get("bucket") == "broken"]
-        if bot_blocked or broken:
-            lines.append('  <h3>A.3 · Citation URLs flagged for manual review</h3>')
-            if bot_blocked:
-                lines.append('  <details><summary>Bot-blocked (HTTP 403 to scripts; human-accessible — verify periodically by hand)</summary>')
-                lines.append('  <ul class="audit-urls">')
-                for u in bot_blocked:
-                    lines.append(f'    <li><a href="{e(u["url"])}" target="_blank" rel="noopener">{e(u["url"][:120])}</a></li>')
-                lines.append('  </ul></details>')
-            if broken:
-                lines.append('  <details open><summary><b>Broken (needs replacement)</b></summary>')
-                lines.append('  <ul class="audit-urls">')
-                for u in broken:
-                    lines.append(f'    <li>{e(u.get("status",""))} {e(str(u.get("code","")))} — <a href="{e(u["url"])}" target="_blank" rel="noopener">{e(u["url"][:120])}</a></li>')
-                lines.append('  </ul></details>')
-
-    # Completeness section
-    if comp_pass:
-        cs = comp_pass.get("summary", {})
-        lines.append(f'  <h3>A.4 · Last completeness pass — {e(comp_pass["pass_date"])}</h3>')
-        lines.append('  <ul class="audit-summary">')
-        lines.append(f'    <li>Queries run: <b>{cs.get("queries_run", 0)}</b> ({cs.get("queries_errored", 0)} errored)</li>')
-        lines.append(f'    <li>Total unique NCTs surfaced by search: <b>{cs.get("total_unique_ncts_surfaced", 0)}</b></li>')
-        lines.append(f'    <li>In-state trials covered by ≥1 documented query: <b>{cs.get("in_state_now_surfaced", 0)} / {cs.get("in_state", 0)}</b></li>')
-        if cs.get("in_state_but_not_surfaced", 0) > 0:
-            lines.append(f'    <li>⚠️ In-state trials with no search hit: <b>{cs["in_state_but_not_surfaced"]}</b> — search registry has a gap</li>')
-        lines.append(f'    <li>Newly surfaced (need triage to add or document-exclude): <b>{cs.get("newly_surfaced_to_review", 0)}</b></li>')
-        lines.append('  </ul>')
-        candidates = comp_pass.get("newly_surfaced_ncts", [])
-        if candidates:
-            lines.append('  <details><summary>Show newly surfaced NCTs (triage list)</summary>')
-            lines.append('  <ul class="audit-urls">')
-            for nct in candidates[:50]:
-                lines.append(f'    <li><a href="https://clinicaltrials.gov/study/{e(nct)}" target="_blank" rel="noopener">{e(nct)}</a></li>')
-            if len(candidates) > 50:
-                lines.append(f'    <li>… and {len(candidates) - 50} more (see <code>audit/passes/completeness/{e(comp_pass["pass_date"])}.json</code>)</li>')
-            lines.append('  </ul></details>')
-
-    # Triangulation section
-    if tri_pass:
-        ts = tri_pass.get("summary", {})
-        missed_ncts = ts.get("total_unique_missed_ncts", [])
-        missed_drugs = ts.get("total_unique_missed_drugs", [])
-        lines.append(f'  <h3>A.5 · Last triangulation pass — {e(tri_pass["pass_date"])}</h3>')
-        lines.append('  <p>Cross-checks <code>state.json</code> against trial lists in published reviews (credibility floor: if a programme appears in a peer-reviewed review of the field, it must appear in our dashboard).</p>')
-        lines.append('  <ul class="audit-summary">')
-        lines.append(f'    <li>Reviews triangulated: <b>{ts.get("reviews_processed", 0)}</b></li>')
-        if missed_ncts:
-            lines.append(f'    <li>⚠️ NCTs cited in review(s) but absent from state.json: <b>{len(missed_ncts)}</b></li>')
-        else:
-            lines.append('    <li>✅ All review-cited NCTs present in state.json</li>')
-        if missed_drugs:
-            lines.append(f'    <li>⚠️ Drugs in reviews not in state.json: <b>{", ".join(missed_drugs)}</b></li>')
-        else:
-            lines.append('    <li>✅ All review-mentioned (clinical-stage) drugs represented in state.json</li>')
-        lines.append('  </ul>')
-        # Per-review detail
-        lines.append('  <details><summary>Per-review detail</summary>')
-        lines.append('  <table class="audit-table">')
-        lines.append('    <thead><tr><th>Review</th><th>Tier</th><th>NCTs in review</th><th>Covered</th><th>Drugs mentioned</th></tr></thead>')
-        lines.append('    <tbody>')
-        for r in tri_pass.get("reviews", []):
-            meta = r.get("review_meta", {})
-            title = (meta.get("title") or "")[:80]
-            tier = meta.get("tier", "?")
-            n_in = len(r.get("ncts_in_review", []))
-            n_cov = len(r.get("ncts_covered", []))
-            n_drugs = len(r.get("drugs_in_review", []))
-            lines.append(f'      <tr><td>{e(title)} ({e(str(meta.get("year","")))})</td><td>T{e(str(tier))}</td><td>{n_in}</td><td>{n_cov}/{n_in}</td><td>{n_drugs}</td></tr>')
-        lines.append('    </tbody></table></details>')
-
-    # Scope + limitations footer
-    lines.append('  <h3>A.6 · Scope &amp; known limitations</h3>')
-    lines.append('  <p>This audit log is generated by <a href="audit/accuracy.py">audit/accuracy.py</a>. '
-                 'See <a href="audit/scope.md">audit/scope.md</a> for the inclusion criteria and '
-                 '<a href="audit/state.schema.md">audit/state.schema.md</a> for the data schema. '
-                 'The trial-table tbody is rendered from <a href="audit/state.json">audit/state.json</a> '
-                 'by <a href="audit/render.py">audit/render.py</a>.</p>')
-    lines.append('  <p>Known limitations: '
-                 '(1) ChiCTR / EUDRA-CT / JRCT registries are not yet covered by the completeness tool; '
+    # ---------- Block 3: methodology + limitations ----------
+    lines.append('  <h3>Methodology &amp; known limitations</h3>')
+    lines.append('  <p><b>How this audit log is built.</b> '
+                 '<a href="audit/run.py">audit/run.py</a> chains '
+                 '<a href="audit/completeness.py">completeness.py</a> '
+                 '→ <a href="audit/accuracy.py">accuracy.py</a> '
+                 '→ <a href="audit/triangulate.py">triangulate.py</a> '
+                 '→ <a href="audit/render.py">render.py</a>. '
+                 'Inclusion criteria in <a href="audit/scope.md">audit/scope.md</a>. '
+                 'Schema in <a href="audit/state.schema.md">audit/state.schema.md</a>. '
+                 'The trial-table tbody, the 4.4 competitive table, and this audit log are all rendered from '
+                 '<a href="audit/state.json">audit/state.json</a> — '
+                 'no clinical content lives only in HTML.</p>')
+    lines.append('  <p><b>Known limitations.</b> '
+                 '(1) ChiCTR / EUDRA-CT / JRCT registries are not yet covered by the completeness queries; '
                  '(2) Industry pipeline subscriptions (Citeline / Cortellis) are not used; '
-                 '(3) Pre-registration disclosures may lag behind sponsor IR; '
-                 '(4) Tier-B extraction backlog: structured verbatim-anchored claims are being added '
-                 'incrementally — until a row shows "verified" in column 4 above, the dashboard '
-                 'displays figures from raw HTML readouts which are not yet machine-verified.</p>')
+                 '(3) Pre-registration disclosures may lag behind sponsor IR pages; '
+                 '(4) Tier-B extraction is incremental — rows showing "no efficacy yet" have no published numerical efficacy to verify, '
+                 'rows showing "displays ORR — needs verbatim" have a source that is currently bot-blocked to scripted snapshotting and '
+                 'await a manual verification pass.</p>')
     lines.append('</section>')
     return "\n".join(lines)
 
