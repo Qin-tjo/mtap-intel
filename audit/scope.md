@@ -2,7 +2,7 @@
 
 **Version:** 1
 **Effective:** 2026-06-23
-**Maintainer:** dashboard author (joshuatjo@gmail.com)
+**Maintainer:** dashboard author (qinyu5155@gmail.com)
 
 This document defines what trials are eligible for inclusion in the Clinical Landscape section of the MTAP target-intelligence dashboard, what is explicitly out of scope, and how scope decisions are recorded.
 
