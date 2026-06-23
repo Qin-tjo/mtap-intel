@@ -1,0 +1,173 @@
+{
+  "_comment": "Example state.json showing one fully-populated trial (NCT05094336 / AMG 193 / anvumetostat). Not the production file — for schema review only.",
+  "schema_version": 1,
+  "last_render": "2026-06-23T18:42:00Z",
+  "scope_doc_version": 1,
+  "trials": {
+    "NCT05094336": {
+      "tier_a": {
+        "nct_id": "NCT05094336",
+        "drug_canonical": "Anvumetostat",
+        "drug_aliases": ["AMG 193"],
+        "sponsor": "Amgen",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": ["Phase 1", "Phase 2"],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "Advanced MTAP-null Solid Tumors",
+          "Non-Small Cell Lung Cancer",
+          "Biliary Tract Cancer",
+          "Pancreatic Adenocarcinoma",
+          "Head and Neck Squamous Cell Carcinoma",
+          "Esophageal Cancer",
+          "Gastric Cancer",
+          "Glioma"
+        ],
+        "interventions": ["Anvumetostat", "Docetaxel"],
+        "primary_endpoints": [
+          "Objective Response Rate (ORR)",
+          "Dose-Limiting Toxicity (DLT)",
+          "Adverse Events (AEs)"
+        ],
+        "start_date": "2022-02-01",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT05094336",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [
+        {
+          "claim_id": "rodon2024_orr_active",
+          "field": "ORR",
+          "value": "21.4%",
+          "value_numeric": 21.4,
+          "n": {
+            "count": 42,
+            "type": "response-evaluable",
+            "qualifier": "active doses only (800 mg QD, 1200 mg QD, 600 mg BID)"
+          },
+          "subset": "all tumour types at active doses",
+          "ci_95": "10.3-36.8%",
+          "data_cutoff": "2024-04-15",
+          "data_cutoff_confidence": "inferred-from-publication-date",
+          "sources": [
+            {
+              "tier": 1,
+              "source_key": "rodon2024",
+              "mentions": [
+                {
+                  "location": "abstract",
+                  "verbatim": "Among those receiving an active dose, the objective response rate (ORR) was 21.4%, with responses observed in both pancreatic and biliary tract cancers."
+                }
+              ],
+              "snapshot_path": "audit/snapshots/rodon2024__2026-06-23.html"
+            }
+          ],
+          "cross_source_check": "single-source-T1",
+          "confidence": "verified",
+          "last_audited": "2026-06-23",
+          "audited_by": "claude-opus-4-7",
+          "notes": "Distinct from 12.8% all-comers ORR (5/39) which includes sub-therapeutic doses. Do not conflate the two figures."
+        },
+        {
+          "claim_id": "rodon2024_dor_active",
+          "field": "mDOR",
+          "value": "8.3 months",
+          "value_numeric": 8.3,
+          "n": {
+            "count": 42,
+            "type": "response-evaluable",
+            "qualifier": "active doses only"
+          },
+          "subset": "all tumour types at active doses",
+          "ci_95": null,
+          "data_cutoff": "2024-04-15",
+          "data_cutoff_confidence": "inferred-from-publication-date",
+          "sources": [
+            {
+              "tier": 1,
+              "source_key": "rodon2024",
+              "mentions": [
+                {
+                  "location": "results",
+                  "verbatim": "The median duration of response was 8.3 months at the active dose levels, with a disease control rate of 54.8%."
+                }
+              ],
+              "snapshot_path": "audit/snapshots/rodon2024__2026-06-23.html"
+            }
+          ],
+          "cross_source_check": "single-source-T1",
+          "confidence": "verified",
+          "last_audited": "2026-06-23",
+          "audited_by": "claude-opus-4-7",
+          "notes": ""
+        }
+      ],
+      "display": {
+        "drug_label": "AMG 193",
+        "sponsor_label": "Amgen",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP+CDKN2A",
+        "combination_tag": "Combo: chemo",
+        "orr_display": "21.4%",
+        "orr_claim_id": "rodon2024_orr_active",
+        "orr_tooltip_template": "{value} ORR at active doses ({n.qualifier}; n={n.count}; 95% CI {ci_95}); responses across 8 tumour types incl. NSCLC, PDAC, BTC; mDOR 8.3 months. {sources.0.source_key} (T{sources.0.tier}). {notes}",
+        "n_display": "42",
+        "n_ctx": "· active doses · 8 types",
+        "start_display": "2022-02-01",
+        "sort_orr": 21.4,
+        "sort_n": 42,
+        "search_keywords": "nct05094336 amg 193 anvumetostat advanced mtap-null solid tumors mtapestry 101 amgen"
+      },
+      "provenance": {
+        "first_added": "2026-06-15",
+        "first_added_pass": "manual-2026-06-15",
+        "surfaced_by": [
+          "ctgov_query_prmt5_mtap",
+          "ctgov_query_amg193",
+          "esmo2024_supplement_search"
+        ],
+        "review_triangulation": ["lin2023_commentary", "belmontes2025_review"]
+      },
+      "in_scope": true,
+      "scope_rationale": "MTA-cooperative PRMT5i (mechanism); Phase 1/2 (phase); Active not recruiting and presented data at ESMO 2024 (activity window)."
+    }
+  },
+  "out_of_scope": [
+    {
+      "id": "NCT02783300",
+      "name": "First-in-Human Phase 1 Study of GSK3326595 in Subjects With Advanced or Recurrent Solid Tumors and Non-Hodgkin's Lymphoma (METEOR-1)",
+      "drug": "GSK3326595",
+      "sponsor": "GlaxoSmithKline",
+      "first_seen": "2026-06-22",
+      "reason": "First-generation non-selective PRMT5i; completed 2021; not MTAP-selected enrolment criterion. Included in mechanism context (Section 2) but does not satisfy the MTAP-axis activity-window criterion. Cited as historical reference only.",
+      "surfaced_by": ["ctgov_query_prmt5"]
+    }
+  ],
+  "synthesis_figures": [
+    {
+      "figure_id": "synthesis_pdac_vopi_dara_92orr",
+      "location": "section 4 / synthesis paragraph",
+      "claimed_text": "~92% ORR in 12 MTAP-deleted RAS-mut PDAC patients",
+      "claim_id": "tng462_daraxonrasib_2026_pdac",
+      "source_keys": ["tango_press_2026-06-08"],
+      "tier": 4,
+      "confidence": "preliminary-press-release",
+      "notes": "Single-arm, n=12, non-peer-reviewed. Display must include all three caveats."
+    }
+  ],
+  "competitive_cards": [
+    {
+      "card_id": "amgen_anvumetostat",
+      "sponsor": "Amgen",
+      "drug_label": "Anvumetostat (AMG 193)",
+      "positioning": "FIH responses across multiple tumour types; NSCLC dose expansion; MTAPESTRY 101 now Active, Not Recruiting.",
+      "catalysts": "Expanded NSCLC dose-expansion readout (WCLC 2024); PARP and chemo combination cohort data; biliary-tract / PDAC follow-up.",
+      "referenced_trials": ["NCT05094336", "NCT05975073"],
+      "referenced_claims": ["rodon2024_orr_active", "rodon2024_dor_active"],
+      "last_audited": "2026-06-23",
+      "confidence": "verified"
+    }
+  ]
+}
