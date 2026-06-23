@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_render": "2026-06-23T08:27:00.547463Z",
+  "last_render": "2026-06-23T08:52:51.965926Z",
   "scope_doc_version": 1,
   "trials": {
     "NCT05094336": {
@@ -33,7 +33,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05094336",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [
         {
@@ -150,7 +150,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05975073",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -227,7 +227,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06360354",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -308,7 +308,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06333951",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -386,7 +386,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07076121",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -469,7 +469,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07063745",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -541,7 +541,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06855771",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -611,7 +611,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07602946",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -688,7 +688,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07283705",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -775,7 +775,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07492680",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -847,7 +847,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07549022",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -920,7 +920,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07579221",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1005,7 +1005,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07594626",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1089,7 +1089,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05245500",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [
         {
@@ -1313,7 +1313,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06672523",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1390,7 +1390,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06883747",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1467,7 +1467,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07077434",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1539,7 +1539,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07382544",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1618,7 +1618,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07532902",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1696,7 +1696,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07544628",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1770,7 +1770,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05732831",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1846,7 +1846,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06188702",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -1931,7 +1931,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06922591",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [
         {
@@ -2080,7 +2080,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05275478",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2158,7 +2158,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05312372",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2236,9 +2236,51 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03435250",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "gounder2025_ag270_orr_overall",
+          "field": "ORR",
+          "value": "5%",
+          "value_numeric": 5.0,
+          "n": {
+            "count": 40,
+            "type": "treated",
+            "qualifier": "all dose levels, monotherapy"
+          },
+          "subset": "MTAP-deleted advanced malignancies (CDKN2A/MTAP homdel and/or MTAP IHC loss)",
+          "ci_95": null,
+          "data_cutoff": null,
+          "data_cutoff_confidence": "unknown",
+          "sources": [
+            {
+              "tier": 1,
+              "source_key": "gounder2025_ag270_natcomm",
+              "mentions": [
+                {
+                  "location": "PubMed abstract (Results section)",
+                  "verbatim": "Forty patients were treated with AG-270/S095033."
+                },
+                {
+                  "location": "PubMed abstract (Results section)",
+                  "verbatim": "Two partial responses were observed; five additional patients achieved radiographically confirmed stable disease for ≥16 weeks."
+                },
+                {
+                  "location": "PubMed abstract (Methods/Patients section)",
+                  "verbatim": "Eligible patients had tumors with homozygous deletion of CDKN2A/MTAP and/or loss of MTAP protein by immunohistochemistry."
+                }
+              ],
+              "snapshot_path": "audit/snapshots/gounder2025_ag270_pubmed__2026-06-23.html"
+            }
+          ],
+          "cross_source_check": "single-source-T1",
+          "confidence": "verified",
+          "last_audited": "2026-06-23",
+          "audited_by": "claude-opus-4-7 + human-readable verbatim from PubMed abstract",
+          "notes": "5% ORR = 2 PRs / 40 treated. Plus 5 SD ≥16 weeks. Eligibility was MTAP-deleted (by NGS) and/or MTAP IHC loss. AG-270/S095033 was the leading MAT2A programme until IDE397 superseded it as the field's preferred MAT2A inhibitor."
+        }
+      ],
       "display": {
         "drug_label": "AG-270",
         "sponsor_label": "Agios / Servier",
@@ -2312,7 +2354,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT05975073",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2388,7 +2430,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT04794699",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [
         {
@@ -2549,7 +2591,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT07277413",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2621,7 +2663,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT04676516",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2698,7 +2740,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03614728",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2789,7 +2831,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT02783300",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -2862,9 +2904,51 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03573310",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "vieito2023_jnj64619178_orr_overall",
+          "field": "ORR",
+          "value": "5.6%",
+          "value_numeric": 5.6,
+          "n": {
+            "count": 90,
+            "type": "treated",
+            "qualifier": "all dose levels, both schedules"
+          },
+          "subset": "all advanced solid tumours + NHL",
+          "ci_95": null,
+          "data_cutoff": null,
+          "data_cutoff_confidence": "unknown",
+          "sources": [
+            {
+              "tier": 1,
+              "source_key": "vieito2023_jnj64619178_clincancerres",
+              "mentions": [
+                {
+                  "location": "PubMed abstract (Results section)",
+                  "verbatim": "Ninety patients received JNJ-64619178. Thrombocytopenia was identified as the only dose-limiting toxicity."
+                },
+                {
+                  "location": "PubMed abstract (Results section)",
+                  "verbatim": "The objective response rate was 5.6% (5 of 90)."
+                },
+                {
+                  "location": "PubMed abstract (Results section)",
+                  "verbatim": "Patients with adenoid cystic carcinoma (ACC) had an ORR of 11.5% (3 of 26) and a median progression-free survival of 19.1 months."
+                }
+              ],
+              "snapshot_path": "audit/snapshots/vieito2023_jnj64619178_pubmed__2026-06-23.html"
+            }
+          ],
+          "cross_source_check": "single-source-T1",
+          "confidence": "verified",
+          "last_audited": "2026-06-23",
+          "audited_by": "claude-opus-4-7 + human-readable verbatim from PubMed abstract",
+          "notes": "First-generation PRMT5i (SAM-competitive); not MTAP-selective. ACC subset (n=26) had elevated 11.5% ORR — biology of ACC may overlap with PRMT5 dependency. Limited activity outside ACC was a key signal that drove the field toward MTA-cooperative selectivity."
+        }
+      ],
       "display": {
         "drug_label": "JNJ-64619178",
         "sponsor_label": "Johnson & Johnson / Janssen",
@@ -2947,7 +3031,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06788509",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3025,7 +3109,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03854227",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3105,7 +3189,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT03886831",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3179,7 +3263,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT04089449",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3259,7 +3343,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06137144",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [
         {
@@ -3402,7 +3486,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06130553",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3477,7 +3561,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06968572",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3561,7 +3645,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06914128",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3643,7 +3727,7 @@
         "first_patient_dosed": null,
         "ctgov_url": "https://clinicaltrials.gov/study/NCT06810544",
         "last_synced": "2026-06-23",
-        "last_synced_status": "synced-with-updates"
+        "last_synced_status": "match"
       },
       "tier_b_claims": [],
       "display": {
@@ -3688,9 +3772,1365 @@
       },
       "in_scope": true,
       "scope_rationale": "Imported from pre-state-first HTML; scope rationale to be populated on next accuracy pass."
+    },
+    "NCT06593522": {
+      "tier_a": {
+        "nct_id": "NCT06593522",
+        "drug_canonical": "Anvumetostat",
+        "drug_aliases": [
+          "AMG 193"
+        ],
+        "sponsor": "Amgen",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 2"
+        ],
+        "status": "Active, not recruiting",
+        "conditions": [
+          "MTAP-deleted NSCLC"
+        ],
+        "interventions": [
+          "anvumetostat"
+        ],
+        "primary_endpoints": [
+          "Objective Response (OR) per RECIST 1.1",
+          "Objective response (OR) Measured by Computed Tomography (CT) or Magnetic Resonance Imaging (MRI) and Assessed per Response Evaluation Criteria in Solid Tumors v1.1 (RECIST 1.1)",
+          "Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+          "Number of Participants Experiencing Events of Interest (EOIs)",
+          "Maximum Concentration (Cmax) of anvumetostat",
+          "Time to Cmax (Tmax) of anvumetostat",
+          "Area Under The Concentration-time Curve (AUC) of anvumetostat"
+        ],
+        "start_date": "2024-12-26",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT06593522",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "Anvumetostat",
+        "sponsor_label": "Amgen",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph2",
+        "status_tag": "Active",
+        "indication_label": "NSCLC",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2024-12-26",
+        "has_results": "no",
+        "sort_drug": "anvumetostat",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "2",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2024-12-26",
+        "search_keywords": "nct06593522 anvumetostat a phase 2 study of anvumetostat in participants with mtap-deleted advanced nsclc (mtapestry 201) amgen",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph2",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> A Phase 2 Study of Anvumetostat in Participants With MTAP-deleted Advanced NSCLC (MTAPESTRY 201) (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Amgen MTAPESTRY 201 — Phase 2 anvumetostat in MTAP-deleted advanced NSCLC. Follow-on to the MTAPESTRY 101 Phase 1/2.</div><div class=\"trial-detail-row\"><b>Interventions:</b> anvumetostat</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_methylthioadenosine_phosphorylase",
+          "ctgov_known_drug_names"
+        ],
+        "review_triangulation": [],
+        "notes": "Amgen MTAPESTRY 201 — Phase 2 anvumetostat in MTAP-deleted advanced NSCLC. Follow-on to the MTAPESTRY 101 Phase 1/2."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT06414460": {
+      "tier_a": {
+        "nct_id": "NCT06414460",
+        "drug_canonical": "ISM3412",
+        "drug_aliases": [],
+        "sponsor": "InSilico Medicine Hong Kong Limited",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1",
+          "Phase 2"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Locally Advanced/Metastatic Solid Tumors"
+        ],
+        "interventions": [
+          "ISM3412"
+        ],
+        "primary_endpoints": [
+          "Incidence of dose-limiting toxicity (DLT) events",
+          "Incidence and severity of adverse events (AEs)",
+          "Recommended phase 2 dose (RP2D)"
+        ],
+        "start_date": "2025-04-25",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT06414460",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "ISM3412",
+        "sponsor_label": "InSilico Medicine Hong Kong Limited",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1/2",
+        "status_tag": "Active",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2025-04-25",
+        "has_results": "no",
+        "sort_drug": "ism3412",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "2",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2025-04-25",
+        "search_keywords": "nct06414460 ism3412 study of ism3412 in participants with locally advanced/metastatic solid tumors insilico medicine hong kong limited",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph12",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> Study of ISM3412 in Participants With Locally Advanced/Metastatic Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). InSilico Medicine ISM3412 — Phase 1 in advanced/metastatic solid tumours; surfaced via MTAP/PRMT5 query. Mechanism class assigned to MTA-cooperative PRMT5i based on sponsor's pipeline (verify on next accuracy pass).</div><div class=\"trial-detail-row\"><b>Interventions:</b> ISM3412</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_prmt5_mtap_inhibitor"
+        ],
+        "review_triangulation": [],
+        "notes": "InSilico Medicine ISM3412 — Phase 1 in advanced/metastatic solid tumours; surfaced via MTAP/PRMT5 query. Mechanism class assigned to MTA-cooperative PRMT5i based on sponsor's pipeline (verify on next accuracy pass)."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT06589596": {
+      "tier_a": {
+        "nct_id": "NCT06589596",
+        "drug_canonical": "BGB-58067",
+        "drug_aliases": [],
+        "sponsor": "BeOne Medicines",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumor"
+        ],
+        "interventions": [
+          "BGB-58067",
+          "BG-89894",
+          "Standard of Care Therapy"
+        ],
+        "primary_endpoints": [
+          "Phase 1a: Number of Participants with Adverse Events and Serious Adverse Events",
+          "Phase 1a: Number of Participants with Adverse Events that meet Dose-Limiting Toxicity (DLT) criteria",
+          "Phase 1a: Maximum Tolerated Dose (MTD) or Maximum Administered Dose (MAD) of BGB-58067 alone, in combination with BG-89894, and in combination with standard of care therapy",
+          "Phase 1a: Recommended Dose(s) for Expansion (RDFE[s]) of BGB-58067 alone, in combination with BG-89894, and in combination with standard of care therapy",
+          "Phase 1b: Recommended Phase 2 Dose (RP2D) of BGB-58067 alone and in combination with standard of care therapy",
+          "Phase 1b: Objective Response Rate (ORR)"
+        ],
+        "start_date": "2025-01-10",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT06589596",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "BGB-58067",
+        "sponsor_label": "BeOne Medicines",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Active",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2025-01-10",
+        "has_results": "no",
+        "sort_drug": "bgb-58067",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "1",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2025-01-10",
+        "search_keywords": "nct06589596 bgb-58067 an investigational study of bgb-58067 as a single agent and in combination with anticancer agents in participants with advanced solid tumors beone medicines",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). BeOne / BeiGene BGB-58067 — FIH dose escalation/expansion ± combinations. Confirmed MTAP-axis programme by parallel investigator-initiated MTAP-del GBM study (NCT07485049).</div><div class=\"trial-detail-row\"><b>Interventions:</b> BGB-58067 | BG-89894 | Standard of Care Therapy</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_prmt5_mtap_inhibitor",
+          "ctgov_methylthioadenosine_phosphorylase"
+        ],
+        "review_triangulation": [],
+        "notes": "BeOne / BeiGene BGB-58067 — FIH dose escalation/expansion ± combinations. Confirmed MTAP-axis programme by parallel investigator-initiated MTAP-del GBM study (NCT07485049)."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT06796699": {
+      "tier_a": {
+        "nct_id": "NCT06796699",
+        "drug_canonical": "GH56",
+        "drug_aliases": [],
+        "sponsor": "Suzhou Genhouse Bio Co., Ltd.",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumors With MTAP Gene Deletion"
+        ],
+        "interventions": [
+          "GH56 Capsule"
+        ],
+        "primary_endpoints": [
+          "1. Determination of Maximum Tolerated Dose (MTD) , RDEs of GH56.",
+          "Characterize the Safety of GH56"
+        ],
+        "start_date": "2025-03-07",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT06796699",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "GH56",
+        "sponsor_label": "Suzhou Genhouse Bio Co., Ltd.",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Active",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2025-03-07",
+        "has_results": "no",
+        "sort_drug": "gh56",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "1",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2025-03-07",
+        "search_keywords": "nct06796699 gh56 a phase ia/ib clinical study of gh56 capsules in subjects with mtap-deleted advanced solid tumors suzhou genhouse bio co., ltd.",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> A Phase Ia/Ib Clinical Study of GH56 Capsules in Subjects With MTAP-Deleted Advanced Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Suzhou Genhouse GH56 capsule — Phase Ia/Ib in MTAP-deleted advanced solid tumours.</div><div class=\"trial-detail-row\"><b>Interventions:</b> GH56 Capsule</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_methylthioadenosine_phosphorylase"
+        ],
+        "review_triangulation": [],
+        "notes": "Suzhou Genhouse GH56 capsule — Phase Ia/Ib in MTAP-deleted advanced solid tumours."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT06971523": {
+      "tier_a": {
+        "nct_id": "NCT06971523",
+        "drug_canonical": "CTS3497",
+        "drug_aliases": [],
+        "sponsor": "CytosinLab Therapeutics Co., Ltd.",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1",
+          "Phase 2"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Solid Tumor",
+          "Lymphoma"
+        ],
+        "interventions": [
+          "CTS3497"
+        ],
+        "primary_endpoints": [
+          "Phase I: Number of Patients Who Experience a Dose-Limiting Toxicity (DLT)",
+          "Phase I: Number of Patients Who Experience a Treatment-emergent Adverse Event (TEAE)",
+          "Phase II: Objective Response Rate (ORR)"
+        ],
+        "start_date": "2024-12-25",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT06971523",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "CTS3497",
+        "sponsor_label": "CytosinLab Therapeutics Co., Ltd.",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1/2",
+        "status_tag": "Active",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2024-12-25",
+        "has_results": "no",
+        "sort_drug": "cts3497",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "2",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2024-12-25",
+        "search_keywords": "nct06971523 cts3497 a phase i/ii clinical study of cts3497 in patients with mtap deficient malignacies cytosinlab therapeutics co., ltd.",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph12",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> A Phase I/II Clinical Study of CTS3497 in Patients With MTAP Deficient Malignacies (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). CytosinLab Therapeutics CTS3497 — Phase 1/2 in MTAP-deficient malignancies. Mechanism class assigned per company pipeline; verify next pass.</div><div class=\"trial-detail-row\"><b>Interventions:</b> CTS3497</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_methylthioadenosine_phosphorylase"
+        ],
+        "review_triangulation": [],
+        "notes": "CytosinLab Therapeutics CTS3497 — Phase 1/2 in MTAP-deficient malignancies. Mechanism class assigned per company pipeline; verify next pass."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT06973863": {
+      "tier_a": {
+        "nct_id": "NCT06973863",
+        "drug_canonical": "PEP08",
+        "drug_aliases": [],
+        "sponsor": "PharmaEngine",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumor",
+          "Solid Tumors",
+          "MTAP-deleted Solid Tumors",
+          "MTAP Deletion"
+        ],
+        "interventions": [
+          "PEP08"
+        ],
+        "primary_endpoints": [
+          "Number of Participants Experiencing Adverse Events (AE)",
+          "Number of Participants Experiencing Serious Adverse Events (SAE)",
+          "Number of Patients who Experience Dose-Limiting Toxicity"
+        ],
+        "start_date": "2025-08-26",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT06973863",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "PEP08",
+        "sponsor_label": "PharmaEngine",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Active",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2025-08-26",
+        "has_results": "no",
+        "sort_drug": "pep08",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "1",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2025-08-26",
+        "search_keywords": "nct06973863 pep08 a study of pep08 in patients with mtap-del advanced or metastatic solid tumors pharmaengine",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> A Study of PEP08 in Patients With MTAP-Del Advanced or Metastatic Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). PharmaEngine PEP08 — Phase 1 in MTAP-deleted advanced/metastatic solid tumours.</div><div class=\"trial-detail-row\"><b>Interventions:</b> PEP08</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_prmt5_mtap_inhibitor",
+          "ctgov_mta_cooperative"
+        ],
+        "review_triangulation": [],
+        "notes": "PharmaEngine PEP08 — Phase 1 in MTAP-deleted advanced/metastatic solid tumours."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT07485049": {
+      "tier_a": {
+        "nct_id": "NCT07485049",
+        "drug_canonical": "BGB-58067",
+        "drug_aliases": [],
+        "sponsor": "Nader Sanai",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 0/1"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Glioblastoma (GBM)"
+        ],
+        "interventions": [
+          "BGB-58067"
+        ],
+        "primary_endpoints": [
+          "Phase 0: Proportion of Participants with ≥ 50% Decrease from Baseline in SDMA Expression, or with SDMA H-Score ≤ 70, in Phase 0 Tumor Tissue Collected Intraoperatively",
+          "Phase 2: Proportion of Participants Alive at 12 Months"
+        ],
+        "start_date": "2026-05-07",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT07485049",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "BGB-58067",
+        "sponsor_label": "Nader Sanai",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph0/1",
+        "status_tag": "Active",
+        "indication_label": "GBM",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2026-05-07",
+        "has_results": "no",
+        "sort_drug": "bgb-58067",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "0",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2026-05-07",
+        "search_keywords": "nct07485049 bgb-58067 bgb-58067 in newly diagnosed glioblastoma patients with mtap-deleted tumors nader sanai",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> BGB-58067 in Newly Diagnosed Glioblastoma Patients With MTAP-Deleted Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Investigator-initiated (Sanai / Ivy Brain Tumor Center) Phase 0/1 of BeiGene BGB-58067 in newly diagnosed MTAP-deleted glioblastoma.</div><div class=\"trial-detail-row\"><b>Interventions:</b> BGB-58067</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_prmt5_mtap_inhibitor",
+          "ctgov_methylthioadenosine_phosphorylase",
+          "ctgov_mta_cooperative"
+        ],
+        "review_triangulation": [],
+        "notes": "Investigator-initiated (Sanai / Ivy Brain Tumor Center) Phase 0/1 of BeiGene BGB-58067 in newly diagnosed MTAP-deleted glioblastoma."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT07567859": {
+      "tier_a": {
+        "nct_id": "NCT07567859",
+        "drug_canonical": "HS-10587",
+        "drug_aliases": [],
+        "sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Not yet recruiting",
+        "conditions": [
+          "MTAP Deletion"
+        ],
+        "interventions": [
+          "HS-10587"
+        ],
+        "primary_endpoints": [
+          "Incidence of DLT",
+          "MTD or MAD"
+        ],
+        "start_date": "2026-06-04",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT07567859",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "HS-10587",
+        "sponsor_label": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Pending",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2026-06-04",
+        "has_results": "no",
+        "sort_drug": "hs-10587",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "1",
+        "sort_status": "2",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2026-06-04",
+        "search_keywords": "nct07567859 hs-10587 a study of hs-10587 in patients with advanced solid tumors jiangsu hansoh pharmaceutical co., ltd.",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-pending",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> A Study of HS-10587 in Patients With Advanced Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Jiangsu Hansoh Pharmaceutical HS-10587 — Phase 1 in advanced solid tumours; condition listed as 'MTAP Deletion'.</div><div class=\"trial-detail-row\"><b>Interventions:</b> HS-10587</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_methylthioadenosine_phosphorylase"
+        ],
+        "review_triangulation": [],
+        "notes": "Jiangsu Hansoh Pharmaceutical HS-10587 — Phase 1 in advanced solid tumours; condition listed as 'MTAP Deletion'."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT07128303": {
+      "tier_a": {
+        "nct_id": "NCT07128303",
+        "drug_canonical": "GS-5319",
+        "drug_aliases": [],
+        "sponsor": "Gilead Sciences",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Advanced Solid Tumor"
+        ],
+        "interventions": [
+          "GS-5319"
+        ],
+        "primary_endpoints": [
+          "Percentage of Participants With Adverse Events (AEs) and Serous Adverse Events (SAEs)",
+          "Percentage of Participants Experiencing Laboratory Abnormalities",
+          "Percentage of Participants Experiencing any Dose-limiting Toxicities (DLTs) in Dose-escalation Cohorts"
+        ],
+        "start_date": "2025-08-28",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT07128303",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "GS-5319",
+        "sponsor_label": "Gilead Sciences",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Active",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2025-08-28",
+        "has_results": "no",
+        "sort_drug": "gs-5319",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "1",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2025-08-28",
+        "search_keywords": "nct07128303 gs-5319 study of gs-5319 in adults with solid tumors gilead sciences",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> Study of GS-5319 in Adults With Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Gilead GS-5319 — solid tumours with MTAP-related gene alteration. CT.gov brief summary explicitly mentions methylthioadenosine pathway.</div><div class=\"trial-detail-row\"><b>Interventions:</b> GS-5319</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_methylthioadenosine_phosphorylase"
+        ],
+        "review_triangulation": [],
+        "notes": "Gilead GS-5319 — solid tumours with MTAP-related gene alteration. CT.gov brief summary explicitly mentions methylthioadenosine pathway."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT07601243": {
+      "tier_a": {
+        "nct_id": "NCT07601243",
+        "drug_canonical": "GS-2426",
+        "drug_aliases": [],
+        "sponsor": "Gilead Sciences",
+        "sponsor_history": [],
+        "mechanism_class": "MTA-cooperative PRMT5i",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Not yet recruiting",
+        "conditions": [
+          "Advanced Solid Tumors"
+        ],
+        "interventions": [
+          "GS-2426"
+        ],
+        "primary_endpoints": [
+          "Percentage of Participants Experiencing Treatment-Emergent Adverse Events (AEs) and Serious Adverse Events (SAE)",
+          "Percentage of Participants Experiencing Clinical Laboratory Abnormalities",
+          "Percentage of Participants Experiencing any Dose-limiting Toxicities (DLTs)",
+          "Maximum Tolerated Dose (MTD)/Maximum Administered Dose (MAD)",
+          "Recommended Phase 2 Dose (RP2D)"
+        ],
+        "start_date": "2026-05",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT07601243",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "GS-2426",
+        "sponsor_label": "Gilead Sciences",
+        "mechanism_tag": "MTA-coop PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Pending",
+        "indication_label": "Solid (basket)",
+        "biomarker_tag": "MTAP homdel",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2026-05",
+        "has_results": "no",
+        "sort_drug": "gs-2426",
+        "sort_mech": "mta-coop prmt5i",
+        "sort_phase": "1",
+        "sort_status": "2",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2026-05",
+        "search_keywords": "nct07601243 gs-2426 study of gs-2426 in participants with advanced solid tumors gilead sciences",
+        "pill_mech_class": "pill mech-mta",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-pending",
+        "pill_bm_class": "pill bm-strict",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> Study of GS-2426 in Participants With Advanced Solid Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Gilead GS-2426 — Phase 1 in MTAP-deleted advanced solid tumours.</div><div class=\"trial-detail-row\"><b>Interventions:</b> GS-2426</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_methylthioadenosine_phosphorylase"
+        ],
+        "review_triangulation": [],
+        "notes": "Gilead GS-2426 — Phase 1 in MTAP-deleted advanced solid tumours."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (MTA-cooperative PRMT5i); active trial; added via triage on 2026-06-23."
+    },
+    "NCT05528055": {
+      "tier_a": {
+        "nct_id": "NCT05528055",
+        "drug_canonical": "SCR-6920",
+        "drug_aliases": [],
+        "sponsor": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+        "sponsor_history": [],
+        "mechanism_class": "First-gen PRMT5i (SAM-competitive)",
+        "phases": [
+          "Phase 1"
+        ],
+        "status": "Recruiting",
+        "conditions": [
+          "Solid Tumor",
+          "Non Hodgkin Lymphoma"
+        ],
+        "interventions": [
+          "SCR-6920 capsule",
+          "SCR-6920 capsule",
+          "SCR-6920 capsule",
+          "SCR-6920 capsule"
+        ],
+        "primary_endpoints": [
+          "Dose limiting toxicity(DLT)",
+          "Overall Response Rate (ORR)"
+        ],
+        "start_date": "2022-05-18",
+        "first_patient_dosed": null,
+        "ctgov_url": "https://clinicaltrials.gov/study/NCT05528055",
+        "last_synced": "2026-06-23",
+        "last_synced_status": "match"
+      },
+      "tier_b_claims": [],
+      "display": {
+        "drug_label": "SCR-6920",
+        "sponsor_label": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+        "mechanism_tag": "1st-gen PRMT5i",
+        "phase_tag": "Ph1",
+        "status_tag": "Active",
+        "indication_label": "Solid · NHL",
+        "biomarker_tag": "Not selected",
+        "combination_tag": "Monotherapy",
+        "orr_display": "—",
+        "orr_tooltip": "No efficacy data disclosed at this time.",
+        "n_display": "—",
+        "n_ctx": "",
+        "start_display": "2022-05-18",
+        "has_results": "no",
+        "sort_drug": "scr-6920",
+        "sort_mech": "1st-gen prmt5i",
+        "sort_phase": "1",
+        "sort_status": "1",
+        "sort_orr": "-1",
+        "sort_n": "-1",
+        "sort_start": "2022-05-18",
+        "search_keywords": "nct05528055 scr-6920 a study to investigate the safety and tolerability of scr-6920 capsule in patients with advanced malignant tumors jiangsu simcere pharmaceutical co., ltd.",
+        "pill_mech_class": "pill mech-fg",
+        "pill_phase_class": "pill ph-ph1",
+        "pill_status_class": "pill st-active",
+        "pill_bm_class": "pill bm-none",
+        "pill_cb_class": "pill cb-mono",
+        "detail_body_html": "<div class=\"trial-detail-row\"><b>Summary:</b> A Study to Investigate the Safety and Tolerability of SCR-6920 Capsule in Patients With Advanced Malignant Tumors (added via triage from completeness pass 2026-06-23; no efficacy data published as of this audit). Jiangsu Simcere SCR-6920 — Phase 1 PRMT5 inhibitor (first-generation, non-MTAP-selected enrolment) in advanced solid tumours and non-Hodgkin lymphoma. Included for mechanism-class completeness; MTAP-axis programmes are the dashboard's primary focus.</div><div class=\"trial-detail-row\"><b>Interventions:</b> SCR-6920 capsule | SCR-6920 capsule | SCR-6920 capsule | SCR-6920 capsule</div>"
+      },
+      "provenance": {
+        "first_added": "2026-06-23",
+        "first_added_pass": "triage-apply-2026-06-23",
+        "surfaced_by": [
+          "completeness-pass-2026-06-23",
+          "ctgov_prmt5_mtap_inhibitor"
+        ],
+        "review_triangulation": [],
+        "notes": "Jiangsu Simcere SCR-6920 — Phase 1 PRMT5 inhibitor (first-generation, non-MTAP-selected enrolment) in advanced solid tumours and non-Hodgkin lymphoma. Included for mechanism-class completeness; MTAP-axis programmes are the dashboard's primary focus."
+      },
+      "in_scope": true,
+      "scope_rationale": "In-scope per scope.md: drug targets MTAP/PRMT5/MAT2A axis (First-gen PRMT5i (SAM-competitive)); active trial; added via triage on 2026-06-23."
     }
   },
-  "out_of_scope": [],
+  "out_of_scope": [
+    {
+      "id": "NCT00053209",
+      "name": "Pemetrexed Disodium and Gemcitabine in Treating Patients With Advanced Cancer of the Urothelium",
+      "drug": "gemcitabine hydrochloride, pemetrexed disodium",
+      "sponsor": "Eastern Cooperative Oncology Group",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00078468",
+      "name": "Study of the GARFT Inhibitor AG2037 in Patients With Metastatic Colorectal Cancer Who Failed Treatment",
+      "drug": "PELITREXOL/AG-2037",
+      "sponsor": "Pfizer",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00090701",
+      "name": "A Phase 2, Open-Label, Multicenter Study of the GARFT Inhibitor in Patients With Metastatic Non-Small Cell Lung Cancer",
+      "drug": "AG2037",
+      "sponsor": "Pfizer",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00101283",
+      "name": "Pemetrexed Plus Gemcitabine or Carboplatin for Patients With Advanced Malignant Pleural Mesothelioma",
+      "drug": "pemetrexed disodium, gemcitabine hydrochloride, carboplatin",
+      "sponsor": "Eastern Cooperative Oncology Group",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00107419",
+      "name": "S0423 Pemetrexed Disodium in Treating Patients With Recurrent and Unresectable or Metastatic Chondrosarcoma",
+      "drug": "pemetrexed disodium",
+      "sponsor": "SWOG Cancer Research Network",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00363415",
+      "name": "Study of Pemetrexed and Carboplatin Compared With Etoposide Carboplatin to Treat Extensive-Stage Small Cell Lung Cancer",
+      "drug": "pemetrexed, etoposide, carboplatin",
+      "sponsor": "Eli Lilly and Company",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00434135",
+      "name": "Alimta and Gemcitabine in Non-Small Cell Lung Cancer",
+      "drug": "gemcitabine plus pemetrexed, paclitaxel plus gemcitabine",
+      "sponsor": "Southern Italy Cooperative Oncology Group",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00517595",
+      "name": "Phase II Study Alimta and Gemzar + Avastin as First Line Chemotherapy for Elderly Patients With Stage IIIB/IV NSCLC",
+      "drug": "Pemetrexed and Gemcitabine plus Bevacizumab",
+      "sponsor": "Accelerated Community Oncology Research Network",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00523419",
+      "name": "Chemotherapy for Patients With Osteosarcoma",
+      "drug": "Pemetrexed",
+      "sponsor": "Eli Lilly and Company",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00738881",
+      "name": "Pemetrexed Disodium or Erlotinib Hydrochloride as Second-Line Therapy in Treating Patients With Advanced Non-small Cell Lung Cancer",
+      "drug": "Erlotinib Hydrochloride, Pemetrexed Disodium",
+      "sponsor": "National Cancer Institute (NCI)",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00806819",
+      "name": "Lume Lung 2 : BIBF 1120 Plus Pemetrexed Compared to Placebo Plus Pemetrexed in 2nd Line Nonsquamous NSCLC",
+      "drug": "Nintedanib (BIBF1120), Pemetrexed, pemetrexed, B12, dexamethasone (or corticosteroid equivalent), placebo, dexamethasone (or corticosteroid equivalent), B12, Folic Acid, B12, dexamethasone (or corticosteroid equivalent), Folic Acid, placebo, Folic Acid, Nintedanib (BIBF1120), Pemetrexed",
+      "sponsor": "Boehringer Ingelheim",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00898820",
+      "name": "Tumor Response to Pemetrexed Disodium in Patients With Stage III or Stage IV Non-Small Cell Lung Cancer Enrolled in Clinical Trial MCCRC-RC0524",
+      "drug": "gene expression analysis, polymorphism analysis, protein expression analysis",
+      "sponsor": "Mayo Clinic",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT00949650",
+      "name": "BIBW 2992 (Afatinib) Versus Chemotherapy as First Line Treatment in NSCLC With EGFR Mutation",
+      "drug": "Pemetrexed, BIBW 2992, Cisplatin",
+      "sponsor": "Boehringer Ingelheim",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT01105390",
+      "name": "AMG 102, Pemetrexed Disodium, and Cisplatin in Treating Patients With Malignant Pleural Mesothelioma",
+      "drug": "rilotumumab, cisplatin, pemetrexed disodium, laboratory biomarker analysis",
+      "sponsor": "National Cancer Institute (NCI)",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT01714037",
+      "name": "A Clinical Study on the Safety and Efficacy of Debio 0932 in Combination With Standard of Care in Patients With Non-small Cell Lung Cancer [NSCLC]",
+      "drug": "Debio 0932, Cisplatin, Pemetrexed, Gemcitabine, Docetaxel",
+      "sponsor": "Debiopharm International SA",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT01918761",
+      "name": "Dacomitinib + Pemetrexed for Patients With Advanced Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+      "drug": "Dacomitinib, Pemetrexed",
+      "sponsor": "Central European Cooperative Oncology Group",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT01982955",
+      "name": "Tepotinib With Gefitinib in Participants With Locally Advanced or Metastatic NSCLC (INSIGHT)",
+      "drug": "Tepotinib, Gefitinib, Pemetrexed, Cisplatin, Carboplatin",
+      "sponsor": "Merck KGaA, Darmstadt, Germany",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02211833",
+      "name": "Dose Escalation Study of BI 2536 With Pemetrexed in Previously Treated Patients With Non-small-cell Lung Cancer",
+      "drug": "BI 2536, Pemetrexed",
+      "sponsor": "Boehringer Ingelheim",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02397239",
+      "name": "Comparison of Cost-effectiveness of Continuation Maintenance Therapy With Six Cycles of Pemetrexed Versus Pemetrexed Until Disease Progression for Metastatic Non-squamous Non-small-cell Lung Cancer",
+      "drug": "",
+      "sponsor": "National Cheng-Kung University Hospital",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02426658",
+      "name": "Pemetrexed Disodium in Treating Patients With Stage IV Non-small Cell Lung Cancer and ECOG Performance Status 3",
+      "drug": "Laboratory Biomarker Analysis, Pemetrexed Disodium, Quality-of-Life Assessment",
+      "sponsor": "Wake Forest University Health Sciences",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02518711",
+      "name": "Effectiveness Study of a Behavioral Teacher Program Targeting ADHD Symptoms",
+      "drug": "Behavioral Teacher Program",
+      "sponsor": "VU University of Amsterdam",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02576574",
+      "name": "Avelumab in First-line NSCLC (JAVELIN Lung 100)",
+      "drug": "Avelumab, Pemetrexed, Paclitaxel, Gemcitabine, Gemcitabine, Carboplatin, Cisplatin, Carboplatin, Avelumab Weekly",
+      "sponsor": "EMD Serono Research & Development Institute, Inc.",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02631460",
+      "name": "S1 vs.Pemetrexed Plus Carboplatin in Patients With EGFR Wild Type Stage IIIB or IV Nonsquamous NSCLC",
+      "drug": "S1 80-120 mg/d, pemetrexed 500 mg/m2, carboplatin AUC=5",
+      "sponsor": "Sun Yat-sen University",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02693717",
+      "name": "Pemetrexed Disodium in Treating Patients With Previously Treated Metastatic Urothelial Cancer",
+      "drug": "Laboratory Biomarker Analysis, Pemetrexed Disodium",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02817633",
+      "name": "A Study of TSR-022 in Participants With Advanced Solid Tumors (AMBER)",
+      "drug": "TSR-022, Nivolumab, TSR-042, TSR-033, Docetaxel, Pemetrexed, Cisplatin, Carboplatin",
+      "sponsor": "Tesaro, Inc.",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02944396",
+      "name": "Study of Veliparib in Combination With Nivolumab and Platinum Doublet Chemotherapy in Participants With Metastatic or Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "drug": "pemetrexed, nivolumab, paclitaxel, veliparib, carboplatin",
+      "sponsor": "AbbVie",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT02980991",
+      "name": "Pemetrexed and Platinum Use in the Neoadjuvant Setting for Resectable Stage II and IIIA Lung Adenocarcinoma (ECTOP-1002)",
+      "drug": "Pemetrexed, Cisplatin",
+      "sponsor": "Fudan University",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT03003962",
+      "name": "Study of Durvalumab Alone or Chemotherapy for Patients With Advanced Non Small-Cell Lung Cancer (PEARL)",
+      "drug": "Durvalumab (MEDI4736), Paclitaxel + carboplatin, Gemcitabine + cisplatin, Gemcitabine + carboplatin, Pemetrexed + cisplatin, Pemetrexed + carboplatin",
+      "sponsor": "AstraZeneca",
+      "first_seen": "2026-06-23",
+      "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT03361358",
+      "name": "Pre-Screening Study to Identify MTAP Loss in Advanced Solid Tumors or Lymphoma",
+      "drug": "",
+      "sponsor": "Agios Pharmaceuticals, Inc.",
+      "first_seen": "2026-06-23",
+      "reason": "Agios pre-screening study to identify MTAP loss — observational biomarker screen, no therapeutic intervention.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT03380468",
+      "name": "Adjuvant Chemotherapy for High Risk Stage I Lung Adenocarcinoma",
+      "drug": "cisplatin plus pemetrexed",
+      "sponsor": "Fudan University",
+      "first_seen": "2026-06-23",
+      "reason": "Adjuvant cisplatin/pemetrexed in early-stage NSCLC — standard chemotherapy, no PRMT5/MAT2A/MTAP-axis drug; 'methylthioadenosine' presumably in conditions/keywords.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT03951142",
+      "name": "Imaging Perfusion Restrictions From Extracellular Solid Stress - An Open-label Losartan Study",
+      "drug": "Losartan",
+      "sponsor": "Kyrre Eeg Emblem",
+      "first_seen": "2026-06-23",
+      "reason": "Losartan imaging study evaluating perfusion in solid tumours — angiotensin receptor blocker, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04177953",
+      "name": "Nivolumab With Chemotherapy in Pleural Mesothelioma After Surgery",
+      "drug": "Carboplatin AUC 5, Cisplatin 75 mg/m2, Pemetrexed 500 mg/m2, Nivolumab Injection",
+      "sponsor": "Institut für Klinische Krebsforschung IKF GmbH at Krankenhaus Nordwest",
+      "first_seen": "2026-06-23",
+      "reason": "Nivolumab + chemo in resectable pleural mesothelioma — PD-1 immunotherapy, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04222972",
+      "name": "A Study of Pralsetinib Versus Standard of Care for First-Line Treatment of Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "drug": "Pralsetinib, Carboplatin, Cisplatin, Pemetrexed, Pembrolizumab, Gemcitabine, Paclitaxel, Nab-Paclitaxel",
+      "sponsor": "Hoffmann-La Roche",
+      "first_seen": "2026-06-23",
+      "reason": "Pralsetinib (RET inhibitor) vs SoC in 1L NSCLC — RET-TKI, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04297605",
+      "name": "Study of Pembrolizumab and Single Agent Chemotherapy as First Line Treatment for Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer With Eastern Cooperative Oncology Group (ECOG) Performance Status of 2",
+      "drug": "Pembrolizumab, Pemetrexed (Chemotherapy), Nab-paclitaxel (Chemotherapy)",
+      "sponsor": "University of Rochester",
+      "first_seen": "2026-06-23",
+      "reason": "Pembrolizumab + single-agent chemo as 1L treatment — PD-1 + chemo, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04581824",
+      "name": "Efficacy Comparison of Dostarlimab Plus Chemotherapy Versus Pembrolizumab Plus Chemotherapy in Participants With Metastatic Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+      "drug": "Dostarlimab, Pembrolizumab, Chemotherapy",
+      "sponsor": "GlaxoSmithKline",
+      "first_seen": "2026-06-23",
+      "reason": "Dostarlimab vs pembrolizumab head-to-head — both PD-1 antibodies, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04736823",
+      "name": "A Trial of AK112 (PD1/VEGF Bispecific) in Combination With Chemotherapy in Patients With NSCLC",
+      "drug": "AK112, Pemetrexed, Paclitaxel, Carboplatin, Docetaxel",
+      "sponsor": "Akeso",
+      "first_seen": "2026-06-23",
+      "reason": "AK112 (ivonescimab; PD-1/VEGF bispecific) + chemo in NSCLC — bispecific antibody, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04902703",
+      "name": "Phase II Trial to Evaluate Safety and Efficacy of GM-CSF/Sargramostim in Alzheimer's Disease",
+      "drug": "Sargramostim, Saline - placebo comparator",
+      "sponsor": "University of Colorado, Denver",
+      "first_seen": "2026-06-23",
+      "reason": "Sargramostim (GM-CSF) in Alzheimer's disease — non-oncology indication.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT04964960",
+      "name": "Pembro+Chemo in Brain Mets",
+      "drug": "Pembrolizumab, Nab paclitaxel, Paclitaxel, Pemetrexed, Carboplatin",
+      "sponsor": "John L. Villano, MD, PhD",
+      "first_seen": "2026-06-23",
+      "reason": "Pembrolizumab + chemo for brain metastases — PD-1 + chemo, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT05299125",
+      "name": "Amivantamab, Lazertinib, and Pemetrexed for First-line Treatment of Recurrent/Metastatic Non-small Cell Lung Cancers With Epidermal Growth Factor Receptor Mutations",
+      "drug": "Amivantamab, Lazertinib, Pemetrexed 500 mg",
+      "sponsor": "Latin American Cooperative Oncology Group",
+      "first_seen": "2026-06-23",
+      "reason": "Amivantamab + lazertinib + pemetrexed in EGFR-mutant NSCLC — EGFR-directed bispecific + EGFR-TKI, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT05335941",
+      "name": "A Phase 2 Study to Evaluate the Triplet Combination of Pemetrexed Plus AB928 (Etrumadenant) + AB122 (Zimberelimab) in Patients With Previously Treated Advanced or Metastatic MTAP Deficient Urothelial Carcinoma",
+      "drug": "Pemetrexed, Zimberelimab, Etrumadenant",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "first_seen": "2026-06-23",
+      "reason": "Pemetrexed + AB928 (etrumadenant; adenosine A2A/A2B antagonist) + zimberelimab (PD-1) — adenosine pathway, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT05382559",
+      "name": "A Study of ASP3082 in Adults With Advanced Solid Tumors",
+      "drug": "Setidegrasib, Cetuximab, Leucovorin, Oxaliplatin, Fluorouracil, Irinotecan, Nanoparticle albumin-bound-paclitaxel, Gemcitabine, Docetaxel, Pembrolizumab, Cisplatin, Carboplatin, Pemetrexed, Liposomal Irinotecan",
+      "sponsor": "Astellas Pharma Inc",
+      "first_seen": "2026-06-23",
+      "reason": "ASP3082 / setidegrasib (Astellas) — KRAS G12D-targeted degrader, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT05775796",
+      "name": "Evaluate the Efficacy and Safety of Serplulimab Plus Chemotherapy in Neoadjuvant and Adjuvant Treatment of Resectable NSCLC (ECTOP-1013)",
+      "drug": "Serplulimab and Chemotherapy",
+      "sponsor": "Fudan University",
+      "first_seen": "2026-06-23",
+      "reason": "Serplulimab (PD-1) + chemo in resectable NSCLC — PD-1 + chemo, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT05904379",
+      "name": "AK112 and AK104 With or Without Chemotherapy in Advanced Non-small Cell Lung Cancer",
+      "drug": "AK112, AK104, Carboplatin, paclitaxel, pemetrexed, Docetaxel",
+      "sponsor": "Akeso",
+      "first_seen": "2026-06-23",
+      "reason": "AK112 + AK104 ± chemo in advanced NSCLC — PD-1/VEGF + PD-1/CTLA-4 bispecifics, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT06241807",
+      "name": "Neoadjuvant Camrelizumab Combined With Chemotherapy for Resectable Stage IIIA-IIIB NSCLC",
+      "drug": "Camrelizumab Plus Chemotherapy",
+      "sponsor": "Shandong Cancer Hospital and Institute",
+      "first_seen": "2026-06-23",
+      "reason": "Neoadjuvant camrelizumab (PD-1) + chemo in resectable stage IIIA-IIIB NSCLC — PD-1 + chemo, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT06380348",
+      "name": "JMT101 in Combination With Osimertinib, Versus Cisplatin-pemetrexed in Participants With Locally Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) Characterized by Epithermal Growth Factor Receptor (EGFR) Exon 20ins Mutations",
+      "drug": "JMT101 Injection, Osimertinib tablet, Cisplatin injection, Pemetrexed injection",
+      "sponsor": "Shanghai JMT-Bio Inc.",
+      "first_seen": "2026-06-23",
+      "reason": "JMT101 (EGFR antibody) + osimertinib (EGFR-TKI) vs cisplatin/pemetrexed in EGFR-mutant NSCLC — EGFR-directed, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT06769295",
+      "name": "A Phase II Study of AK112 (PD1/VEGF Bispecific) in Combination with Chemotherapy in Patients with NSCLC",
+      "drug": "AK112",
+      "sponsor": "Sichuan University",
+      "first_seen": "2026-06-23",
+      "reason": "AK112 (PD-1/VEGF bispecific) + chemo in NSCLC — bispecific antibody, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT07554846",
+      "name": "Comparison of Perioperative Immunotherapy, Adjuvant Immunotherapy or Neoadjuvant Immunotherapy for Resectable Stage II-IIIA NSCLC",
+      "drug": "Peroperative immunotherapy, Neoadjuvant immunotherapy, Adjuvant immunotherapy",
+      "sponsor": "Fudan University",
+      "first_seen": "2026-06-23",
+      "reason": "Perioperative immunotherapy comparison in resectable NSCLC — immunotherapy timing study, not MTAP-axis.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    },
+    {
+      "id": "NCT07593573",
+      "name": "the Exploration of MTAP Deletion in Osteosarcoma by Immunohistochemistry",
+      "drug": "",
+      "sponsor": "Peking University People's Hospital",
+      "first_seen": "2026-06-23",
+      "reason": "Exploration of MTAP deletion in osteosarcoma by IHC — biomarker observational study, no therapeutic intervention.",
+      "surfaced_by": [
+        "completeness-pass-2026-06-23"
+      ]
+    }
+  ],
   "synthesis_figures": [],
   "competitive_cards": []
 }
