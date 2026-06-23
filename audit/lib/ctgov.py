@@ -18,10 +18,19 @@ def fetch_trial(nct: str, timeout: float = 20.0) -> dict[str, Any] | None:
     Uses `curl` to avoid SSL-truststore issues in some local environments
     (e.g. corporate MITM proxies that don't ship Python's default trust roots).
     """
+    # Defence-in-depth: NCT IDs are validated upstream (state.py + regex extractions),
+    # but reject anything that doesn't look like one here too.
+    import re as _re
+    if not _re.fullmatch(r"NCT\d{8}", nct or ""):
+        return {"_error": f"invalid NCT id: {nct!r}"}
     url = f"{BASE}/{nct}?format=json"
     try:
         r = subprocess.run(
-            ["curl", "-sS", "-A", "mtap-intel-audit/1.0", "--max-time", str(int(timeout)), url],
+            ["curl", "-sS", "-A", "mtap-intel-audit/1.0",
+             "--max-time", str(int(timeout)),
+             "--max-filesize", "20971520",   # 20 MB
+             "--proto", "=http,https",
+             url],
             capture_output=True, text=True, timeout=timeout + 5,
         )
         if r.returncode != 0:
