@@ -1,13 +1,16 @@
 {
   "schema_version": 1,
-  "last_render": "2026-06-23T09:03:54.749318Z",
+  "last_render": "2026-06-23T09:18:08.560307Z",
   "scope_doc_version": 1,
   "trials": {
     "NCT05094336": {
       "tier_a": {
         "nct_id": "NCT05094336",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Anvumetostat",
+        "drug_aliases": [
+          "anvumetostat",
+          "Anvumetostat"
+        ],
         "sponsor": "Amgen",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -122,8 +125,11 @@
     "NCT05975073": {
       "tier_a": {
         "nct_id": "NCT05975073",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Anvumetostat",
+        "drug_aliases": [
+          "anvumetostat",
+          "Anvumetostat"
+        ],
         "sponsor": "Amgen",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -199,8 +205,11 @@
     "NCT06360354": {
       "tier_a": {
         "nct_id": "NCT06360354",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Anvumetostat",
+        "drug_aliases": [
+          "anvumetostat",
+          "Anvumetostat"
+        ],
         "sponsor": "Amgen",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -278,8 +287,11 @@
     "NCT06333951": {
       "tier_a": {
         "nct_id": "NCT06333951",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Anvumetostat",
+        "drug_aliases": [
+          "anvumetostat",
+          "Anvumetostat"
+        ],
         "sponsor": "Amgen",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -359,8 +371,12 @@
     "NCT07076121": {
       "tier_a": {
         "nct_id": "NCT07076121",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -437,8 +453,12 @@
     "NCT07063745": {
       "tier_a": {
         "nct_id": "NCT07063745",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -519,8 +539,12 @@
     "NCT06855771": {
       "tier_a": {
         "nct_id": "NCT06855771",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -589,8 +613,12 @@
     "NCT07602946": {
       "tier_a": {
         "nct_id": "NCT07602946",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "University of Southampton",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -661,8 +689,12 @@
     "NCT07283705": {
       "tier_a": {
         "nct_id": "NCT07283705",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "M.D. Anderson Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -736,8 +768,12 @@
     "NCT07492680": {
       "tier_a": {
         "nct_id": "NCT07492680",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -823,8 +859,12 @@
     "NCT07549022": {
       "tier_a": {
         "nct_id": "NCT07549022",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Ankit Mangla, MD",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -896,8 +936,12 @@
     "NCT07579221": {
       "tier_a": {
         "nct_id": "NCT07579221",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "M.D. Anderson Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -968,8 +1012,12 @@
     "NCT07594626": {
       "tier_a": {
         "nct_id": "NCT07594626",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Northwestern University",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1056,8 +1104,12 @@
     "NCT05245500": {
       "tier_a": {
         "nct_id": "NCT05245500",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1272,8 +1324,12 @@
     "NCT06672523": {
       "tier_a": {
         "nct_id": "NCT06672523",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1363,8 +1419,12 @@
     "NCT06883747": {
       "tier_a": {
         "nct_id": "NCT06883747",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Nader Sanai",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1440,8 +1500,12 @@
     "NCT07077434": {
       "tier_a": {
         "nct_id": "NCT07077434",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1515,8 +1579,12 @@
     "NCT07382544": {
       "tier_a": {
         "nct_id": "NCT07382544",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "M.D. Anderson Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1587,8 +1655,12 @@
     "NCT07532902": {
       "tier_a": {
         "nct_id": "NCT07532902",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Memorial Sloan Kettering Cancer Center",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -1666,8 +1738,12 @@
     "NCT07544628": {
       "tier_a": {
         "nct_id": "NCT07544628",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "Navlimetostat",
+        "drug_aliases": [
+          "MRTX1719",
+          "navlimetostat",
+          "Navlimetostat"
+        ],
         "sponsor": "Bristol-Myers Squibb",
         "sponsor_history": [],
         "mechanism_class": "MTA-cooperative PRMT5i",
@@ -2633,8 +2709,10 @@
     "NCT07277413": {
       "tier_a": {
         "nct_id": "NCT07277413",
-        "drug_canonical": null,
-        "drug_aliases": [],
+        "drug_canonical": "IDE892",
+        "drug_aliases": [
+          "IDE-892"
+        ],
         "sponsor": "IDEAYA Biosciences",
         "sponsor_history": [],
         "mechanism_class": "MAT2A inhibitor",
@@ -2674,28 +2752,28 @@
       },
       "tier_b_claims": [],
       "display": {
-        "drug_label": "IDE397",
+        "drug_label": "IDE892",
         "sponsor_label": "IDEAYA Biosciences",
         "mechanism_tag": "MAT2A inh",
         "phase_tag": "Ph1",
         "status_tag": "Active",
-        "indication_label": "NSCLC · SCLC · PDAC · Biliary · Urothelial · Mesothelioma · GI-upper · Ovarian",
+        "indication_label": "NSCLC · GEC · UC · MESO · PDAC · BTC",
         "biomarker_tag": "MTAP homdel",
-        "combination_tag": "Combo: Other targeted",
+        "combination_tag": "Combo: MAT2A",
         "orr_display": "—",
         "orr_tooltip": "",
         "n_display": "—",
         "n_ctx": "",
         "start_display": "2026-03-04",
         "has_results": "no",
-        "sort_drug": "ide397",
+        "sort_drug": "ide892",
         "sort_mech": "mat2a inh",
         "sort_phase": "1",
         "sort_status": "1",
         "sort_orr": "-1",
         "sort_n": "-1",
         "sort_start": "2026-03-04",
-        "search_keywords": "nct07277413 ide397 a study of ide892 as monotherapy and combination in mtap-deleted advanced solid tumors nsclc adenocarcinoma; gastroesophageal cancer (gc); gastric adenocarcinoma; adenocarcinoma of esophagus; squamous cell car. - esophagus; urothelial carcinoma (uc); bladder cancer; mesothelioma; pleural mesothelioma; peritoneal mesothelioma; non-small cell lung cancer nsclc; pancreatic cancer; biliary tract carcinoma mtap deletion; mtap loss; mtap-deficient tumors; homozygous mtap loss; ide892; ide397; mat2a inhibitor; prmt5; advanced solid tumors; metastatic cancer; recurrent cancer; dose escalation; dose expansion; phase 1 clinical trial; ctdna ideaya biosciences",
+        "search_keywords": "nct07277413 ide892 ide-892 ide397 idea-892 a study of ide892 as monotherapy and combination in mtap-deleted advanced solid tumors mtap-deleted advanced solid tumors nsclc gec urothelial mesothelioma pdac btc ideaya biosciences",
         "pill_mech_class": "pill mech-mat2a",
         "pill_phase_class": "pill ph-ph1",
         "pill_status_class": "pill st-active",
@@ -2712,7 +2790,7 @@
           "ctgov_known_drug_names"
         ],
         "review_triangulation": [],
-        "notes": ""
+        "notes": "2026-06-23: corrected drug label IDE397 -> IDE892 (IDE397 is the optional combo arm, not the primary drug)."
       },
       "in_scope": true,
       "scope_rationale": "Imported from pre-state-first HTML; scope rationale to be populated on next accuracy pass."
