@@ -659,19 +659,38 @@
                   box-shadow: var(--shadow-sm); }
   /* === audit log section (rendered by audit/render.py) === */
   section.audit-log { margin-top: 32px; }
-  section.audit-log h3 { margin-top: 24px; }
-  ul.audit-summary { list-style: none; padding: 0; margin: 12px 0; display: flex; flex-wrap: wrap; gap: 16px 32px; }
-  ul.audit-summary li { font-size: 13px; }
+  section.audit-log h3 { margin-top: 24px; font-size: 14px; }
+  section.audit-log p { font-size: 12.5px; color: var(--text2); line-height: 1.55; }
+  /* 3-card overview grid */
+  .audit-overview { display: grid; gap: 12px; margin: 14px 0 6px;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+  .audit-card { background: var(--bg2); border-radius: 8px; padding: 10px 14px;
+                border-left: 3px solid var(--teal-600); }
+  .audit-card-h { font-size: 12px; color: var(--text2); margin-bottom: 6px;
+                  display: flex; justify-content: space-between; align-items: baseline; }
+  .audit-card-h b { font-size: 13.5px; color: var(--text); }
+  .audit-card .audit-date { font-family: "SF Mono", monospace; font-size: 10.5px;
+                            color: var(--text3); }
+  .audit-card ul { list-style: none; padding: 0; margin: 0; }
+  .audit-card ul li { font-size: 12px; padding: 2px 0; color: var(--text2); line-height: 1.45; }
+  .audit-card ul li b { color: var(--text); }
+  /* Collapsible detail blocks */
+  details.audit-details { margin: 6px 0; padding: 6px 12px;
+                          background: var(--bg); border-radius: 6px;
+                          border: 0.5px solid var(--border); }
+  details.audit-details summary { cursor: pointer; font-size: 12px; color: var(--text2);
+                                  padding: 4px 0; font-weight: 600; }
+  details.audit-details[open] summary { margin-bottom: 6px; }
+  details.audit-details p.audit-bad { color: var(--red-800); margin: 4px 0 2px; font-size: 12px; }
+  /* Per-trial table */
   table.audit-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
   table.audit-table th { text-align: left; padding: 8px 10px; border-bottom: 0.5px solid var(--border);
                           background: var(--bg2); font-size: 10px; text-transform: uppercase;
                           color: var(--text3); letter-spacing: 0.05em; font-weight: 700; }
   table.audit-table td { padding: 6px 10px; border-bottom: 0.5px solid var(--border); vertical-align: top; }
   table.audit-table tr:hover { background: rgba(15,110,86,0.04); }
-  ul.audit-urls { font-size: 12px; }
+  ul.audit-urls { font-size: 12px; padding-left: 18px; margin: 4px 0; }
   ul.audit-urls li { word-break: break-all; padding: 2px 0; }
-  section.audit-log details { margin: 8px 0; }
-  section.audit-log details summary { cursor: pointer; padding: 4px 0; font-size: 13px; }
 
   table.audit { width: 100%; border-collapse: collapse; font-size: 11.5px; }
   table.audit th { text-align: left; padding: 8px 10px;
@@ -3783,119 +3802,122 @@ Exclusion Criteria:
       <div class="sec-q">Provenance, verification status, and known gaps for the Clinical Landscape.</div>
     </div>
   </div>
-  <h3>A.1 · Last full accuracy pass — 2026-06-23</h3>
-  <ul class="audit-summary">
-    <li>Rows audited: <b>53</b></li>
-    <li>Tier-A registry sync mismatches: <b>0</b></li>
-    <li>Tier-B <b>verified</b>: <b>8</b> · <b>extraction backlog</b> (displays ORR but no structured claim): <b>1</b> · <b>no-claims-needed</b> (trial-in-progress, no efficacy yet): <b>44</b></li>
-    <li>Citation URLs verified: <b>24 ok</b> · <b>15 bot-blocked</b> (manual verify needed) · <b>1 broken</b></li>
-  </ul>
-  <h3>A.2 · Per-trial audit status</h3>
+  <div class="audit-overview">
+    <div class="audit-card">
+      <div class="audit-card-h"><b>Accuracy</b> <span class="audit-date">2026-06-23</span></div>
+      <ul>
+        <li>Rows audited: <b>53</b></li>
+        <li>Tier-A registry sync: <b>0 mismatches</b></li>
+        <li>Tier-B verified: <b>8</b> · backlog: <b>1</b> · no efficacy yet: <b>44</b></li>
+        <li>Citation URLs: <b>24 ok</b> · 15 bot-blocked · 1 broken</li>
+      </ul></div>
+    <div class="audit-card">
+      <div class="audit-card-h"><b>Completeness</b> <span class="audit-date">2026-06-23</span></div>
+      <ul>
+        <li>Search queries: <b>4</b> (0 errored)</li>
+        <li>In-state trials covered by ≥1 query: <b>52 / 52</b></li>
+        <li>Newly surfaced needing triage: <b>0</b></li>
+      </ul></div>
+    <div class="audit-card">
+      <div class="audit-card-h"><b>Triangulation</b> <span class="audit-date">2026-06-23</span></div>
+      <ul>
+        <li>Reviews cross-checked: <b>2</b></li>
+        <li>✅ All review-cited NCTs present in state.json</li>
+        <li>✅ All review-mentioned clinical-stage drugs represented</li>
+      </ul></div>
+  </div>
+  <details class="audit-details">
+    <summary>Citation URLs needing manual review (15 bot-blocked · 1 broken)</summary>
+    <p class="audit-bad"><b>Broken (needs replacement):</b></p><ul class="audit-urls">
+      <li>http-error 0 — <a href="https://tangotx.gcs-web.com/news-releases/news-release-details/tango-therapeutics-reports-positive-data-ongoing-phase-12-study" target="_blank" rel="noopener">https://tangotx.gcs-web.com/news-releases/news-release-details/tango-therapeutics-reports-positive-data-ongoing-phase-12</a></li>
+    </ul>
+    <p><b>Bot-blocked</b> (HTTP 403 to scripts; verify by hand on a normal browser):</p><ul class="audit-urls">
+      <li><a href="https://doi.org/10.1021/acs.jmedchem.4c00133" target="_blank" rel="noopener">https://doi.org/10.1021/acs.jmedchem.4c00133</a></li>
+      <li><a href="https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.3011" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.3011</a></li>
+      <li><a href="https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT079/761426/" target="_blank" rel="noopener">https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT079/761426/</a></li>
+      <li><a href="https://aacrjournals.org/cancerres/article/85/8_Supplement_1/4268/759900/" target="_blank" rel="noopener">https://aacrjournals.org/cancerres/article/85/8_Supplement_1/4268/759900/</a></li>
+      <li><a href="https://www.biorxiv.org/content/10.64898/2026.04.16.719008v1" target="_blank" rel="noopener">https://www.biorxiv.org/content/10.64898/2026.04.16.719008v1</a></li>
+      <li><a href="https://www.biorxiv.org/content/10.64898/2026.03.26.714409v1" target="_blank" rel="noopener">https://www.biorxiv.org/content/10.64898/2026.03.26.714409v1</a></li>
+      <li><a href="https://www.jto.org/article/S1556-0864(24)01507-7/fulltext" target="_blank" rel="noopener">https://www.jto.org/article/S1556-0864(24)01507-7/fulltext</a></li>
+      <li><a href="https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.TPS796" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.TPS796</a></li>
+      <li><a href="https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors" target="_blank" rel="noopener">https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors</a></li>
+      <li><a href="https://www.annalsofoncology.org/article/S0923-7534(25)04696-4/fulltext" target="_blank" rel="noopener">https://www.annalsofoncology.org/article/S0923-7534(25)04696-4/fulltext</a></li>
+      <li><a href="https://ascopubs.org/doi/10.1200/JCO.2023.41.16_suppl.3008" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2023.41.16_suppl.3008</a></li>
+      <li><a href="https://ashpublications.org/blood/article/144/Supplement%201/1674.2/529179/PRIMAVERA-A-Modular-Phase-I-II-Study-to-Evaluate" target="_blank" rel="noopener">https://ashpublications.org/blood/article/144/Supplement%201/1674.2/529179/PRIMAVERA-A-Modular-Phase-I-II-Study-to-Evalu</a></li>
+      <li><a href="https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c00659" target="_blank" rel="noopener">https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c00659</a></li>
+      <li><a href="https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15097" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15097</a></li>
+      <li><a href="https://aacrjournals.org/cancerres/article/84/6_Supplement/4595/737898/Abstract-4595-HSK41959-2-An-oral-MTA-cooperative" target="_blank" rel="noopener">https://aacrjournals.org/cancerres/article/84/6_Supplement/4595/737898/Abstract-4595-HSK41959-2-An-oral-MTA-cooperative</a></li>
+    </ul>
+  </details>
+  <details class="audit-details">
+    <summary>Per-review detail (2 reviews)</summary>
+    <table class="audit-table">
+      <thead><tr><th>Review</th><th>Tier</th><th>NCTs in review</th><th>Covered</th><th>Drugs mentioned</th></tr></thead>
+      <tbody>
+        <tr><td>A review of the known MTA-cooperative PRMT5 inhibitors. (2024)</td><td>T1</td><td>24</td><td>24/24</td><td>19</td></tr>
+        <tr><td>PRMT5 inhibitors for MTAP-deleted cancers (industry blog). (2025)</td><td>T4</td><td>6</td><td>6/6</td><td>4</td></tr>
+      </tbody></table></details>
+  <h3>Per-trial audit status</h3>
   <table class="audit-table">
     <thead><tr><th>NCT</th><th>Drug</th><th>Tier-A sync</th><th>Tier-B claims</th><th>Status</th></tr></thead>
     <tbody>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05094336" target="_blank" rel="noopener">NCT05094336</a></td><td>AMG 193</td><td>🔄 skipped</td><td>1/1 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05975073" target="_blank" rel="noopener">NCT05975073</a></td><td>AMG 193</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06360354" target="_blank" rel="noopener">NCT06360354</a></td><td>AMG 193</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06333951" target="_blank" rel="noopener">NCT06333951</a></td><td>AMG 193</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07076121" target="_blank" rel="noopener">NCT07076121</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07063745" target="_blank" rel="noopener">NCT07063745</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06855771" target="_blank" rel="noopener">NCT06855771</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07602946" target="_blank" rel="noopener">NCT07602946</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07283705" target="_blank" rel="noopener">NCT07283705</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07492680" target="_blank" rel="noopener">NCT07492680</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07549022" target="_blank" rel="noopener">NCT07549022</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07579221" target="_blank" rel="noopener">NCT07579221</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07594626" target="_blank" rel="noopener">NCT07594626</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05245500" target="_blank" rel="noopener">NCT05245500</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>3/3 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06672523" target="_blank" rel="noopener">NCT06672523</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06883747" target="_blank" rel="noopener">NCT06883747</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07077434" target="_blank" rel="noopener">NCT07077434</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07382544" target="_blank" rel="noopener">NCT07382544</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07532902" target="_blank" rel="noopener">NCT07532902</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07544628" target="_blank" rel="noopener">NCT07544628</a></td><td>BMS-986504</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05732831" target="_blank" rel="noopener">NCT05732831</a></td><td>TNG462</td><td>🔄 skipped</td><td>2/2 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06188702" target="_blank" rel="noopener">NCT06188702</a></td><td>TNG462</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06922591" target="_blank" rel="noopener">NCT06922591</a></td><td>TNG462</td><td>🔄 skipped</td><td>2/2 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05275478" target="_blank" rel="noopener">NCT05275478</a></td><td>TNG908</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05312372" target="_blank" rel="noopener">NCT05312372</a></td><td>AG-270</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT03435250" target="_blank" rel="noopener">NCT03435250</a></td><td>AG-270</td><td>🔄 skipped</td><td>1/1 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05975073" target="_blank" rel="noopener">NCT05975073</a></td><td>IDE397</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT04794699" target="_blank" rel="noopener">NCT04794699</a></td><td>IDE397</td><td>🔄 skipped</td><td>2/2 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07277413" target="_blank" rel="noopener">NCT07277413</a></td><td>IDE892</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT04676516" target="_blank" rel="noopener">NCT04676516</a></td><td>GSK3326595</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT03614728" target="_blank" rel="noopener">NCT03614728</a></td><td>GSK3326595</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT02783300" target="_blank" rel="noopener">NCT02783300</a></td><td>GSK3326595</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT03573310" target="_blank" rel="noopener">NCT03573310</a></td><td>JNJ-64619178</td><td>🔄 skipped</td><td>1/1 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06788509" target="_blank" rel="noopener">NCT06788509</a></td><td>JNJ-64619178</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT03854227" target="_blank" rel="noopener">NCT03854227</a></td><td>PF-06939999</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT03886831" target="_blank" rel="noopener">NCT03886831</a></td><td>PRT543</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT04089449" target="_blank" rel="noopener">NCT04089449</a></td><td>PRT811</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06137144" target="_blank" rel="noopener">NCT06137144</a></td><td>AZD3470</td><td>🔄 skipped</td><td>2/2 verified</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06130553" target="_blank" rel="noopener">NCT06130553</a></td><td>AZD3470</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06968572" target="_blank" rel="noopener">NCT06968572</a></td><td>HSK41959</td><td>🔄 skipped</td><td>🔄 displays ORR — needs verbatim</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06914128" target="_blank" rel="noopener">NCT06914128</a></td><td>BAY 3713372</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06810544" target="_blank" rel="noopener">NCT06810544</a></td><td>TNG456</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06593522" target="_blank" rel="noopener">NCT06593522</a></td><td>Anvumetostat</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06414460" target="_blank" rel="noopener">NCT06414460</a></td><td>ISM3412</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06589596" target="_blank" rel="noopener">NCT06589596</a></td><td>BGB-58067</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06796699" target="_blank" rel="noopener">NCT06796699</a></td><td>GH56</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06971523" target="_blank" rel="noopener">NCT06971523</a></td><td>CTS3497</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT06973863" target="_blank" rel="noopener">NCT06973863</a></td><td>PEP08</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07485049" target="_blank" rel="noopener">NCT07485049</a></td><td>BGB-58067</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07567859" target="_blank" rel="noopener">NCT07567859</a></td><td>HS-10587</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07128303" target="_blank" rel="noopener">NCT07128303</a></td><td>GS-5319</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT07601243" target="_blank" rel="noopener">NCT07601243</a></td><td>GS-2426</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-      <tr><td><a href="https://clinicaltrials.gov/study/NCT05528055" target="_blank" rel="noopener">NCT05528055</a></td><td>SCR-6920</td><td>🔄 skipped</td><td>➖ no efficacy yet</td><td>🔄</td></tr>
-    </tbody>
-  </table>
-  <h3>A.3 · Citation URLs flagged for manual review</h3>
-  <details><summary>Bot-blocked (HTTP 403 to scripts; human-accessible — verify periodically by hand)</summary>
-  <ul class="audit-urls">
-    <li><a href="https://doi.org/10.1021/acs.jmedchem.4c00133" target="_blank" rel="noopener">https://doi.org/10.1021/acs.jmedchem.4c00133</a></li>
-    <li><a href="https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.3011" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.3011</a></li>
-    <li><a href="https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT079/761426/" target="_blank" rel="noopener">https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT079/761426/</a></li>
-    <li><a href="https://aacrjournals.org/cancerres/article/85/8_Supplement_1/4268/759900/" target="_blank" rel="noopener">https://aacrjournals.org/cancerres/article/85/8_Supplement_1/4268/759900/</a></li>
-    <li><a href="https://www.biorxiv.org/content/10.64898/2026.04.16.719008v1" target="_blank" rel="noopener">https://www.biorxiv.org/content/10.64898/2026.04.16.719008v1</a></li>
-    <li><a href="https://www.biorxiv.org/content/10.64898/2026.03.26.714409v1" target="_blank" rel="noopener">https://www.biorxiv.org/content/10.64898/2026.03.26.714409v1</a></li>
-    <li><a href="https://www.jto.org/article/S1556-0864(24)01507-7/fulltext" target="_blank" rel="noopener">https://www.jto.org/article/S1556-0864(24)01507-7/fulltext</a></li>
-    <li><a href="https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.TPS796" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.TPS796</a></li>
-    <li><a href="https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors" target="_blank" rel="noopener">https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors</a></li>
-    <li><a href="https://www.annalsofoncology.org/article/S0923-7534(25)04696-4/fulltext" target="_blank" rel="noopener">https://www.annalsofoncology.org/article/S0923-7534(25)04696-4/fulltext</a></li>
-    <li><a href="https://ascopubs.org/doi/10.1200/JCO.2023.41.16_suppl.3008" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2023.41.16_suppl.3008</a></li>
-    <li><a href="https://ashpublications.org/blood/article/144/Supplement%201/1674.2/529179/PRIMAVERA-A-Modular-Phase-I-II-Study-to-Evaluate" target="_blank" rel="noopener">https://ashpublications.org/blood/article/144/Supplement%201/1674.2/529179/PRIMAVERA-A-Modular-Phase-I-II-Study-to-Evalu</a></li>
-    <li><a href="https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c00659" target="_blank" rel="noopener">https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c00659</a></li>
-    <li><a href="https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15097" target="_blank" rel="noopener">https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15097</a></li>
-    <li><a href="https://aacrjournals.org/cancerres/article/84/6_Supplement/4595/737898/Abstract-4595-HSK41959-2-An-oral-MTA-cooperative" target="_blank" rel="noopener">https://aacrjournals.org/cancerres/article/84/6_Supplement/4595/737898/Abstract-4595-HSK41959-2-An-oral-MTA-cooperative</a></li>
-  </ul></details>
-  <details open><summary><b>Broken (needs replacement)</b></summary>
-  <ul class="audit-urls">
-    <li>http-error 0 — <a href="https://tangotx.gcs-web.com/news-releases/news-release-details/tango-therapeutics-reports-positive-data-ongoing-phase-12-study" target="_blank" rel="noopener">https://tangotx.gcs-web.com/news-releases/news-release-details/tango-therapeutics-reports-positive-data-ongoing-phase-12</a></li>
-  </ul></details>
-  <h3>A.4 · Last completeness pass — 2026-06-23</h3>
-  <ul class="audit-summary">
-    <li>Queries run: <b>4</b> (0 errored)</li>
-    <li>Total unique NCTs surfaced by search: <b>100</b></li>
-    <li>In-state trials covered by ≥1 documented query: <b>52 / 52</b></li>
-    <li>Newly surfaced (need triage to add or document-exclude): <b>0</b></li>
-  </ul>
-  <h3>A.5 · Last triangulation pass — 2026-06-23</h3>
-  <p>Cross-checks <code>state.json</code> against trial lists in published reviews (credibility floor: if a programme appears in a peer-reviewed review of the field, it must appear in our dashboard).</p>
-  <ul class="audit-summary">
-    <li>Reviews triangulated: <b>2</b></li>
-    <li>✅ All review-cited NCTs present in state.json</li>
-    <li>✅ All review-mentioned (clinical-stage) drugs represented in state.json</li>
-  </ul>
-  <details><summary>Per-review detail</summary>
-  <table class="audit-table">
-    <thead><tr><th>Review</th><th>Tier</th><th>NCTs in review</th><th>Covered</th><th>Drugs mentioned</th></tr></thead>
-    <tbody>
-      <tr><td>A review of the known MTA-cooperative PRMT5 inhibitors. (2024)</td><td>T1</td><td>24</td><td>24/24</td><td>19</td></tr>
-      <tr><td>PRMT5 inhibitors for MTAP-deleted cancers (industry blog). (2025)</td><td>T4</td><td>6</td><td>6/6</td><td>4</td></tr>
-    </tbody></table></details>
-  <h3>A.6 · Scope &amp; known limitations</h3>
-  <p>This audit log is generated by <a href="audit/accuracy.py">audit/accuracy.py</a>. See <a href="audit/scope.md">audit/scope.md</a> for the inclusion criteria and <a href="audit/state.schema.md">audit/state.schema.md</a> for the data schema. The trial-table tbody is rendered from <a href="audit/state.json">audit/state.json</a> by <a href="audit/render.py">audit/render.py</a>.</p>
-  <p>Known limitations: (1) ChiCTR / EUDRA-CT / JRCT registries are not yet covered by the completeness tool; (2) Industry pipeline subscriptions (Citeline / Cortellis) are not used; (3) Pre-registration disclosures may lag behind sponsor IR; (4) Tier-B extraction backlog: structured verbatim-anchored claims are being added incrementally — until a row shows "verified" in column 4 above, the dashboard displays figures from raw HTML readouts which are not yet machine-verified.</p>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05094336" target="_blank" rel="noopener">NCT05094336</a></td><td>AMG 193</td><td>✅ match</td><td>1/1 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05975073" target="_blank" rel="noopener">NCT05975073</a></td><td>AMG 193</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06360354" target="_blank" rel="noopener">NCT06360354</a></td><td>AMG 193</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06333951" target="_blank" rel="noopener">NCT06333951</a></td><td>AMG 193</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07076121" target="_blank" rel="noopener">NCT07076121</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07063745" target="_blank" rel="noopener">NCT07063745</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06855771" target="_blank" rel="noopener">NCT06855771</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07602946" target="_blank" rel="noopener">NCT07602946</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07283705" target="_blank" rel="noopener">NCT07283705</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07492680" target="_blank" rel="noopener">NCT07492680</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07549022" target="_blank" rel="noopener">NCT07549022</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07579221" target="_blank" rel="noopener">NCT07579221</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07594626" target="_blank" rel="noopener">NCT07594626</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05245500" target="_blank" rel="noopener">NCT05245500</a></td><td>BMS-986504</td><td>✅ match</td><td>3/3 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06672523" target="_blank" rel="noopener">NCT06672523</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06883747" target="_blank" rel="noopener">NCT06883747</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07077434" target="_blank" rel="noopener">NCT07077434</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07382544" target="_blank" rel="noopener">NCT07382544</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07532902" target="_blank" rel="noopener">NCT07532902</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07544628" target="_blank" rel="noopener">NCT07544628</a></td><td>BMS-986504</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05732831" target="_blank" rel="noopener">NCT05732831</a></td><td>TNG462</td><td>✅ match</td><td>2/2 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06188702" target="_blank" rel="noopener">NCT06188702</a></td><td>TNG462</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06922591" target="_blank" rel="noopener">NCT06922591</a></td><td>TNG462</td><td>✅ match</td><td>2/2 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05275478" target="_blank" rel="noopener">NCT05275478</a></td><td>TNG908</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05312372" target="_blank" rel="noopener">NCT05312372</a></td><td>AG-270</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT03435250" target="_blank" rel="noopener">NCT03435250</a></td><td>AG-270</td><td>✅ match</td><td>1/1 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05975073" target="_blank" rel="noopener">NCT05975073</a></td><td>IDE397</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT04794699" target="_blank" rel="noopener">NCT04794699</a></td><td>IDE397</td><td>✅ match</td><td>2/2 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07277413" target="_blank" rel="noopener">NCT07277413</a></td><td>IDE892</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT04676516" target="_blank" rel="noopener">NCT04676516</a></td><td>GSK3326595</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT03614728" target="_blank" rel="noopener">NCT03614728</a></td><td>GSK3326595</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT02783300" target="_blank" rel="noopener">NCT02783300</a></td><td>GSK3326595</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT03573310" target="_blank" rel="noopener">NCT03573310</a></td><td>JNJ-64619178</td><td>✅ match</td><td>1/1 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06788509" target="_blank" rel="noopener">NCT06788509</a></td><td>JNJ-64619178</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT03854227" target="_blank" rel="noopener">NCT03854227</a></td><td>PF-06939999</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT03886831" target="_blank" rel="noopener">NCT03886831</a></td><td>PRT543</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT04089449" target="_blank" rel="noopener">NCT04089449</a></td><td>PRT811</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06137144" target="_blank" rel="noopener">NCT06137144</a></td><td>AZD3470</td><td>✅ match</td><td>2/2 verified</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06130553" target="_blank" rel="noopener">NCT06130553</a></td><td>AZD3470</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06968572" target="_blank" rel="noopener">NCT06968572</a></td><td>HSK41959</td><td>✅ match</td><td>🔄 displays ORR — needs verbatim</td><td>🔄</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06914128" target="_blank" rel="noopener">NCT06914128</a></td><td>BAY 3713372</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06810544" target="_blank" rel="noopener">NCT06810544</a></td><td>TNG456</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06593522" target="_blank" rel="noopener">NCT06593522</a></td><td>Anvumetostat</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06414460" target="_blank" rel="noopener">NCT06414460</a></td><td>ISM3412</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06589596" target="_blank" rel="noopener">NCT06589596</a></td><td>BGB-58067</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06796699" target="_blank" rel="noopener">NCT06796699</a></td><td>GH56</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06971523" target="_blank" rel="noopener">NCT06971523</a></td><td>CTS3497</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT06973863" target="_blank" rel="noopener">NCT06973863</a></td><td>PEP08</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07485049" target="_blank" rel="noopener">NCT07485049</a></td><td>BGB-58067</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07567859" target="_blank" rel="noopener">NCT07567859</a></td><td>HS-10587</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07128303" target="_blank" rel="noopener">NCT07128303</a></td><td>GS-5319</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT07601243" target="_blank" rel="noopener">NCT07601243</a></td><td>GS-2426</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+      <tr><td><a href="https://clinicaltrials.gov/study/NCT05528055" target="_blank" rel="noopener">NCT05528055</a></td><td>SCR-6920</td><td>✅ match</td><td>➖ no efficacy yet</td><td>✅</td></tr>
+    </tbody></table>
+  <h3>Methodology &amp; known limitations</h3>
+  <p><b>How this audit log is built.</b> <a href="audit/run.py">audit/run.py</a> chains <a href="audit/completeness.py">completeness.py</a> → <a href="audit/accuracy.py">accuracy.py</a> → <a href="audit/triangulate.py">triangulate.py</a> → <a href="audit/render.py">render.py</a>. Inclusion criteria in <a href="audit/scope.md">audit/scope.md</a>. Schema in <a href="audit/state.schema.md">audit/state.schema.md</a>. The trial-table tbody, the 4.4 competitive table, and this audit log are all rendered from <a href="audit/state.json">audit/state.json</a> — no clinical content lives only in HTML.</p>
+  <p><b>Known limitations.</b> (1) ChiCTR / EUDRA-CT / JRCT registries are not yet covered by the completeness queries; (2) Industry pipeline subscriptions (Citeline / Cortellis) are not used; (3) Pre-registration disclosures may lag behind sponsor IR pages; (4) Tier-B extraction is incremental — rows showing "no efficacy yet" have no published numerical efficacy to verify, rows showing "displays ORR — needs verbatim" have a source that is currently bot-blocked to scripted snapshotting and await a manual verification pass.</p>
 </section>
 <!-- AUDIT:LOG:END -->
 
