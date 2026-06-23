@@ -1,0 +1,47 @@
+{
+  "_comment": "Search query registry for completeness.py. Each query has a stable key, the source, and the search string. completeness.py runs each query and records what it returned + which trials it surfaced.",
+  "schema_version": 1,
+  "queries": {
+    "ctgov_prmt5_mtap_inhibitor": {
+      "source": "ClinicalTrials.gov v2 API",
+      "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+      "query_params": {
+        "query.term": "(PRMT5 OR MTAP OR MAT2A) AND inhibitor",
+        "filter.overallStatus": "RECRUITING,ACTIVE_NOT_RECRUITING,COMPLETED,TERMINATED,NOT_YET_RECRUITING,SUSPENDED,ENROLLING_BY_INVITATION,WITHDRAWN",
+        "pageSize": 100
+      },
+      "rationale": "Broad mechanism-class sweep. Catches every CT.gov-registered trial whose title or description mentions PRMT5, MTAP, or MAT2A combined with 'inhibitor'."
+    },
+    "ctgov_methylthioadenosine_phosphorylase": {
+      "source": "ClinicalTrials.gov v2 API",
+      "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+      "query_params": {
+        "query.term": "methylthioadenosine phosphorylase",
+        "pageSize": 100
+      },
+      "rationale": "Catches trials that spell out the full enzyme name (e.g. amgen MTAPESTRY-103 uses long form)."
+    },
+    "ctgov_known_drug_names": {
+      "source": "ClinicalTrials.gov v2 API",
+      "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+      "query_params": {
+        "query.intr": "AMG 193 OR anvumetostat OR MRTX1719 OR BMS-986504 OR navlimetostat OR TNG908 OR TNG462 OR vopimetostat OR TNG456 OR IDE397 OR AZD3470 OR HSK41959 OR BAY 3713372 OR GSK3326595 OR JNJ-64619178 OR PRT543 OR PRT811 OR PF-06939999",
+        "pageSize": 100
+      },
+      "rationale": "Drug-name sweep. Catches trials registered without explicit MTAP/PRMT5 mention (e.g. early FIH that lists drug code only)."
+    },
+    "ctgov_mta_cooperative": {
+      "source": "ClinicalTrials.gov v2 API",
+      "endpoint": "https://clinicaltrials.gov/api/v2/studies",
+      "query_params": {
+        "query.term": "MTA-cooperative OR MTA cooperative PRMT5",
+        "pageSize": 100
+      },
+      "rationale": "Sentinel query for any new MTA-cooperative PRMT5i programme."
+    }
+  },
+  "sentinel_queries": [
+    "ctgov_prmt5_mtap_inhibitor",
+    "ctgov_mta_cooperative"
+  ]
+}
