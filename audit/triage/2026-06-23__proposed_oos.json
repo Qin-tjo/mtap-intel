@@ -1,0 +1,310 @@
+[
+  {
+    "id": "NCT00053209",
+    "name": "Pemetrexed Disodium and Gemcitabine in Treating Patients With Advanced Cancer of the Urothelium",
+    "drug": "gemcitabine hydrochloride, pemetrexed disodium",
+    "sponsor": "Eastern Cooperative Oncology Group",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00078468",
+    "name": "Study of the GARFT Inhibitor AG2037 in Patients With Metastatic Colorectal Cancer Who Failed Treatment",
+    "drug": "PELITREXOL/AG-2037",
+    "sponsor": "Pfizer",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00090701",
+    "name": "A Phase 2, Open-Label, Multicenter Study of the GARFT Inhibitor in Patients With Metastatic Non-Small Cell Lung Cancer",
+    "drug": "AG2037",
+    "sponsor": "Pfizer",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00101283",
+    "name": "Pemetrexed Plus Gemcitabine or Carboplatin for Patients With Advanced Malignant Pleural Mesothelioma",
+    "drug": "pemetrexed disodium, gemcitabine hydrochloride, carboplatin",
+    "sponsor": "Eastern Cooperative Oncology Group",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00107419",
+    "name": "S0423 Pemetrexed Disodium in Treating Patients With Recurrent and Unresectable or Metastatic Chondrosarcoma",
+    "drug": "pemetrexed disodium",
+    "sponsor": "SWOG Cancer Research Network",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00363415",
+    "name": "Study of Pemetrexed and Carboplatin Compared With Etoposide Carboplatin to Treat Extensive-Stage Small Cell Lung Cancer",
+    "drug": "pemetrexed, etoposide, carboplatin",
+    "sponsor": "Eli Lilly and Company",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00434135",
+    "name": "Alimta and Gemcitabine in Non-Small Cell Lung Cancer",
+    "drug": "gemcitabine plus pemetrexed, paclitaxel plus gemcitabine",
+    "sponsor": "Southern Italy Cooperative Oncology Group",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00517595",
+    "name": "Phase II Study Alimta and Gemzar + Avastin as First Line Chemotherapy for Elderly Patients With Stage IIIB/IV NSCLC",
+    "drug": "Pemetrexed and Gemcitabine plus Bevacizumab",
+    "sponsor": "Accelerated Community Oncology Research Network",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00523419",
+    "name": "Chemotherapy for Patients With Osteosarcoma",
+    "drug": "Pemetrexed",
+    "sponsor": "Eli Lilly and Company",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00738881",
+    "name": "Pemetrexed Disodium or Erlotinib Hydrochloride as Second-Line Therapy in Treating Patients With Advanced Non-small Cell Lung Cancer",
+    "drug": "Erlotinib Hydrochloride, Pemetrexed Disodium",
+    "sponsor": "National Cancer Institute (NCI)",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00806819",
+    "name": "Lume Lung 2 : BIBF 1120 Plus Pemetrexed Compared to Placebo Plus Pemetrexed in 2nd Line Nonsquamous NSCLC",
+    "drug": "Nintedanib (BIBF1120), Pemetrexed, pemetrexed, B12, dexamethasone (or corticosteroid equivalent), placebo, dexamethasone (or corticosteroid equivalent), B12, Folic Acid, B12, dexamethasone (or corticosteroid equivalent), Folic Acid, placebo, Folic Acid, Nintedanib (BIBF1120), Pemetrexed",
+    "sponsor": "Boehringer Ingelheim",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00898820",
+    "name": "Tumor Response to Pemetrexed Disodium in Patients With Stage III or Stage IV Non-Small Cell Lung Cancer Enrolled in Clinical Trial MCCRC-RC0524",
+    "drug": "gene expression analysis, polymorphism analysis, protein expression analysis",
+    "sponsor": "Mayo Clinic",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT00949650",
+    "name": "BIBW 2992 (Afatinib) Versus Chemotherapy as First Line Treatment in NSCLC With EGFR Mutation",
+    "drug": "Pemetrexed, BIBW 2992, Cisplatin",
+    "sponsor": "Boehringer Ingelheim",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT01105390",
+    "name": "AMG 102, Pemetrexed Disodium, and Cisplatin in Treating Patients With Malignant Pleural Mesothelioma",
+    "drug": "rilotumumab, cisplatin, pemetrexed disodium, laboratory biomarker analysis",
+    "sponsor": "National Cancer Institute (NCI)",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT01714037",
+    "name": "A Clinical Study on the Safety and Efficacy of Debio 0932 in Combination With Standard of Care in Patients With Non-small Cell Lung Cancer [NSCLC]",
+    "drug": "Debio 0932, Cisplatin, Pemetrexed, Gemcitabine, Docetaxel",
+    "sponsor": "Debiopharm International SA",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT01918761",
+    "name": "Dacomitinib + Pemetrexed for Patients With Advanced Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+    "drug": "Dacomitinib, Pemetrexed",
+    "sponsor": "Central European Cooperative Oncology Group",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT01982955",
+    "name": "Tepotinib With Gefitinib in Participants With Locally Advanced or Metastatic NSCLC (INSIGHT)",
+    "drug": "Tepotinib, Gefitinib, Pemetrexed, Cisplatin, Carboplatin",
+    "sponsor": "Merck KGaA, Darmstadt, Germany",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02211833",
+    "name": "Dose Escalation Study of BI 2536 With Pemetrexed in Previously Treated Patients With Non-small-cell Lung Cancer",
+    "drug": "BI 2536, Pemetrexed",
+    "sponsor": "Boehringer Ingelheim",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02397239",
+    "name": "Comparison of Cost-effectiveness of Continuation Maintenance Therapy With Six Cycles of Pemetrexed Versus Pemetrexed Until Disease Progression for Metastatic Non-squamous Non-small-cell Lung Cancer",
+    "drug": "",
+    "sponsor": "National Cheng-Kung University Hospital",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02426658",
+    "name": "Pemetrexed Disodium in Treating Patients With Stage IV Non-small Cell Lung Cancer and ECOG Performance Status 3",
+    "drug": "Laboratory Biomarker Analysis, Pemetrexed Disodium, Quality-of-Life Assessment",
+    "sponsor": "Wake Forest University Health Sciences",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02518711",
+    "name": "Effectiveness Study of a Behavioral Teacher Program Targeting ADHD Symptoms",
+    "drug": "Behavioral Teacher Program",
+    "sponsor": "VU University of Amsterdam",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02576574",
+    "name": "Avelumab in First-line NSCLC (JAVELIN Lung 100)",
+    "drug": "Avelumab, Pemetrexed, Paclitaxel, Gemcitabine, Gemcitabine, Carboplatin, Cisplatin, Carboplatin, Avelumab Weekly",
+    "sponsor": "EMD Serono Research & Development Institute, Inc.",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02631460",
+    "name": "S1 vs.Pemetrexed Plus Carboplatin in Patients With EGFR Wild Type Stage IIIB or IV Nonsquamous NSCLC",
+    "drug": "S1 80-120 mg/d, pemetrexed 500 mg/m2, carboplatin AUC=5",
+    "sponsor": "Sun Yat-sen University",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02693717",
+    "name": "Pemetrexed Disodium in Treating Patients With Previously Treated Metastatic Urothelial Cancer",
+    "drug": "Laboratory Biomarker Analysis, Pemetrexed Disodium",
+    "sponsor": "M.D. Anderson Cancer Center",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02817633",
+    "name": "A Study of TSR-022 in Participants With Advanced Solid Tumors (AMBER)",
+    "drug": "TSR-022, Nivolumab, TSR-042, TSR-033, Docetaxel, Pemetrexed, Cisplatin, Carboplatin",
+    "sponsor": "Tesaro, Inc.",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02944396",
+    "name": "Study of Veliparib in Combination With Nivolumab and Platinum Doublet Chemotherapy in Participants With Metastatic or Advanced Non-Small Cell Lung Cancer (NSCLC)",
+    "drug": "pemetrexed, nivolumab, paclitaxel, veliparib, carboplatin",
+    "sponsor": "AbbVie",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT02980991",
+    "name": "Pemetrexed and Platinum Use in the Neoadjuvant Setting for Resectable Stage II and IIIA Lung Adenocarcinoma (ECTOP-1002)",
+    "drug": "Pemetrexed, Cisplatin",
+    "sponsor": "Fudan University",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  },
+  {
+    "id": "NCT03003962",
+    "name": "Study of Durvalumab Alone or Chemotherapy for Patients With Advanced Non Small-Cell Lung Cancer (PEARL)",
+    "drug": "Durvalumab (MEDI4736), Paclitaxel + carboplatin, Gemcitabine + cisplatin, Gemcitabine + carboplatin, Pemetrexed + cisplatin, Pemetrexed + carboplatin",
+    "sponsor": "AstraZeneca",
+    "first_seen": "2026-06-23",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "surfaced_by": [
+      "completeness-pass-2026-06-23"
+    ]
+  }
+]
