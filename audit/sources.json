@@ -1,0 +1,79 @@
+{
+  "_comment": "Citation registry. One entry per source; referenced by source_key from tier_b_claims in state.json.",
+  "schema_version": 1,
+  "sources": {
+    "rodon2024_annoncol": {
+      "tier": 1,
+      "type": "peer-reviewed",
+      "authors": "Rodon J, Prenen H, Sacher A, Villalona-Calero M, Penel N, El Helali A, Rottey S, Yamamoto N, Ghiringhelli F, Goebeler ME, Doi T, Postel-Vinay S, Lin CC, Liu C, Chuang CH, Keyvanjah K, Eggert T, O'Neil BH.",
+      "title": "First-in-human study of AMG 193, an MTA-cooperative PRMT5 inhibitor, in patients with MTAP-deleted solid tumors: results from phase I dose exploration.",
+      "journal": "Annals of Oncology",
+      "year": 2024,
+      "volume": "35",
+      "issue": "12",
+      "pages": "1138-1147",
+      "url": "https://www.annalsofoncology.org/article/S0923-7534(24)03919-X/fulltext",
+      "pmid": "39293516",
+      "doi": "10.1016/j.annonc.2024.08.2339",
+      "snapshot_path": "audit/snapshots/rodon2024_pubmed__2026-06-23.html",
+      "snapshot_source": "PubMed E-utilities abstract",
+      "last_url_check": "2026-06-23",
+      "url_status": "publisher-page-bot-blocked-but-pubmed-abstract-verified"
+    },
+    "bms986504_iaslc2025": {
+      "tier": 4,
+      "type": "press-release",
+      "authors": "Bristol Myers Squibb (presented at IASLC World Conference on Lung Cancer 2025)",
+      "title": "BMS-986504 Demonstrates Durable Responses in MTAP-Deleted NSCLC, Including EGFR and ALK-Positive Tumors.",
+      "year": 2025,
+      "url": "https://www.iaslc.org/iaslc-news/press-release/bms-986504-demonstrates-durable-responses-mtap-deleted-nsclc-including",
+      "snapshot_path": "audit/snapshots/bms986504_iaslc2025__2026-06-23.html",
+      "last_url_check": "2026-06-23",
+      "url_status": "ok-200"
+    },
+    "bms986504_ascopost2025": {
+      "tier": 4,
+      "type": "press-release",
+      "authors": "The ASCO Post (editorial covering IASLC/WCLC 2025 BMS-986504 NSCLC presentation)",
+      "title": "Novel Targeted Agent Under Study in MTAP-Deleted NSCLC.",
+      "year": 2025,
+      "url": "https://ascopost.com/news/september-2025/novel-targeted-agent-under-study-in-mtap-deleted-nsclc/",
+      "snapshot_path": "audit/snapshots/bms986504_ascopost2025__2026-06-23.html",
+      "last_url_check": "2026-06-23",
+      "url_status": "ok-200"
+    },
+    "azd3470_clinicaltrialsarena_asco2026": {
+      "tier": 4,
+      "type": "press-release",
+      "authors": "GlobalData Healthcare / Clinical Trials Arena (covering ASCO 2026 AstraZeneca AZD3470 PRIMAVERA disclosure)",
+      "title": "ASCO26: AstraZeneca's AZD-3470 demonstrates PRMT5 inhibitor safety for cHL patients.",
+      "year": 2026,
+      "url": "https://www.clinicaltrialsarena.com/analyst-comment/asco26-astrazenecas-azd-3470-demonstrates-prmt5-inhibitor-safety-for-chl-patients/",
+      "snapshot_path": "audit/snapshots/azd3470_clinicaltrialsarena_asco2026__2026-06-23.html",
+      "last_url_check": "2026-06-23",
+      "url_status": "ok-200"
+    },
+    "ide397_ideayapress_sep2025": {
+      "tier": 4,
+      "type": "press-release",
+      "authors": "IDEAYA Biosciences (press release, R&D Day, 10-Year Anniversary)",
+      "title": "IDEAYA Biosciences Announces Positive Data From Phase 1/2 Combination Trial of IDE397, a potential first-in-class MAT2A inhibitor, and Trodelvy in MTAP-Deletion Urothelial Cancer.",
+      "year": 2025,
+      "url": "https://ir.ideayabio.com/2025-09-08-IDEAYA-Biosciences-Announces-Positive-Data-From-Phase-1-2-Combination-Trial-of-IDE397,-a-potential-first-in-class-MAT2A-inhibitor,-and-Trodelvy-R-in-MTAP-Deletion-Urothelial-Cancer",
+      "snapshot_path": "audit/snapshots/ide397_ideayapress_sep2025__2026-06-23.html",
+      "last_url_check": "2026-06-23",
+      "url_status": "ok-200"
+    },
+    "tng462_daraxonrasib_press_2026": {
+      "tier": 4,
+      "type": "press-release",
+      "authors": "Tango Therapeutics, Inc. (press release)",
+      "title": "Tango Therapeutics Announces Combination of Vopimetostat and Daraxonrasib Demonstrated 92% Objective Response Rate in Pancreatic Cancer.",
+      "year": 2026,
+      "url": "https://www.globenewswire.com/news-release/2026/06/08/3307926/0/en/tango-therapeutics-announces-combination-of-vopimetostat-and-daraxonrasib-demonstrated-92-objective-response-rate-in-pancreatic-cancer.html",
+      "snapshot_path": "audit/snapshots/tng462_daraxonrasib_press_2026__2026-06-23.html",
+      "last_url_check": "2026-06-23",
+      "url_status": "ok-200"
+    }
+  }
+}
