@@ -182,6 +182,22 @@ def run(args) -> dict:
 
         row_record["tier_b_claims"] = verify_tier_b_claims(trial)
         row_record["tier_b_unverified_html_blob"] = bool(trial["display"].get("detail_body_html"))
+        # Classify the row's tier-B state:
+        #   - "verified"     : ≥1 structured claim and all verbatim-match
+        #   - "extraction"   : row displays ORR but no structured claim yet
+        #   - "no-claims"    : row displays no efficacy (trial-in-progress)
+        orr_display = (trial["display"].get("orr_display") or "").strip()
+        sort_orr = trial["display"].get("sort_orr", "-1")
+        has_displayed_efficacy = (
+            orr_display not in ("", "—", "-")
+            and str(sort_orr) not in ("-1", "-1.0", "-1.000")
+        )
+        if row_record["tier_b_claims"]:
+            row_record["tier_b_state"] = "verified"
+        elif has_displayed_efficacy:
+            row_record["tier_b_state"] = "extraction-backlog"
+        else:
+            row_record["tier_b_state"] = "no-claims-needed"
         pass_record["trials"][row_id] = row_record
 
     # URL verification
@@ -212,16 +228,17 @@ def run(args) -> dict:
 
     # Summary
     n_total = len(trial_items)
-    n_tier_b_unverified = sum(
-        1 for r in pass_record["trials"].values()
-        if r.get("tier_b_unverified_html_blob") and not r["tier_b_claims"]
-    )
+    n_verified = sum(1 for r in pass_record["trials"].values() if r.get("tier_b_state") == "verified")
+    n_extraction = sum(1 for r in pass_record["trials"].values() if r.get("tier_b_state") == "extraction-backlog")
+    n_no_claims = sum(1 for r in pass_record["trials"].values() if r.get("tier_b_state") == "no-claims-needed")
     pass_record["summary"].update({
         "trials_audited": n_total,
         "tier_a_mismatches": n_mismatch,
         "tier_a_synced": n_synced,
         "tier_a_errors": n_error,
-        "tier_b_rows_with_no_structured_claims": n_tier_b_unverified,
+        "tier_b_verified": n_verified,
+        "tier_b_extraction_backlog": n_extraction,
+        "tier_b_no_claims_needed": n_no_claims,
     })
 
     PASSES_DIR.mkdir(parents=True, exist_ok=True)
@@ -239,7 +256,9 @@ def run(args) -> dict:
     print(f"  Tier-A fetch errors:          {n_error}")
     if args.apply:
         print(f"  Tier-A rows synced:           {n_synced}")
-    print(f"  rows still backlog (no Tier-B): {n_tier_b_unverified}")
+    print(f"  Tier-B verified rows:         {n_verified}")
+    print(f"  Tier-B extraction backlog:    {n_extraction}  (display ORR but no structured claim)")
+    print(f"  Tier-B no-claims-needed:      {n_no_claims}  (no efficacy yet — trial-in-progress)")
     if args.urls:
         print(f"  citation URLs ok:             {pass_record['summary']['urls_ok']}")
         print(f"  citation URLs bot-blocked:    {pass_record['summary']['urls_bot_blocked']} (manual verify)")
