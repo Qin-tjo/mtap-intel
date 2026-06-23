@@ -1,6 +1,6 @@
 {
   "pass_date": "2026-06-23",
-  "started_at": "2026-06-23T16:05:27",
+  "started_at": "2026-06-23T16:25:33",
   "mode": "report",
   "trials": {
     "NCT05094336": {
@@ -69,7 +69,17 @@
           ]
         }
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "rodon2024_amg193_orr_active_dose",
+          "field": "ORR",
+          "value": "21.4%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T1",
+          "confidence": "verified"
+        }
+      ],
       "tier_b_unverified_html_blob": true
     },
     "NCT05975073": {
@@ -1010,7 +1020,35 @@
           ]
         }
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "bms986504_nsclc_orr_iaslc2025",
+          "field": "ORR",
+          "value": "29%",
+          "verbatim_match": true,
+          "n_sources": 2,
+          "cross_source_check": "multi-source-agree",
+          "confidence": "verified"
+        },
+        {
+          "claim_id": "bms986504_nsclc_dcr_iaslc2025",
+          "field": "DCR",
+          "value": "80%",
+          "verbatim_match": true,
+          "n_sources": 2,
+          "cross_source_check": "multi-source-agree",
+          "confidence": "verified"
+        },
+        {
+          "claim_id": "bms986504_nsclc_mdor_iaslc2025",
+          "field": "mDOR",
+          "value": "10.5 months",
+          "verbatim_match": true,
+          "n_sources": 2,
+          "cross_source_check": "multi-source-agree",
+          "confidence": "verified"
+        }
+      ],
       "tier_b_unverified_html_blob": true
     },
     "NCT06672523": {
@@ -1683,7 +1721,26 @@
           ]
         }
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "tng462_daraxonrasib_pdac_orr_2026",
+          "field": "ORR",
+          "value": "92%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T4",
+          "confidence": "verified"
+        },
+        {
+          "claim_id": "tng462_daraxonrasib_pdac_dcr_2026",
+          "field": "DCR",
+          "value": "100%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T4",
+          "confidence": "verified"
+        }
+      ],
       "tier_b_unverified_html_blob": true
     },
     "NCT05275478": {
@@ -2034,7 +2091,26 @@
           ]
         }
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "ide397_trodelvy_urothelial_dl1_orr",
+          "field": "ORR",
+          "value": "33%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T4",
+          "confidence": "verified"
+        },
+        {
+          "claim_id": "ide397_trodelvy_urothelial_dl2_orr",
+          "field": "ORR",
+          "value": "57%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T4",
+          "confidence": "verified"
+        }
+      ],
       "tier_b_unverified_html_blob": true
     },
     "NCT07277413": {
@@ -2800,7 +2876,26 @@
           ]
         }
       },
-      "tier_b_claims": [],
+      "tier_b_claims": [
+        {
+          "claim_id": "azd3470_primavera_orr_450mg",
+          "field": "ORR",
+          "value": "58%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T4",
+          "confidence": "verified"
+        },
+        {
+          "claim_id": "azd3470_primavera_cr_450mg",
+          "field": "CR",
+          "value": "35%",
+          "verbatim_match": true,
+          "n_sources": 1,
+          "cross_source_check": "single-source-T4",
+          "confidence": "verified"
+        }
+      ],
       "tier_b_unverified_html_blob": true
     },
     "NCT06130553": {
@@ -3512,6 +3607,6 @@
     "tier_a_mismatches": 0,
     "tier_a_synced": 0,
     "tier_a_errors": 0,
-    "tier_b_rows_with_no_structured_claims": 42
+    "tier_b_rows_with_no_structured_claims": 37
   }
 }
