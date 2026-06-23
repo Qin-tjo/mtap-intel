@@ -1,0 +1,162 @@
+{
+  "pass_date": "2026-06-23",
+  "started_at": "2026-06-23T17:18:08",
+  "reviews": [
+    {
+      "review_key": "hu2024_mtacoop_review",
+      "review_meta": {
+        "title": "A review of the known MTA-cooperative PRMT5 inhibitors.",
+        "authors": "Hu M, Chen X.",
+        "year": 2024,
+        "pmid": "39691229",
+        "doi": "10.1039/d4ra05497k",
+        "tier": 1
+      },
+      "ncts_in_review": [
+        "NCT03573310",
+        "NCT03854227",
+        "NCT03886831",
+        "NCT04089449",
+        "NCT04676516",
+        "NCT04794699",
+        "NCT05094336",
+        "NCT05245500",
+        "NCT05275478",
+        "NCT05732831",
+        "NCT06130553",
+        "NCT06137144",
+        "NCT06188702",
+        "NCT06333951",
+        "NCT06589596",
+        "NCT06672523",
+        "NCT06883747",
+        "NCT06914128",
+        "NCT06922591",
+        "NCT06971523",
+        "NCT06973863",
+        "NCT07063745",
+        "NCT07076121",
+        "NCT07077434"
+      ],
+      "drugs_in_review": [
+        "MRTX1719",
+        "BMS-986504",
+        "AMG 193",
+        "TNG908",
+        "TNG462",
+        "TNG456",
+        "IDE397",
+        "AZD3470",
+        "AZD-3470",
+        "BAY 3713372",
+        "GSK3326595",
+        "JNJ-64619178",
+        "PRT543",
+        "PRT811",
+        "PF-06939999",
+        "EPZ015666",
+        "BGB-58067",
+        "CTS3497",
+        "PEP08"
+      ],
+      "ncts_covered": [
+        "NCT03573310",
+        "NCT03854227",
+        "NCT03886831",
+        "NCT04089449",
+        "NCT04676516",
+        "NCT04794699",
+        "NCT05094336",
+        "NCT05245500",
+        "NCT05275478",
+        "NCT05732831",
+        "NCT06130553",
+        "NCT06137144",
+        "NCT06188702",
+        "NCT06333951",
+        "NCT06589596",
+        "NCT06672523",
+        "NCT06883747",
+        "NCT06914128",
+        "NCT06922591",
+        "NCT06971523",
+        "NCT06973863",
+        "NCT07063745",
+        "NCT07076121",
+        "NCT07077434"
+      ],
+      "ncts_missed": [],
+      "drugs_covered": [
+        "MRTX1719",
+        "BMS-986504",
+        "AMG 193",
+        "TNG908",
+        "TNG462",
+        "TNG456",
+        "IDE397",
+        "AZD3470",
+        "AZD-3470",
+        "BAY 3713372",
+        "GSK3326595",
+        "JNJ-64619178",
+        "PRT543",
+        "PRT811",
+        "PF-06939999",
+        "BGB-58067",
+        "CTS3497",
+        "PEP08"
+      ],
+      "drugs_missed": [],
+      "drugs_excluded_preclinical": [
+        "EPZ015666"
+      ]
+    },
+    {
+      "review_key": "patsnap_prmt5_review_2025",
+      "review_meta": {
+        "title": "PRMT5 inhibitors for MTAP-deleted cancers (industry blog).",
+        "authors": "PatSnap editorial",
+        "year": 2025,
+        "pmid": null,
+        "doi": null,
+        "tier": 4
+      },
+      "ncts_in_review": [
+        "NCT05094336",
+        "NCT05245500",
+        "NCT05275478",
+        "NCT05732831",
+        "NCT06130553",
+        "NCT06137144"
+      ],
+      "drugs_in_review": [
+        "AMG-193",
+        "AZD3470",
+        "GSK3326595",
+        "JNJ-64619178"
+      ],
+      "ncts_covered": [
+        "NCT05094336",
+        "NCT05245500",
+        "NCT05275478",
+        "NCT05732831",
+        "NCT06130553",
+        "NCT06137144"
+      ],
+      "ncts_missed": [],
+      "drugs_covered": [
+        "AMG-193",
+        "AZD3470",
+        "GSK3326595",
+        "JNJ-64619178"
+      ],
+      "drugs_missed": [],
+      "drugs_excluded_preclinical": []
+    }
+  ],
+  "summary": {
+    "reviews_processed": 2,
+    "total_unique_missed_ncts": [],
+    "total_unique_missed_drugs": []
+  }
+}
