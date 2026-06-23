@@ -2669,7 +2669,7 @@
       <span>Has readout</span>
     </label>
     <button id="tt-clear" type="button" class="filter-clear">Clear</button>
-    <span class="tt-count"><span id="tt-visible">37</span> / 37 trials</span>
+    <span class="tt-count"><span id="tt-visible">—</span> / <span id="tt-total">—</span> trials</span>
   </div>
   <div class="tt-scroll">
     <table class="trial-table">
@@ -3669,7 +3669,9 @@ Exclusion Criteria:
   const hasResEl  = document.getElementById("tt-has-results");
   const clearEl   = document.getElementById("tt-clear");
   const visibleEl = document.getElementById("tt-visible");
+  const totalEl   = document.getElementById("tt-total");
   const trialRows = document.querySelectorAll("tr.tt-row");
+  if (totalEl) totalEl.textContent = trialRows.length;
 
   function applyFilters() {
     const q   = (searchEl.value || "").trim().toLowerCase();
@@ -3707,6 +3709,8 @@ Exclusion Criteria:
     el.addEventListener("input",  applyFilters);
     el.addEventListener("change", applyFilters);
   });
+  // Initial count so the "— / N trials" placeholder fills correctly on page load
+  applyFilters();
   if (clearEl) {
     clearEl.addEventListener("click", function() {
       searchEl.value = "";
