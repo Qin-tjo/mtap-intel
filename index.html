@@ -3563,6 +3563,18 @@ Exclusion Criteria:
 
   // ---- Tooltip ----
   const tt = document.getElementById("tt");
+  // HTML-escape helper. Tooltip builders compose HTML by concatenating constant
+  // template strings with values read from SVG data-* attributes. If a future
+  // maintainer (accidentally or deliberately) lets an HTML special-character
+  // value into a data-* attribute, this stops it from being parsed as markup.
+  function esc(v) {
+    return String(v == null ? "" : v)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
   function showTip(text, evt) {
     tt.innerHTML = text;
     tt.classList.add("visible");
@@ -3610,43 +3622,43 @@ Exclusion Criteria:
   }
   // Figure 1 — Stage 1 bars
   wire("svg.stage1-svg .bar-row", function(g) {
-    return "<div class=\"tt-title\">" + g.dataset.cohort + "</div>" +
-           row("Homozygous (CN=0)", g.dataset.homdel + "%") +
-           row("Heterozygous (CN=1)", g.dataset.hetdel + "%") +
+    return "<div class=\"tt-title\">" + esc(g.dataset.cohort) + "</div>" +
+           row("Homozygous (CN=0)", esc(g.dataset.homdel) + "%") +
+           row("Heterozygous (CN=1)", esc(g.dataset.hetdel) + "%") +
            row("Total deletion", parseFloat(g.dataset.total).toFixed(1) + "%") +
-           "<div class=\"tt-sub\">n = " + g.dataset.n + " samples (ABSOLUTE QC pass, primary tumour)</div>";
+           "<div class=\"tt-sub\">n = " + esc(g.dataset.n) + " samples (ABSOLUTE QC pass, primary tumour)</div>";
   });
   // Figure 2 — CN→expression panels
   wire(".fig2-svg .f2-panel", function(g) {
     const d = g.dataset;
-    return "<div class=\"tt-title\">" + d.cohort + " · ρ = " + d.rho + "</div>" +
-           row("CN=0 median",   d.cn0m) +
-           row("CN=1 median",   d.cn1m) +
-           row("CN=2 median",   d.cn2m) +
-           row("CN=3+ median",  d.cn3m) +
-           "<div class=\"tt-sub\">n per bin: " + d.cn0n + " / " + d.cn1n + " / " + d.cn2n + " / " + d.cn3n +
-           " (total " + d.n + ")</div>";
+    return "<div class=\"tt-title\">" + esc(d.cohort) + " · ρ = " + esc(d.rho) + "</div>" +
+           row("CN=0 median",   esc(d.cn0m)) +
+           row("CN=1 median",   esc(d.cn1m)) +
+           row("CN=2 median",   esc(d.cn2m)) +
+           row("CN=3+ median",  esc(d.cn3m)) +
+           "<div class=\"tt-sub\">n per bin: " + esc(d.cn0n) + " / " + esc(d.cn1n) + " / " + esc(d.cn2n) + " / " + esc(d.cn3n) +
+           " (total " + esc(d.n) + ")</div>";
   });
   // Figure 3 — focality rows
   wire(".fig3-svg .f3-row", function(g) {
     const d = g.dataset;
-    return "<div class=\"tt-title\">" + d.cohort + " · " + d["class"] + "</div>" +
+    return "<div class=\"tt-title\">" + esc(d.cohort) + " · " + esc(d["class"]) + "</div>" +
            row("Focal (< 3 Mb)",          parseFloat(d.focal).toFixed(1) + "%") +
            row("Intermediate (3–25 Mb)",  parseFloat(d.inter).toFixed(1) + "%") +
            row("Arm-level (≥ 25 Mb)",     parseFloat(d.arm).toFixed(1)   + "%") +
            row("Median footprint",        parseFloat(d.med).toFixed(2) + " Mb") +
-           "<div class=\"tt-sub\">n = " + d.n + " deleted samples</div>";
+           "<div class=\"tt-sub\">n = " + esc(d.n) + " deleted samples</div>";
   });
   // Figure 4 — heatmap cells
   wire(".fig4-svg .f4-cell-g", function(g) {
     const d = g.dataset;
     const sign = parseFloat(d.enrich) >= 0 ? "+" : "";
-    return "<div class=\"tt-title\">" + d.cohort + " · " + d.gene + "</div>" +
+    return "<div class=\"tt-title\">" + esc(d.cohort) + " · " + esc(d.gene) + "</div>" +
            row("Anyloss in MTAP-homdel", parseFloat(d.anyloss).toFixed(1) + "%") +
            row("Homdel in MTAP-homdel",  parseFloat(d.homdel).toFixed(1)  + "%") +
            row("Anyloss in MTAP-intact", parseFloat(d.baseline).toFixed(1) + "%") +
            row("Enrichment (Δ pp)",      sign + parseFloat(d.enrich).toFixed(1)) +
-           "<div class=\"tt-sub\">n MTAP-homdel patients = " + d.nmtap + "</div>";
+           "<div class=\"tt-sub\">n MTAP-homdel patients = " + esc(d.nmtap) + "</div>";
   });
   // Figure 5 — lollipop rows
   wire(".fig5-svg .f5-row", function(g) {
@@ -3654,11 +3666,11 @@ Exclusion Criteria:
     const hr = parseFloat(d.homdelRate);
     const br = parseFloat(d.baselineRate);
     const enr = (br > 0) ? (hr / br).toFixed(2) + "×" : "—";
-    return "<div class=\"tt-title\">" + d.cohort + " · " + d.gene + "</div>" +
+    return "<div class=\"tt-title\">" + esc(d.cohort) + " · " + esc(d.gene) + "</div>" +
            row("MTAP-homdel rate",  hr.toFixed(1) + "%") +
            row("MTAP-intact rate",  br.toFixed(1) + "%") +
            row("Enrichment ratio",  enr) +
-           "<div class=\"tt-sub\">n MTAP-homdel = " + d.nHomdel + " · cohort n = " + d.nCohort + "</div>";
+           "<div class=\"tt-sub\">n MTAP-homdel = " + esc(d.nHomdel) + " · cohort n = " + esc(d.nCohort) + "</div>";
   });
   // ---- Filterable trial table ----
   const searchEl  = document.getElementById("tt-search");
