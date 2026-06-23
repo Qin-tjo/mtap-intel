@@ -27,6 +27,9 @@ STATE_PATH = ROOT / "audit" / "state.json"
 
 MARKER_START = "<!-- AUDIT:TRIAL_TABLE_TBODY:START -->"
 MARKER_END = "<!-- AUDIT:TRIAL_TABLE_TBODY:END -->"
+LOG_MARKER_START = "<!-- AUDIT:LOG:START -->"
+LOG_MARKER_END = "<!-- AUDIT:LOG:END -->"
+PASSES_ACC_DIR = Path(__file__).resolve().parent / "passes" / "accuracy"
 
 sys.path.insert(0, str(ROOT))
 from audit.lib import state as state_lib   # noqa: E402
@@ -164,18 +167,122 @@ def render_tbody(state: dict) -> str:
     return "\n".join(lines)
 
 
-def replace_between_markers(html: str, new_body: str) -> str:
+def replace_between_markers(html: str, new_body: str, start: str = MARKER_START, end: str = MARKER_END) -> str:
     pattern = re.compile(
-        re.escape(MARKER_START) + r".*?" + re.escape(MARKER_END),
+        re.escape(start) + r".*?" + re.escape(end),
         re.DOTALL,
     )
     if not pattern.search(html):
-        raise RuntimeError(
-            f"Markers not found in HTML. Add {MARKER_START!r} and {MARKER_END!r} "
-            f"around the trial-table tbody."
-        )
-    replacement = f"{MARKER_START}\n{new_body}\n{MARKER_END}"
+        raise RuntimeError(f"Markers not found in HTML: {start!r} / {end!r}")
+    replacement = f"{start}\n{new_body}\n{end}"
     return pattern.sub(replacement, html, count=1)
+
+
+def latest_accuracy_pass() -> dict | None:
+    if not PASSES_ACC_DIR.exists():
+        return None
+    files = sorted(PASSES_ACC_DIR.glob("*.json"))
+    if not files:
+        return None
+    return json.loads(files[-1].read_text())
+
+
+def render_audit_log(state: dict, pass_record: dict | None) -> str:
+    """Render the audit-log HTML block (goes between LOG markers, at bottom of dashboard)."""
+    from html import escape as e
+    lines = []
+    lines.append('<section id="audit-log" class="section audit-log">')
+    lines.append('  <div class="sec-h">')
+    lines.append('    <div class="sec-num ref-num">A</div>')
+    lines.append('    <div>')
+    lines.append('      <div class="sec-title">Audit log</div>')
+    lines.append('      <div class="sec-q">Provenance, verification status, and known gaps for the Clinical Landscape.</div>')
+    lines.append('    </div>')
+    lines.append('  </div>')
+
+    if pass_record is None:
+        lines.append('  <p>No accuracy pass has been recorded yet.</p>')
+        lines.append('</section>')
+        return "\n".join(lines)
+
+    s = pass_record.get("summary", {})
+    lines.append(f'  <h3>A.1 · Last full accuracy pass — {e(pass_record["pass_date"])}</h3>')
+    lines.append('  <ul class="audit-summary">')
+    lines.append(f'    <li>Rows audited: <b>{s.get("trials_audited", 0)}</b></li>')
+    lines.append(f'    <li>Tier-A registry sync mismatches: <b>{s.get("tier_a_mismatches", 0)}</b></li>')
+    lines.append(f'    <li>Rows with no structured Tier-B claims yet (extraction backlog): <b>{s.get("tier_b_rows_with_no_structured_claims", 0)}</b></li>')
+    if "urls_ok" in s:
+        lines.append(f'    <li>Citation URLs verified: <b>{s.get("urls_ok", 0)} ok</b> · '
+                     f'<b>{s.get("urls_bot_blocked", 0)} bot-blocked</b> (manual verify needed) · '
+                     f'<b>{s.get("urls_broken", 0)} broken</b></li>')
+    lines.append('  </ul>')
+
+    # Per-trial table
+    lines.append('  <h3>A.2 · Per-trial audit status</h3>')
+    lines.append('  <table class="audit-table">')
+    lines.append('    <thead><tr><th>NCT</th><th>Drug</th><th>Tier-A sync</th><th>Tier-B claims</th><th>Status</th></tr></thead>')
+    lines.append('    <tbody>')
+    for row_id, row_rec in pass_record["trials"].items():
+        trial = state["trials"].get(row_id, {})
+        drug = (trial.get("display", {}).get("drug_label") or "—")
+        nct = row_rec["nct"]
+        tdiff = row_rec.get("tier_a_diff", {})
+        if "_error" in tdiff:
+            tier_a_status = f'⚠️ {e(tdiff["_error"][:40])}'
+        elif "_skipped" in tdiff:
+            tier_a_status = '🔄 skipped'
+        else:
+            mis = [f for f, info in tdiff.items() if info["status"] == "mismatch"]
+            tier_a_status = '✅ match' if not mis else f'⚠️ {", ".join(mis)}'
+        n_claims = len(row_rec.get("tier_b_claims", []))
+        if n_claims == 0:
+            tier_b_status = '🔄 backlog (no structured claims)'
+        else:
+            verified = sum(1 for c in row_rec["tier_b_claims"] if c["verbatim_match"])
+            tier_b_status = f'{verified}/{n_claims} verified'
+        overall = '✅' if (tier_a_status.startswith('✅') and n_claims > 0) else '🔄'
+        lines.append(
+            f'      <tr><td><a href="https://clinicaltrials.gov/study/{e(nct)}" target="_blank" rel="noopener">{e(nct)}</a></td>'
+            f'<td>{e(drug)}</td><td>{tier_a_status}</td><td>{tier_b_status}</td><td>{overall}</td></tr>'
+        )
+    lines.append('    </tbody>')
+    lines.append('  </table>')
+
+    # Citation URL bucket
+    if pass_record.get("citation_urls"):
+        bot_blocked = [u for u in pass_record["citation_urls"] if u.get("bucket") == "bot-blocked"]
+        broken = [u for u in pass_record["citation_urls"] if u.get("bucket") == "broken"]
+        if bot_blocked or broken:
+            lines.append('  <h3>A.3 · Citation URLs flagged for manual review</h3>')
+            if bot_blocked:
+                lines.append('  <details><summary>Bot-blocked (HTTP 403 to scripts; human-accessible — verify periodically by hand)</summary>')
+                lines.append('  <ul class="audit-urls">')
+                for u in bot_blocked:
+                    lines.append(f'    <li><a href="{e(u["url"])}" target="_blank" rel="noopener">{e(u["url"][:120])}</a></li>')
+                lines.append('  </ul></details>')
+            if broken:
+                lines.append('  <details open><summary><b>Broken (needs replacement)</b></summary>')
+                lines.append('  <ul class="audit-urls">')
+                for u in broken:
+                    lines.append(f'    <li>{e(u.get("status",""))} {e(str(u.get("code","")))} — <a href="{e(u["url"])}" target="_blank" rel="noopener">{e(u["url"][:120])}</a></li>')
+                lines.append('  </ul></details>')
+
+    # Scope + limitations footer
+    lines.append('  <h3>A.4 · Scope &amp; known limitations</h3>')
+    lines.append('  <p>This audit log is generated by <a href="audit/accuracy.py">audit/accuracy.py</a>. '
+                 'See <a href="audit/scope.md">audit/scope.md</a> for the inclusion criteria and '
+                 '<a href="audit/state.schema.md">audit/state.schema.md</a> for the data schema. '
+                 'The trial-table tbody is rendered from <a href="audit/state.json">audit/state.json</a> '
+                 'by <a href="audit/render.py">audit/render.py</a>.</p>')
+    lines.append('  <p>Known limitations: '
+                 '(1) ChiCTR / EUDRA-CT / JRCT registries are not yet covered by the completeness tool; '
+                 '(2) Industry pipeline subscriptions (Citeline / Cortellis) are not used; '
+                 '(3) Pre-registration disclosures may lag behind sponsor IR; '
+                 '(4) Tier-B extraction backlog: structured verbatim-anchored claims are being added '
+                 'incrementally — until a row shows "verified" in column 4 above, the dashboard '
+                 'displays figures from raw HTML readouts which are not yet machine-verified.</p>')
+    lines.append('</section>')
+    return "\n".join(lines)
 
 
 def ensure_state(state_path: Path = STATE_PATH) -> dict:
@@ -203,6 +310,12 @@ def main():
 
     html = Path(args.html).read_text()
     new_html = replace_between_markers(html, body)
+
+    # Audit log section (if markers present)
+    if LOG_MARKER_START in new_html:
+        pass_rec = latest_accuracy_pass()
+        log_block = render_audit_log(state, pass_rec)
+        new_html = replace_between_markers(new_html, log_block, LOG_MARKER_START, LOG_MARKER_END)
 
     if args.check:
         same = (new_html == html)
