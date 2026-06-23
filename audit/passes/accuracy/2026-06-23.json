@@ -1,0 +1,3517 @@
+{
+  "pass_date": "2026-06-23",
+  "started_at": "2026-06-23T16:05:27",
+  "mode": "report",
+  "trials": {
+    "NCT05094336": {
+      "nct": "NCT05094336",
+      "row_id": "NCT05094336",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Amgen",
+          "remote": "Amgen"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Active, not recruiting",
+          "remote": "Active, not recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2022-02-01",
+          "remote": "2022-02-01"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced MTAP-null Solid Tumors"
+          ],
+          "remote": [
+            "Advanced MTAP-null Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Anvumetostat",
+            "Docetaxel",
+            "Comparator Anvumetostat Test Tablet"
+          ],
+          "remote": [
+            "Anvumetostat",
+            "Docetaxel",
+            "Comparator Anvumetostat Test Tablet"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Parts 1 and 2: Number of Participants Who Experience a Dose-Limiting Toxicity (DLT)",
+            "Parts 1 and 2: Number of Participants Who Experience a Treatment-emergent Adverse Event (TEAE)",
+            "Part 3: Objective Response Rate (ORR)"
+          ],
+          "remote": [
+            "Parts 1 and 2: Number of Participants Who Experience a Dose-Limiting Toxicity (DLT)",
+            "Parts 1 and 2: Number of Participants Who Experience a Treatment-emergent Adverse Event (TEAE)",
+            "Part 3: Objective Response Rate (ORR)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT05975073": {
+      "nct": "NCT05975073",
+      "row_id": "NCT05975073",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Amgen",
+          "remote": "Amgen"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2023-08-01",
+          "remote": "2023-08-01"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "MTAP-null Non-Small-Cell Lung Cancer",
+            "MTAP-null Solid Tumors"
+          ],
+          "remote": [
+            "MTAP-null Non-Small-Cell Lung Cancer",
+            "MTAP-null Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Anvumetostat",
+            "IDE397"
+          ],
+          "remote": [
+            "Anvumetostat",
+            "IDE397"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1: Number of Participants Experiencing Dose Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+            "Part 1: Number of Participants Experiencing Serious Adverse Events (SAEs)",
+            "Part 2: Objective Response (OR) per modified Response Evaluation Criteria in Solid Tumors (RECIST) 1.1"
+          ],
+          "remote": [
+            "Part 1: Number of Participants Experiencing Dose Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+            "Part 1: Number of Participants Experiencing Serious Adverse Events (SAEs)",
+            "Part 2: Objective Response (OR) per modified Response Evaluation Criteria in Solid Tumors (RECIST) 1.1"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06360354": {
+      "nct": "NCT06360354",
+      "row_id": "NCT06360354",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Amgen",
+          "remote": "Amgen"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Active, not recruiting",
+          "remote": "Active, not recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2024-05-29",
+          "remote": "2024-05-29"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Gastrointestinal, Biliary Tract, and Pancreatic Cancers"
+          ],
+          "remote": [
+            "Advanced Gastrointestinal, Biliary Tract, and Pancreatic Cancers"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Anvumetostat",
+            "Gemcitabine",
+            "Nab-paclitaxel",
+            "Modified FOLFIRINOX",
+            "RMC-6236"
+          ],
+          "remote": [
+            "Anvumetostat",
+            "Gemcitabine",
+            "Nab-paclitaxel",
+            "Modified FOLFIRINOX",
+            "RMC-6236"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Number of Participants Experiencing Dose Limiting Toxicities (DLT)",
+            "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAE)",
+            "Number of Participants Experiencing Serious Adverse Events (SAE)"
+          ],
+          "remote": [
+            "Number of Participants Experiencing Dose Limiting Toxicities (DLT)",
+            "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAE)",
+            "Number of Participants Experiencing Serious Adverse Events (SAE)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06333951": {
+      "nct": "NCT06333951",
+      "row_id": "NCT06333951",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Amgen",
+          "remote": "Amgen"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Active, not recruiting",
+          "remote": "Active, not recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2024-09-17",
+          "remote": "2024-09-17"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Thoracic Tumors",
+            "Non-small Cell Lung Cancer"
+          ],
+          "remote": [
+            "Thoracic Tumors",
+            "Non-small Cell Lung Cancer"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Anvumetostat",
+            "Carboplatin",
+            "Paclitaxel",
+            "Pembrolizumab",
+            "Pemetrexed",
+            "Sotorasib"
+          ],
+          "remote": [
+            "Anvumetostat",
+            "Carboplatin",
+            "Paclitaxel",
+            "Pembrolizumab",
+            "Pemetrexed",
+            "Sotorasib"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Number of Participants Experiencing Dose Limiting Toxicities (DLT)",
+            "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAE)",
+            "Number of Participants Experiencing Serious Adverse Events (SAE)"
+          ],
+          "remote": [
+            "Number of Participants Experiencing Dose Limiting Toxicities (DLT)",
+            "Number of Participants Experiencing Treatment Emergent Adverse Events (TEAE)",
+            "Number of Participants Experiencing Serious Adverse Events (SAE)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07076121": {
+      "nct": "NCT07076121",
+      "row_id": "NCT07076121",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2",
+            "Phase 3"
+          ],
+          "remote": [
+            "Phase 2",
+            "Phase 3"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Active, not recruiting",
+          "remote": "Active, not recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-10-23",
+          "remote": "2025-10-23"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Pancreatic Ductal Adenocarcinoma"
+          ],
+          "remote": [
+            "Pancreatic Ductal Adenocarcinoma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Navlimetostat",
+            "Gemcitabine",
+            "Nab-paclitaxel",
+            "Placebo"
+          ],
+          "remote": [
+            "Navlimetostat",
+            "Gemcitabine",
+            "Nab-paclitaxel",
+            "Placebo"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Progression-Free Survival as assessed by Response Evaluation Criteria in Solid Tumors version v1.1 (RECIST v1.1)",
+            "Overall Survival (OS)"
+          ],
+          "remote": [
+            "Progression-Free Survival as assessed by Response Evaluation Criteria in Solid Tumors version v1.1 (RECIST v1.1)",
+            "Overall Survival (OS)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07063745": {
+      "nct": "NCT07063745",
+      "row_id": "NCT07063745",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2",
+            "Phase 3"
+          ],
+          "remote": [
+            "Phase 2",
+            "Phase 3"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-01-02",
+          "remote": "2026-01-02"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Metastatic Non-small Cell Lung Cancer With MTAP Deletion"
+          ],
+          "remote": [
+            "Metastatic Non-small Cell Lung Cancer With MTAP Deletion"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504",
+            "Pembrolizumab",
+            "Placebo",
+            "Cisplatin",
+            "Carboplatin",
+            "Pemetrexed",
+            "Paclitaxel",
+            "Nab-paclitaxel"
+          ],
+          "remote": [
+            "BMS-986504",
+            "Pembrolizumab",
+            "Placebo",
+            "Cisplatin",
+            "Carboplatin",
+            "Pemetrexed",
+            "Paclitaxel",
+            "Nab-paclitaxel"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Progression-free survival (PFS) by RECIST v1.1",
+            "PFS by RECIST v1.1 per BICR",
+            "Overall Survival (OS)"
+          ],
+          "remote": [
+            "Progression-free survival (PFS) by RECIST v1.1",
+            "PFS by RECIST v1.1 per BICR",
+            "Overall Survival (OS)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06855771": {
+      "nct": "NCT06855771",
+      "row_id": "NCT06855771",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-09-09",
+          "remote": "2025-09-09"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Carcinoma, Non-Small-Cell Lung"
+          ],
+          "remote": [
+            "Carcinoma, Non-Small-Cell Lung"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504"
+          ],
+          "remote": [
+            "BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Number of participants who achieve Objective Response (OR) utilizing the Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+          ],
+          "remote": [
+            "Number of participants who achieve Objective Response (OR) utilizing the Response Evaluation Criteria in Solid Tumors (RECIST) v1.1"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07602946": {
+      "nct": "NCT07602946",
+      "row_id": "NCT07602946",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "University of Southampton",
+          "remote": "University of Southampton"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Not yet recruiting",
+          "remote": "Not yet recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-05-11",
+          "remote": "2026-05-11"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Mesothelioma"
+          ],
+          "remote": [
+            "Mesothelioma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504"
+          ],
+          "remote": [
+            "BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "SELECTmeso Platform : Molecular profiling of participant's tumour block SELECTmeso1: Disease Control Rate (DCR) using RECIST 1.1 at 12 weeks."
+          ],
+          "remote": [
+            "SELECTmeso Platform : Molecular profiling of participant's tumour block SELECTmeso1: Disease Control Rate (DCR) using RECIST 1.1 at 12 weeks."
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07283705": {
+      "nct": "NCT07283705",
+      "row_id": "NCT07283705",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "M.D. Anderson Cancer Center",
+          "remote": "M.D. Anderson Cancer Center"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-05-18",
+          "remote": "2026-05-18"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Phase 2 Study",
+            "BMS-986504",
+            "MTAP-deleted Pancreatic Cancer"
+          ],
+          "remote": [
+            "Phase 2 Study",
+            "BMS-986504",
+            "MTAP-deleted Pancreatic Cancer"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504",
+            "Gemcitabine",
+            "Nab-paclitaxel",
+            "mFOLFIRINOX"
+          ],
+          "remote": [
+            "BMS-986504",
+            "Gemcitabine",
+            "Nab-paclitaxel",
+            "mFOLFIRINOX"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Safety and adverse events (AEs)"
+          ],
+          "remote": [
+            "Safety and adverse events (AEs)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07492680": {
+      "nct": "NCT07492680",
+      "row_id": "NCT07492680",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Not yet recruiting",
+          "remote": "Not yet recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-07-17",
+          "remote": "2026-07-17"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Solid Tumors"
+          ],
+          "remote": [
+            "Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504",
+            "Daraxonrasib",
+            "Nivolumab + Relatlimab FDC",
+            "Temozolomide",
+            "Pumitamig",
+            "Pemetrexed",
+            "Carboplatin",
+            "Nab-paclitaxel",
+            "Gemcitabine",
+            "Paclitaxel"
+          ],
+          "remote": [
+            "BMS-986504",
+            "Daraxonrasib",
+            "Nivolumab + Relatlimab FDC",
+            "Temozolomide",
+            "Pumitamig",
+            "Pemetrexed",
+            "Carboplatin",
+            "Nab-paclitaxel",
+            "Gemcitabine",
+            "Paclitaxel"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1: Number of participants who achieve Objective Response (OR)",
+            "Part 2: Number of participants with adverse events meeting protocol defined dose limiting toxicities (DLTs) criteria",
+            "Part 2: Number of participants with adverse events (AE)",
+            "Part 2: Number of participants with Serious AEs (SAEs)",
+            "Part 2: Number of participants with treatment related AEs",
+            "Part 2: Number of participants with treatment related SAEs",
+            "Part 2: Number of participants with AEs leading to study treatment discontinuation",
+            "Part 2: Number of participants with AEs leading to death",
+            "Part 2: Number of participants with laboratory abnormalities"
+          ],
+          "remote": [
+            "Part 1: Number of participants who achieve Objective Response (OR)",
+            "Part 2: Number of participants with adverse events meeting protocol defined dose limiting toxicities (DLTs) criteria",
+            "Part 2: Number of participants with adverse events (AE)",
+            "Part 2: Number of participants with Serious AEs (SAEs)",
+            "Part 2: Number of participants with treatment related AEs",
+            "Part 2: Number of participants with treatment related SAEs",
+            "Part 2: Number of participants with AEs leading to study treatment discontinuation",
+            "Part 2: Number of participants with AEs leading to death",
+            "Part 2: Number of participants with laboratory abnormalities"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07549022": {
+      "nct": "NCT07549022",
+      "row_id": "NCT07549022",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Ankit Mangla, MD",
+          "remote": "Ankit Mangla, MD"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Not yet recruiting",
+          "remote": "Not yet recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-08",
+          "remote": "2026-08"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Malignant Peripheral Nerve Sheath Tumors",
+            "MPNST"
+          ],
+          "remote": [
+            "Malignant Peripheral Nerve Sheath Tumors",
+            "MPNST"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504"
+          ],
+          "remote": [
+            "BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Objective response rate (ORR)"
+          ],
+          "remote": [
+            "Objective response rate (ORR)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07579221": {
+      "nct": "NCT07579221",
+      "row_id": "NCT07579221",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "M.D. Anderson Cancer Center",
+          "remote": "M.D. Anderson Cancer Center"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Not yet recruiting",
+          "remote": "Not yet recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-11-30",
+          "remote": "2026-11-30"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Non-Small Cell Lung Cancer"
+          ],
+          "remote": [
+            "Non-Small Cell Lung Cancer"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Navlimetostat",
+            "Pumitamig"
+          ],
+          "remote": [
+            "Navlimetostat",
+            "Pumitamig"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Safety and Adverse Events (AEs)"
+          ],
+          "remote": [
+            "Safety and Adverse Events (AEs)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07594626": {
+      "nct": "NCT07594626",
+      "row_id": "NCT07594626",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Northwestern University",
+          "remote": "Northwestern University"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Not yet recruiting",
+          "remote": "Not yet recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2027-12-09",
+          "remote": "2027-12-09"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Metastatic Biliary Tract Carcinoma",
+            "Metastatic Colon Carcinoma",
+            "Metastatic Esophageal Carcinoma",
+            "Metastatic Malignant Digestive System Neoplasm",
+            "Metastatic Malignant Solid Neoplasm",
+            "Metastatic Pancreatic Carcinoma",
+            "Stage IV Colon Cancer AJCC v8",
+            "Stage IV Pancreatic Cancer AJCC v8"
+          ],
+          "remote": [
+            "Metastatic Biliary Tract Carcinoma",
+            "Metastatic Colon Carcinoma",
+            "Metastatic Esophageal Carcinoma",
+            "Metastatic Malignant Digestive System Neoplasm",
+            "Metastatic Malignant Solid Neoplasm",
+            "Metastatic Pancreatic Carcinoma",
+            "Stage IV Colon Cancer AJCC v8",
+            "Stage IV Pancreatic Cancer AJCC v8"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Pemetrexed",
+            "PRMT5 Inhibitor BMS-986504"
+          ],
+          "remote": [
+            "Biospecimen Collection",
+            "Computed Tomography",
+            "Pemetrexed",
+            "PRMT5 Inhibitor BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Dose limiting toxicity",
+            "Incidence of treatment-emergent adverse events (AEs)",
+            "Incidence of serious AEs",
+            "Incidence of grade 3 or greater adverse events",
+            "Number of patients who discontinue treatment due to toxicity"
+          ],
+          "remote": [
+            "Dose limiting toxicity",
+            "Incidence of treatment-emergent adverse events (AEs)",
+            "Incidence of serious AEs",
+            "Incidence of grade 3 or greater adverse events",
+            "Number of patients who discontinue treatment due to toxicity"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT05245500": {
+      "nct": "NCT05245500",
+      "row_id": "NCT05245500",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2022-06-09",
+          "remote": "2022-06-09"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Mesothelioma",
+            "Non Small Cell Lung Cancer",
+            "Malignant Peripheral Nerve Sheath Tumors",
+            "Solid Tumor",
+            "Pancreatic Adenocarcinoma",
+            "Advanced Solid Tumor"
+          ],
+          "remote": [
+            "Mesothelioma",
+            "Non Small Cell Lung Cancer",
+            "Malignant Peripheral Nerve Sheath Tumors",
+            "Solid Tumor",
+            "Pancreatic Adenocarcinoma",
+            "Advanced Solid Tumor"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "MRTX1719"
+          ],
+          "remote": [
+            "MRTX1719"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Number of Patients who Experience Dose-Limiting Toxicity",
+            "Number of patients who experience a treatment-related adverse event",
+            "Objective response rate (ORR)",
+            "Duration of response (DOR)",
+            "Progression free survival (PFS)",
+            "Overall survival (OS)",
+            "Number of Patients With Clinically Significant Laboratory Assessments"
+          ],
+          "remote": [
+            "Number of Patients who Experience Dose-Limiting Toxicity",
+            "Number of patients who experience a treatment-related adverse event",
+            "Objective response rate (ORR)",
+            "Duration of response (DOR)",
+            "Progression free survival (PFS)",
+            "Overall survival (OS)",
+            "Number of Patients With Clinically Significant Laboratory Assessments"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06672523": {
+      "nct": "NCT06672523",
+      "row_id": "NCT06672523",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-03-24",
+          "remote": "2025-03-24"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumors With Homozygous MTAP Deletion"
+          ],
+          "remote": [
+            "Advanced Solid Tumors With Homozygous MTAP Deletion"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504",
+            "[14C]-BMS-986504"
+          ],
+          "remote": [
+            "BMS-986504",
+            "[14C]-BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Maximum observed concentration (Cmax)",
+            "Time of maximum observed drug concentration (Tmax)",
+            "Area under the concentration-time curve from time zero to the time of the last quantifiable concentration (AUC(0-T))",
+            "Area under the concentration-time curve from time zero extrapolated to infinite time (AUC(INF))",
+            "Terminal elimination half-life (T-HALF)",
+            "Apparent total body clearance (CLT/F)",
+            "Apparent volume of distribution during the terminal phase (Vz/F)",
+            "Percentage of estimated part for the calculation of AUC(INF) (%AUC(INF))",
+            "Blood-to-plasma total radioactivity (TRA) ratio",
+            "Total amount of administered dose recovered in urine (UR)",
+            "Percent of administered dose recovered in urine (%UR)",
+            "Renal clearance (CLR) in urine",
+            "Total radioactivity in UR",
+            "Total radioactivity in %UR",
+            "Total radioactivity in total amount of administered dose recovered in feces (FR)",
+            "Total radioactivity in percent of administered dose recovered in feces (%FR)",
+            "Total amount of radioactivity recovered (Rtotal)",
+            "Total percent of radioactivity recovered (%TOTAL)",
+            "TRA amount recovered and fraction of the radioactive dose in vomit if applicable"
+          ],
+          "remote": [
+            "Maximum observed concentration (Cmax)",
+            "Time of maximum observed drug concentration (Tmax)",
+            "Area under the concentration-time curve from time zero to the time of the last quantifiable concentration (AUC(0-T))",
+            "Area under the concentration-time curve from time zero extrapolated to infinite time (AUC(INF))",
+            "Terminal elimination half-life (T-HALF)",
+            "Apparent total body clearance (CLT/F)",
+            "Apparent volume of distribution during the terminal phase (Vz/F)",
+            "Percentage of estimated part for the calculation of AUC(INF) (%AUC(INF))",
+            "Blood-to-plasma total radioactivity (TRA) ratio",
+            "Total amount of administered dose recovered in urine (UR)",
+            "Percent of administered dose recovered in urine (%UR)",
+            "Renal clearance (CLR) in urine",
+            "Total radioactivity in UR",
+            "Total radioactivity in %UR",
+            "Total radioactivity in total amount of administered dose recovered in feces (FR)",
+            "Total radioactivity in percent of administered dose recovered in feces (%FR)",
+            "Total amount of radioactivity recovered (Rtotal)",
+            "Total percent of radioactivity recovered (%TOTAL)",
+            "TRA amount recovered and fraction of the radioactive dose in vomit if applicable"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06883747": {
+      "nct": "NCT06883747",
+      "row_id": "NCT06883747",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Nader Sanai",
+          "remote": "Nader Sanai"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 0/1"
+          ],
+          "remote": [
+            "Phase 0/1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-04-28",
+          "remote": "2025-04-28"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Glioblastoma WHO Grade IV"
+          ],
+          "remote": [
+            "Glioblastoma WHO Grade IV"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504"
+          ],
+          "remote": [
+            "BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "BMS-986504 Concentration in Tumor Tissue",
+            "Number of Treatment-Emergent Adverse Events",
+            "Number of Treatment-Related Adverse Events",
+            "Number of Serious Adverse Events",
+            "Number of Clinical Laboratory Abnormalities",
+            "Number of Drug-Related Toxicities"
+          ],
+          "remote": [
+            "BMS-986504 Concentration in Tumor Tissue",
+            "Number of Treatment-Emergent Adverse Events",
+            "Number of Treatment-Related Adverse Events",
+            "Number of Serious Adverse Events",
+            "Number of Clinical Laboratory Abnormalities",
+            "Number of Drug-Related Toxicities"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07077434": {
+      "nct": "NCT07077434",
+      "row_id": "NCT07077434",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-10-15",
+          "remote": "2025-10-15"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumors"
+          ],
+          "remote": [
+            "Advanced Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504"
+          ],
+          "remote": [
+            "BMS-986504"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Maximum Plasma Concentration (Cmax) of BMS-986504",
+            "Time to Reach Maximum Plasma Concentration (Tmax) of BMS-986504",
+            "Area Under Curve (AUC) of BMS-986504",
+            "Mean Elimination Half-life (T-HALF) of BMS-986504",
+            "Apparent Total Body Clearance (CLT/F) of BMS-986504",
+            "Apparent Volume of Distribution During the Terminal Phase (Vz/F) of BMS-986504"
+          ],
+          "remote": [
+            "Maximum Plasma Concentration (Cmax) of BMS-986504",
+            "Time to Reach Maximum Plasma Concentration (Tmax) of BMS-986504",
+            "Area Under Curve (AUC) of BMS-986504",
+            "Mean Elimination Half-life (T-HALF) of BMS-986504",
+            "Apparent Total Body Clearance (CLT/F) of BMS-986504",
+            "Apparent Volume of Distribution During the Terminal Phase (Vz/F) of BMS-986504"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07382544": {
+      "nct": "NCT07382544",
+      "row_id": "NCT07382544",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "M.D. Anderson Cancer Center",
+          "remote": "M.D. Anderson Cancer Center"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-02-12",
+          "remote": "2026-02-12"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Cancer",
+            "Solid Tumor"
+          ],
+          "remote": [
+            "Advanced Cancer",
+            "Solid Tumor"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "MRTX1719",
+            "Olaparib"
+          ],
+          "remote": [
+            "MRTX1719",
+            "Olaparib"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Safety and Adverse Events (AEs)"
+          ],
+          "remote": [
+            "Safety and Adverse Events (AEs)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07532902": {
+      "nct": "NCT07532902",
+      "row_id": "NCT07532902",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Memorial Sloan Kettering Cancer Center",
+          "remote": "Memorial Sloan Kettering Cancer Center"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-04-07",
+          "remote": "2026-04-07"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Diffuse Pleural Mesothelioma",
+            "Gastroesophageal Carcinoma",
+            "Urothelial Carcinoma"
+          ],
+          "remote": [
+            "Diffuse Pleural Mesothelioma",
+            "Gastroesophageal Carcinoma",
+            "Urothelial Carcinoma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BMS-986504",
+            "Ipilimumab",
+            "Nivolumab",
+            "5-FU",
+            "Leucovorin",
+            "Oxaliplatin",
+            "Gemcitabine",
+            "Platinum"
+          ],
+          "remote": [
+            "BMS-986504",
+            "Ipilimumab",
+            "Nivolumab",
+            "5-FU",
+            "Leucovorin",
+            "Oxaliplatin",
+            "Gemcitabine",
+            "Platinum"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "determine a recommended phase II dose (RP2D) of BMS-986504 in combination with standard-of-care therapy"
+          ],
+          "remote": [
+            "determine a recommended phase II dose (RP2D) of BMS-986504 in combination with standard-of-care therapy"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07544628": {
+      "nct": "NCT07544628",
+      "row_id": "NCT07544628",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bristol-Myers Squibb",
+          "remote": "Bristol-Myers Squibb"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-04-27",
+          "remote": "2026-04-27"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Healthy Participants"
+          ],
+          "remote": [
+            "Healthy Participants"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Navlimetostat"
+          ],
+          "remote": [
+            "Navlimetostat"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Maximum Plasma Concentration (Cmax)",
+            "Area under the concentration-time curve from time zero to time of last quantifiable concentration [AUC(0-T)]",
+            "Area under the concentration-time curve from time zero extrapolated to infinite time [AUC(INF)]",
+            "Number of participants with Adverse Events (AE)",
+            "Number of participants with Serious Adverse Events (AE)",
+            "Number of participants with clinically significant changes in Physical Examinations (PE)",
+            "Number of participants with clinically significant changes in vital signs (VS)",
+            "Number of participants with clinically significant changes in 12-lead ECGs",
+            "Number of participants with clinically significant changes in laboratory tests results"
+          ],
+          "remote": [
+            "Maximum Plasma Concentration (Cmax)",
+            "Area under the concentration-time curve from time zero to time of last quantifiable concentration [AUC(0-T)]",
+            "Area under the concentration-time curve from time zero extrapolated to infinite time [AUC(INF)]",
+            "Number of participants with Adverse Events (AE)",
+            "Number of participants with Serious Adverse Events (AE)",
+            "Number of participants with clinically significant changes in Physical Examinations (PE)",
+            "Number of participants with clinically significant changes in vital signs (VS)",
+            "Number of participants with clinically significant changes in 12-lead ECGs",
+            "Number of participants with clinically significant changes in laboratory tests results"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT05732831": {
+      "nct": "NCT05732831",
+      "row_id": "NCT05732831",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Tango Therapeutics, Inc.",
+          "remote": "Tango Therapeutics, Inc."
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2023-05-26",
+          "remote": "2023-05-26"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Locally Advanced Solid Tumor"
+          ],
+          "remote": [
+            "Locally Advanced Solid Tumor"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "TNG462",
+            "Pembrolizumab"
+          ],
+          "remote": [
+            "TNG462",
+            "Pembrolizumab"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Phase 1 Maximum Tolerated Dose",
+            "Phase 1 Dosing Schedule",
+            "Phase 2 Anti-neoplastic Activity"
+          ],
+          "remote": [
+            "Phase 1 Maximum Tolerated Dose",
+            "Phase 1 Dosing Schedule",
+            "Phase 2 Anti-neoplastic Activity"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06188702": {
+      "nct": "NCT06188702",
+      "row_id": "NCT06188702",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Servier Bio-Innovation LLC",
+          "remote": "Servier Bio-Innovation LLC"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Active, not recruiting",
+          "remote": "Active, not recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2024-04-29",
+          "remote": "2024-04-29"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "MTAP-deleted Solid Tumors"
+          ],
+          "remote": [
+            "MTAP-deleted Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "S095035",
+            "TNG462"
+          ],
+          "remote": [
+            "S095035",
+            "TNG462"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Dose limiting toxicities (DLTs)",
+            "Total number of adverse events (AEs)",
+            "Total number of serious adverse events (SAEs)",
+            "Objective response rate (ORR)"
+          ],
+          "remote": [
+            "Dose limiting toxicities (DLTs)",
+            "Total number of adverse events (AEs)",
+            "Total number of serious adverse events (SAEs)",
+            "Objective response rate (ORR)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06922591": {
+      "nct": "NCT06922591",
+      "row_id": "NCT06922591",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Tango Therapeutics, Inc.",
+          "remote": "Tango Therapeutics, Inc."
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-05-31",
+          "remote": "2025-05-31"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "PDAC",
+            "PDAC - Pancreatic Ductal Adenocarcinoma",
+            "NSCLC",
+            "RAS Mutation",
+            "MTAP Deletion",
+            "Lung Cancer",
+            "Pancreatic Cancer Metastatic",
+            "Thoracic Cancer"
+          ],
+          "remote": [
+            "PDAC",
+            "PDAC - Pancreatic Ductal Adenocarcinoma",
+            "NSCLC",
+            "RAS Mutation",
+            "MTAP Deletion",
+            "Lung Cancer",
+            "Pancreatic Cancer Metastatic",
+            "Thoracic Cancer"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "TNG462",
+            "RMC-9805",
+            "RMC-6236",
+            "mFOLFIRINOX",
+            "gemcitabine/nab-paclitaxel"
+          ],
+          "remote": [
+            "TNG462",
+            "RMC-9805",
+            "RMC-6236",
+            "mFOLFIRINOX",
+            "gemcitabine/nab-paclitaxel"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Phase 1: Maximum Tolerated Dose",
+            "Phase 1: Maximum Tolerated Dose",
+            "Phase 2: Combination Anti-neoplastic Activity"
+          ],
+          "remote": [
+            "Phase 1: Maximum Tolerated Dose",
+            "Phase 1: Maximum Tolerated Dose",
+            "Phase 2: Combination Anti-neoplastic Activity"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT05275478": {
+      "nct": "NCT05275478",
+      "row_id": "NCT05275478",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Tango Therapeutics, Inc.",
+          "remote": "Tango Therapeutics, Inc."
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Terminated",
+          "remote": "Terminated"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2022-03-23",
+          "remote": "2022-03-23"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Locally Advanced Solid Tumor"
+          ],
+          "remote": [
+            "Locally Advanced Solid Tumor"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "TNG908"
+          ],
+          "remote": [
+            "TNG908"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Phase 1:",
+            "Phase 2:"
+          ],
+          "remote": [
+            "Phase 1:",
+            "Phase 2:"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT05312372": {
+      "nct": "NCT05312372",
+      "row_id": "NCT05312372",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Institut de Recherches Internationales Servier",
+          "remote": "Institut de Recherches Internationales Servier"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Withdrawn",
+          "remote": "Withdrawn"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-05",
+          "remote": "2025-05"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Esophageal Squamous Cell Carcinoma"
+          ],
+          "remote": [
+            "Esophageal Squamous Cell Carcinoma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Combination (S095033 + paclitaxel)"
+          ],
+          "remote": [
+            "Combination (S095033 + paclitaxel)"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Dose-limiting toxicities (DLTs) associated with S095033 administration during the first cycle of treatment (Phase 1)",
+            "Adverse events (AEs) (Phase 1)",
+            "Changes in laboratory assessments (hematology and blood biochemistry) (Phase 1)",
+            "Changes in physical examination and in performance status (ECOG) (Phase 1)",
+            "Abnormalities in 12-lead ECG parameters (Phase 1)",
+            "Changes in vital signs: SBP, DBP, respiratory rate and temperature (Phase 1)",
+            "Objective response per central review of antitumor activity (using Response Evaluation Criteria in Solid Tumors [RECIST] version 1.1) (Phase 2)"
+          ],
+          "remote": [
+            "Dose-limiting toxicities (DLTs) associated with S095033 administration during the first cycle of treatment (Phase 1)",
+            "Adverse events (AEs) (Phase 1)",
+            "Changes in laboratory assessments (hematology and blood biochemistry) (Phase 1)",
+            "Changes in physical examination and in performance status (ECOG) (Phase 1)",
+            "Abnormalities in 12-lead ECG parameters (Phase 1)",
+            "Changes in vital signs: SBP, DBP, respiratory rate and temperature (Phase 1)",
+            "Objective response per central review of antitumor activity (using Response Evaluation Criteria in Solid Tumors [RECIST] version 1.1) (Phase 2)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT03435250": {
+      "nct": "NCT03435250",
+      "row_id": "NCT03435250",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Institut de Recherches Internationales Servier",
+          "remote": "Institut de Recherches Internationales Servier"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Terminated",
+          "remote": "Terminated"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2018-03-04",
+          "remote": "2018-03-04"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumors",
+            "Lymphoma"
+          ],
+          "remote": [
+            "Advanced Solid Tumors",
+            "Lymphoma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "AG-270",
+            "AG-270",
+            "AG-270",
+            "docetaxel",
+            "nab-paclitaxel",
+            "gemcitabine"
+          ],
+          "remote": [
+            "AG-270",
+            "AG-270",
+            "AG-270",
+            "docetaxel",
+            "nab-paclitaxel",
+            "gemcitabine"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Percentage of Participants with DLTs Associated with AG-270 Administration During the First Cycle (First 28 Days) of Treatment",
+            "Percentage of Participants with DLTs Associated with the Combination of AG-270 and Docetaxel Administration During the First Cycle (First 28 Days) of Treatment",
+            "Percentage of Participants with DLTs Associated with the Combination of AG-270, nab-paclitaxel, and Gemcitabine Administration During the First Cycle (First 28 Days) of Treatment"
+          ],
+          "remote": [
+            "Percentage of Participants with DLTs Associated with AG-270 Administration During the First Cycle (First 28 Days) of Treatment",
+            "Percentage of Participants with DLTs Associated with the Combination of AG-270 and Docetaxel Administration During the First Cycle (First 28 Days) of Treatment",
+            "Percentage of Participants with DLTs Associated with the Combination of AG-270, nab-paclitaxel, and Gemcitabine Administration During the First Cycle (First 28 Days) of Treatment"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT05975073__view2": {
+      "nct": "NCT05975073",
+      "row_id": "NCT05975073__view2",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Amgen",
+          "remote": "Amgen"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2023-08-01",
+          "remote": "2023-08-01"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "MTAP-null Non-Small-Cell Lung Cancer",
+            "MTAP-null Solid Tumors"
+          ],
+          "remote": [
+            "MTAP-null Non-Small-Cell Lung Cancer",
+            "MTAP-null Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "Anvumetostat",
+            "IDE397"
+          ],
+          "remote": [
+            "Anvumetostat",
+            "IDE397"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1: Number of Participants Experiencing Dose Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+            "Part 1: Number of Participants Experiencing Serious Adverse Events (SAEs)",
+            "Part 2: Objective Response (OR) per modified Response Evaluation Criteria in Solid Tumors (RECIST) 1.1"
+          ],
+          "remote": [
+            "Part 1: Number of Participants Experiencing Dose Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants Experiencing Treatment-emergent Adverse Events (TEAEs)",
+            "Part 1: Number of Participants Experiencing Serious Adverse Events (SAEs)",
+            "Part 2: Objective Response (OR) per modified Response Evaluation Criteria in Solid Tumors (RECIST) 1.1"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT04794699": {
+      "nct": "NCT04794699",
+      "row_id": "NCT04794699",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "IDEAYA Biosciences",
+          "remote": "IDEAYA Biosciences"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Active, not recruiting",
+          "remote": "Active, not recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2021-04-14",
+          "remote": "2021-04-14"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Solid Tumor"
+          ],
+          "remote": [
+            "Solid Tumor"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "IDE397",
+            "Sacituzumab govitecan"
+          ],
+          "remote": [
+            "IDE397",
+            "Sacituzumab govitecan"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Dose-limiting Toxicities (DLTs) of IDE397",
+            "Dose-limiting Toxicities (DLTs) of IDE397 in combination with sacituzumab govitecan",
+            "Maximum Tolerated Dose (MTD) and/or Recommended Phase 2 Dose (RP2D) of IDE397",
+            "Maximum Tolerated Dose (MTD) and/or Recommended Phase 2 Dose (RP2D) of IDE397 in combination with sacituzumab govitecan",
+            "To evaluate preliminary anti-tumor activity of IDE397 as monotherapy and in combination with sacituzumab govitecan-hziy in expansion arms"
+          ],
+          "remote": [
+            "Dose-limiting Toxicities (DLTs) of IDE397",
+            "Dose-limiting Toxicities (DLTs) of IDE397 in combination with sacituzumab govitecan",
+            "Maximum Tolerated Dose (MTD) and/or Recommended Phase 2 Dose (RP2D) of IDE397",
+            "Maximum Tolerated Dose (MTD) and/or Recommended Phase 2 Dose (RP2D) of IDE397 in combination with sacituzumab govitecan",
+            "To evaluate preliminary anti-tumor activity of IDE397 as monotherapy and in combination with sacituzumab govitecan-hziy in expansion arms"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT07277413": {
+      "nct": "NCT07277413",
+      "row_id": "NCT07277413",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "IDEAYA Biosciences",
+          "remote": "IDEAYA Biosciences"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2026-03-04",
+          "remote": "2026-03-04"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "NSCLC Adenocarcinoma",
+            "Gastroesophageal Cancer (GC)",
+            "Gastric Adenocarcinoma",
+            "Adenocarcinoma of Esophagus",
+            "Squamous Cell Car. - Esophagus",
+            "Urothelial Carcinoma (UC)",
+            "Bladder Cancer",
+            "Mesothelioma",
+            "Pleural Mesothelioma",
+            "Peritoneal Mesothelioma",
+            "Non-Small Cell Lung Cancer NSCLC",
+            "Pancreatic Cancer",
+            "Biliary Tract Carcinoma"
+          ],
+          "remote": [
+            "NSCLC Adenocarcinoma",
+            "Gastroesophageal Cancer (GC)",
+            "Gastric Adenocarcinoma",
+            "Adenocarcinoma of Esophagus",
+            "Squamous Cell Car. - Esophagus",
+            "Urothelial Carcinoma (UC)",
+            "Bladder Cancer",
+            "Mesothelioma",
+            "Pleural Mesothelioma",
+            "Peritoneal Mesothelioma",
+            "Non-Small Cell Lung Cancer NSCLC",
+            "Pancreatic Cancer",
+            "Biliary Tract Carcinoma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "IDE892",
+            "IDE397"
+          ],
+          "remote": [
+            "IDE892",
+            "IDE397"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Incidence of Dose-limiting Toxicities (DLTs) of IDE892 (Parts 1 and 3)",
+            "Incidence of AEs and SAEs (Parts 1, 2, 3, and 4)",
+            "Objective response rate (ORR) and duration of response (DOR) per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (Parts 2 and 4)"
+          ],
+          "remote": [
+            "Incidence of Dose-limiting Toxicities (DLTs) of IDE892 (Parts 1 and 3)",
+            "Incidence of AEs and SAEs (Parts 1, 2, 3, and 4)",
+            "Objective response rate (ORR) and duration of response (DOR) per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (Parts 2 and 4)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT04676516": {
+      "nct": "NCT04676516",
+      "row_id": "NCT04676516",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Ottawa Hospital Research Institute",
+          "remote": "Ottawa Hospital Research Institute"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2021-06-08",
+          "remote": "2021-06-08"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Breast Cancer"
+          ],
+          "remote": [
+            "Breast Cancer"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "GSK3326595"
+          ],
+          "remote": [
+            "GSK3326595"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Complete cell cycle arrest (CCCA)"
+          ],
+          "remote": [
+            "Complete cell cycle arrest (CCCA)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT03614728": {
+      "nct": "NCT03614728",
+      "row_id": "NCT03614728",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "GlaxoSmithKline",
+          "remote": "GlaxoSmithKline"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Terminated",
+          "remote": "Terminated"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2018-10-16",
+          "remote": "2018-10-16"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Neoplasms"
+          ],
+          "remote": [
+            "Neoplasms"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "GSK3326595",
+            "5-Azacitidine"
+          ],
+          "remote": [
+            "GSK3326595",
+            "5-Azacitidine"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1: Percentage of Participants With Clinical Benefit Rate (CBR)",
+            "Part 2: Number of Participants With Non-serious Treatment-emergent Adverse Events (Non-STEAEs) and Serious Treatment Emergent Adverse Events (STEAEs)",
+            "Part 2: Number of Participants With AEs by Severity",
+            "Part 2: Number of Participants With Dose Limiting Toxicities (DLTs)",
+            "Part 2: Number of Participants With AEs Leading to Dose Interruptions, Dose Reductions and Treatment Discontinuation Due to AEs"
+          ],
+          "remote": [
+            "Part 1: Percentage of Participants With Clinical Benefit Rate (CBR)",
+            "Part 2: Number of Participants With Non-serious Treatment-emergent Adverse Events (Non-STEAEs) and Serious Treatment Emergent Adverse Events (STEAEs)",
+            "Part 2: Number of Participants With AEs by Severity",
+            "Part 2: Number of Participants With Dose Limiting Toxicities (DLTs)",
+            "Part 2: Number of Participants With AEs Leading to Dose Interruptions, Dose Reductions and Treatment Discontinuation Due to AEs"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT02783300": {
+      "nct": "NCT02783300",
+      "row_id": "NCT02783300",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "GlaxoSmithKline",
+          "remote": "GlaxoSmithKline"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2016-08-30",
+          "remote": "2016-08-30"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Neoplasms"
+          ],
+          "remote": [
+            "Neoplasms"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "GSK3326595",
+            "Pembrolizumab"
+          ],
+          "remote": [
+            "GSK3326595",
+            "Pembrolizumab"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1: Number of Participants With Any Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+            "Part 1: Number of Participants Withdrawn Due to AEs",
+            "Part 1: Number of Participants With Dose Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants With Dose Modifications of GSK3326595",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Clinical Chemistry Parameters",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Hematology Parameters",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Coagulation Parameters",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Urinalysis Parameters",
+            "Part 1: Changes From Baseline in Urine Potential of Hydrogen (pH)",
+            "Part 1: Changes From Baseline in Urine Specific Gravity",
+            "Part 1: Number of Participants With Maximum Grade Worst Case Increase Post-baseline Relative to Baseline in Vital Signs",
+            "Part 3: Number of Participants With Any Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+            "Part 3: Number of Participants Withdrawn Due to AEs",
+            "Part 3: Number of Participants With Dose Modifications of GSK3326595 and Pembrolizumab",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Clinical Chemistry Parameters",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Hematology Parameters",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Coagulation Parameters",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Urinalysis Parameters",
+            "Part 3: Changes From Baseline in Urine Potential of Hydrogen (pH)",
+            "Part 3: Changes From Baseline in Urine Specific Gravity",
+            "Part 3: Number of Participants With Maximum Worst-case Increase Post-baseline Relative to Baseline in Vital Signs"
+          ],
+          "remote": [
+            "Part 1: Number of Participants With Any Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+            "Part 1: Number of Participants Withdrawn Due to AEs",
+            "Part 1: Number of Participants With Dose Limiting Toxicities (DLTs)",
+            "Part 1: Number of Participants With Dose Modifications of GSK3326595",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Clinical Chemistry Parameters",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Hematology Parameters",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Coagulation Parameters",
+            "Part 1: Number of Participants With Worst Case Change From Baseline in Urinalysis Parameters",
+            "Part 1: Changes From Baseline in Urine Potential of Hydrogen (pH)",
+            "Part 1: Changes From Baseline in Urine Specific Gravity",
+            "Part 1: Number of Participants With Maximum Grade Worst Case Increase Post-baseline Relative to Baseline in Vital Signs",
+            "Part 3: Number of Participants With Any Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+            "Part 3: Number of Participants Withdrawn Due to AEs",
+            "Part 3: Number of Participants With Dose Modifications of GSK3326595 and Pembrolizumab",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Clinical Chemistry Parameters",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Hematology Parameters",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Coagulation Parameters",
+            "Part 3: Number of Participants With Worst Case Change From Baseline in Urinalysis Parameters",
+            "Part 3: Changes From Baseline in Urine Potential of Hydrogen (pH)",
+            "Part 3: Changes From Baseline in Urine Specific Gravity",
+            "Part 3: Number of Participants With Maximum Worst-case Increase Post-baseline Relative to Baseline in Vital Signs"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT03573310": {
+      "nct": "NCT03573310",
+      "row_id": "NCT03573310",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Janssen Research & Development, LLC",
+          "remote": "Janssen Research & Development, LLC"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2018-07-13",
+          "remote": "2018-07-13"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Neoplasms",
+            "Solid Tumor, Adult",
+            "Non-Hodgkin Lymphoma",
+            "Myelodysplastic Syndromes"
+          ],
+          "remote": [
+            "Neoplasms",
+            "Solid Tumor, Adult",
+            "Non-Hodgkin Lymphoma",
+            "Myelodysplastic Syndromes"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "JNJ-64619178"
+          ],
+          "remote": [
+            "JNJ-64619178"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1 and Part 2: Number of Participants with Dose-limiting Toxicities (DLTs)"
+          ],
+          "remote": [
+            "Part 1 and Part 2: Number of Participants with Dose-limiting Toxicities (DLTs)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06788509": {
+      "nct": "NCT06788509",
+      "row_id": "NCT06788509",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Janssen Research & Development, LLC",
+          "remote": "Janssen Research & Development, LLC"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Enrolling by invitation",
+          "remote": "Enrolling by invitation"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2024-12-30",
+          "remote": "2024-12-30"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Leukemia, Myeloid, Acute",
+            "Leukemia, Lymphocytic, Chronic, B-Cell",
+            "Lymphoma, Non-Hodgkin",
+            "Myelodysplastic Syndromes",
+            "Neoplasms",
+            "Solid Tumor, Adult",
+            "Prostatic Neoplasms, Castration-Resistant"
+          ],
+          "remote": [
+            "Leukemia, Myeloid, Acute",
+            "Leukemia, Lymphocytic, Chronic, B-Cell",
+            "Lymphoma, Non-Hodgkin",
+            "Myelodysplastic Syndromes",
+            "Neoplasms",
+            "Solid Tumor, Adult",
+            "Prostatic Neoplasms, Castration-Resistant"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "JNJ-75348780",
+            "JNJ-67856633",
+            "JNJ-54179060",
+            "JNJ-64264681",
+            "JNJ-74856665",
+            "JNJ-70218902",
+            "JNJ-64619178",
+            "JNJ-80948543",
+            "JNJ-87801493"
+          ],
+          "remote": [
+            "JNJ-75348780",
+            "JNJ-67856633",
+            "JNJ-54179060",
+            "JNJ-64264681",
+            "JNJ-74856665",
+            "JNJ-70218902",
+            "JNJ-64619178",
+            "JNJ-80948543",
+            "JNJ-87801493"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Number of Participants with Serious Adverse Events (SAEs) and Grade Greater than or equals to (>=) 3 Related Adverse Events (AEs)"
+          ],
+          "remote": [
+            "Number of Participants with Serious Adverse Events (SAEs) and Grade Greater than or equals to (>=) 3 Related Adverse Events (AEs)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT03854227": {
+      "nct": "NCT03854227",
+      "row_id": "NCT03854227",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Pfizer",
+          "remote": "Pfizer"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Terminated",
+          "remote": "Terminated"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2019-03-14",
+          "remote": "2019-03-14"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumors",
+            "Metastatic Solid Tumors"
+          ],
+          "remote": [
+            "Advanced Solid Tumors",
+            "Metastatic Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "PF-06939999 dose escalation",
+            "PF-06939999 monotherapy",
+            "PF-06939999 in combination with docetaxel"
+          ],
+          "remote": [
+            "PF-06939999 dose escalation",
+            "PF-06939999 monotherapy",
+            "PF-06939999 in combination with docetaxel"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Part 1A: Number of Participants With Dose-Limiting Toxicities (DLT)",
+            "Part 1A: Number of Participants With Treatment-Emergent Adverse Events (TEAE)",
+            "Part 1A: Number of Participants With Laboratory Abnormalities",
+            "Part 2: Number of Participants With TEAEs",
+            "Part 2: Number of Participants With Laboratory Abnormalities",
+            "Part 2: Number of Participants With Best Overall Response (BOR) Based on Investigator Assessment (RECIST, Version 1.1)"
+          ],
+          "remote": [
+            "Part 1A: Number of Participants With Dose-Limiting Toxicities (DLT)",
+            "Part 1A: Number of Participants With Treatment-Emergent Adverse Events (TEAE)",
+            "Part 1A: Number of Participants With Laboratory Abnormalities",
+            "Part 2: Number of Participants With TEAEs",
+            "Part 2: Number of Participants With Laboratory Abnormalities",
+            "Part 2: Number of Participants With Best Overall Response (BOR) Based on Investigator Assessment (RECIST, Version 1.1)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT03886831": {
+      "nct": "NCT03886831",
+      "row_id": "NCT03886831",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Prelude Therapeutics",
+          "remote": "Prelude Therapeutics"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2019-02-11",
+          "remote": "2019-02-11"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Relapsed/Refractory Advanced Solid Tumors",
+            "Relapsed/Refractory Diffuse Large B-cell Lymphoma",
+            "Relapsed/Refractory Myelodysplasia",
+            "Relapsed/Refractory Myelofibrosis",
+            "Adenoid Cystic Carcinoma",
+            "Relapsed/Refractory Mantle Cell Lymphoma",
+            "Relapsed/Refractory Acute Myeloid Leukemia",
+            "Refractory Chronic Myelomonocytic Leukemia"
+          ],
+          "remote": [
+            "Relapsed/Refractory Advanced Solid Tumors",
+            "Relapsed/Refractory Diffuse Large B-cell Lymphoma",
+            "Relapsed/Refractory Myelodysplasia",
+            "Relapsed/Refractory Myelofibrosis",
+            "Adenoid Cystic Carcinoma",
+            "Relapsed/Refractory Mantle Cell Lymphoma",
+            "Relapsed/Refractory Acute Myeloid Leukemia",
+            "Refractory Chronic Myelomonocytic Leukemia"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "PRT543"
+          ],
+          "remote": [
+            "PRT543"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "To describe dose limiting toxicities (DLT) of PRT543",
+            "To determine the maximally tolerated dose (MTD)",
+            "To determine the recommended phase 2 dose (RP2D) and schedule of PRT543"
+          ],
+          "remote": [
+            "To describe dose limiting toxicities (DLT) of PRT543",
+            "To determine the maximally tolerated dose (MTD)",
+            "To determine the recommended phase 2 dose (RP2D) and schedule of PRT543"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT04089449": {
+      "nct": "NCT04089449",
+      "row_id": "NCT04089449",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Prelude Therapeutics",
+          "remote": "Prelude Therapeutics"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Completed",
+          "remote": "Completed"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2019-11-06",
+          "remote": "2019-11-06"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumor",
+            "Recurrent Glioma"
+          ],
+          "remote": [
+            "Advanced Solid Tumor",
+            "Recurrent Glioma"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "PRT811"
+          ],
+          "remote": [
+            "PRT811"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "To describe dose limiting toxicities (DLT) of PRT811",
+            "To determine the maximally tolerated dose (MTD)",
+            "To determine the recommended phase 2 dose (RP2D) and schedule of PRT811"
+          ],
+          "remote": [
+            "To describe dose limiting toxicities (DLT) of PRT811",
+            "To determine the maximally tolerated dose (MTD)",
+            "To determine the recommended phase 2 dose (RP2D) and schedule of PRT811"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06137144": {
+      "nct": "NCT06137144",
+      "row_id": "NCT06137144",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "AstraZeneca",
+          "remote": "AstraZeneca"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2024-01-23",
+          "remote": "2024-01-23"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Lymphoma",
+            "Non-Hodgkin Lymphoma",
+            "Hodgkin Lymphoma",
+            "Peripheral T-cell Lymphoma (PTCL)",
+            "PTCL-NOS",
+            "ALCL",
+            "AITL"
+          ],
+          "remote": [
+            "Lymphoma",
+            "Non-Hodgkin Lymphoma",
+            "Hodgkin Lymphoma",
+            "Peripheral T-cell Lymphoma (PTCL)",
+            "PTCL-NOS",
+            "ALCL",
+            "AITL"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "AZD3470",
+            "Pembrolizumab"
+          ],
+          "remote": [
+            "AZD3470",
+            "Pembrolizumab"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Incidence and severity of adverse events (AEs) and serious adverse events (SAEs)",
+            "Incidence of DLTs (Dose Escalation Cohorts only)"
+          ],
+          "remote": [
+            "Incidence and severity of adverse events (AEs) and serious adverse events (SAEs)",
+            "Incidence of DLTs (Dose Escalation Cohorts only)"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06130553": {
+      "nct": "NCT06130553",
+      "row_id": "NCT06130553",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "AstraZeneca",
+          "remote": "AstraZeneca"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2024-01-18",
+          "remote": "2024-01-18"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumors That Are MTAP Deficient"
+          ],
+          "remote": [
+            "Advanced Solid Tumors That Are MTAP Deficient"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "AZD3470",
+            "Datopotamab deruxtecan"
+          ],
+          "remote": [
+            "AZD3470",
+            "Datopotamab deruxtecan"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "All Modules: Incidence of adverse events (AEs) and serious adverse events (SAEs). To determine the RP2D of AZD3470 as monotherapy and in combination with anticancer agents",
+            "Module 1: Incidence of dose-limiting toxicities (DLT)",
+            "Module 2: Progression Free Survival assessed by the Investigator according to RECIST v1.1"
+          ],
+          "remote": [
+            "All Modules: Incidence of adverse events (AEs) and serious adverse events (SAEs). To determine the RP2D of AZD3470 as monotherapy and in combination with anticancer agents",
+            "Module 1: Incidence of dose-limiting toxicities (DLT)",
+            "Module 2: Progression Free Survival assessed by the Investigator according to RECIST v1.1"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06968572": {
+      "nct": "NCT06968572",
+      "row_id": "NCT06968572",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Haisco Pharmaceutical Group Co., Ltd.",
+          "remote": "Haisco Pharmaceutical Group Co., Ltd."
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1"
+          ],
+          "remote": [
+            "Phase 1"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-04-11",
+          "remote": "2025-04-11"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Advanced Solid Tumors"
+          ],
+          "remote": [
+            "Advanced Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "HSK41959"
+          ],
+          "remote": [
+            "HSK41959"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "DLTs",
+            "MTD",
+            "AEs",
+            "RP2D"
+          ],
+          "remote": [
+            "DLTs",
+            "MTD",
+            "AEs",
+            "RP2D"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06914128": {
+      "nct": "NCT06914128",
+      "row_id": "NCT06914128",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Bayer",
+          "remote": "Bayer"
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-03-21",
+          "remote": "2025-03-21"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "MTAP-deleted Solid Tumors"
+          ],
+          "remote": [
+            "MTAP-deleted Solid Tumors"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "BAY 3713372"
+          ],
+          "remote": [
+            "BAY 3713372"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Dose Escalation (Master and Intervention Cohort 1): Number of participants with treatment-emergent adverse events (TEAEs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Number of participants with treatment-emergent serious adverse events (TESAEs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Severity of treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Incidence of dose-limiting toxicities (DLTs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Number of participants with DLTs",
+            "Dose Escalation (Master and Intervention Cohort 1): Maximum concentration (Cmax) of the respective dosing interval of BAY 3713372",
+            "Dose Escalation (Master and Intervention Cohort 1): Area under the curve (AUC) of the respective dosing interval of BAY 3713372",
+            "Dose Expansion (Master, Intervention Cohorts 1 - 6): Objective response rate (ORR)",
+            "Dose Expansion (Intervention Cohorts 3, 4 and 6): Number of participants with DLTs",
+            "Intervention Cohort 7: Number of participants with treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+            "Intervention Cohort 7: Severity of treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+            "Intervention Cohort 7: Number of participants with DLTs",
+            "Intervention Cohort 7: Brain and brain tumor PK concentration of BAY 3713372",
+            "Intervention Cohort 7: Tumor tissue SDMA levels"
+          ],
+          "remote": [
+            "Dose Escalation (Master and Intervention Cohort 1): Number of participants with treatment-emergent adverse events (TEAEs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Number of participants with treatment-emergent serious adverse events (TESAEs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Severity of treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Incidence of dose-limiting toxicities (DLTs)",
+            "Dose Escalation (Master and Intervention Cohort 1): Number of participants with DLTs",
+            "Dose Escalation (Master and Intervention Cohort 1): Maximum concentration (Cmax) of the respective dosing interval of BAY 3713372",
+            "Dose Escalation (Master and Intervention Cohort 1): Area under the curve (AUC) of the respective dosing interval of BAY 3713372",
+            "Dose Expansion (Master, Intervention Cohorts 1 - 6): Objective response rate (ORR)",
+            "Dose Expansion (Intervention Cohorts 3, 4 and 6): Number of participants with DLTs",
+            "Intervention Cohort 7: Number of participants with treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+            "Intervention Cohort 7: Severity of treatment-emergent adverse events (TEAEs) and treatment-emergent serious adverse events (TESAEs)",
+            "Intervention Cohort 7: Number of participants with DLTs",
+            "Intervention Cohort 7: Brain and brain tumor PK concentration of BAY 3713372",
+            "Intervention Cohort 7: Tumor tissue SDMA levels"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    },
+    "NCT06810544": {
+      "nct": "NCT06810544",
+      "row_id": "NCT06810544",
+      "tier_a_diff": {
+        "sponsor": {
+          "status": "match",
+          "local": "Tango Therapeutics, Inc.",
+          "remote": "Tango Therapeutics, Inc."
+        },
+        "phases": {
+          "status": "match",
+          "local": [
+            "Phase 1",
+            "Phase 2"
+          ],
+          "remote": [
+            "Phase 1",
+            "Phase 2"
+          ]
+        },
+        "status": {
+          "status": "match",
+          "local": "Recruiting",
+          "remote": "Recruiting"
+        },
+        "start_date": {
+          "status": "match",
+          "local": "2025-03-24",
+          "remote": "2025-03-24"
+        },
+        "conditions": {
+          "status": "match",
+          "local": [
+            "Non Small Cell Lung Cancer",
+            "Glioma Glioblastoma Multiforme",
+            "Glioma, Malignant",
+            "Solid Tumor",
+            "Non-Small Cell Adenocarcinoma",
+            "Lung Cancer",
+            "Brain Tumor"
+          ],
+          "remote": [
+            "Non Small Cell Lung Cancer",
+            "Glioma Glioblastoma Multiforme",
+            "Glioma, Malignant",
+            "Solid Tumor",
+            "Non-Small Cell Adenocarcinoma",
+            "Lung Cancer",
+            "Brain Tumor"
+          ]
+        },
+        "interventions": {
+          "status": "match",
+          "local": [
+            "TNG456",
+            "abemaciclib"
+          ],
+          "remote": [
+            "TNG456",
+            "abemaciclib"
+          ]
+        },
+        "primary_endpoints": {
+          "status": "match",
+          "local": [
+            "Phase 1 Maximum Tolerated Dose",
+            "Phase 2 Anti-neoplastic Activity Single Agent",
+            "Phase 2 Anti-neoplastic Activity Combination Treatment"
+          ],
+          "remote": [
+            "Phase 1 Maximum Tolerated Dose",
+            "Phase 2 Anti-neoplastic Activity Single Agent",
+            "Phase 2 Anti-neoplastic Activity Combination Treatment"
+          ]
+        }
+      },
+      "tier_b_claims": [],
+      "tier_b_unverified_html_blob": true
+    }
+  },
+  "citation_urls": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29622463/",
+      "expected_title_hint": "Genomic and Functional Approaches to Understanding Cancer Aneuploidy",
+      "label": "Taylor AM 2018",
+      "count": 5,
+      "status": "ok",
+      "code": 200,
+      "title": "Genomic and Functional Approaches to Understanding Cancer Aneuploidy - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22588877/",
+      "expected_title_hint": "The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data",
+      "label": "Cerami E 2012",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "The cBio cancer genomics portal: an open platform for exploring multidimensional cancer genomics data - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40850616/",
+      "expected_title_hint": "MTAP Expression by Immunohistochemistry: A Novel Biomarker in NSCLC",
+      "label": "Brune MM 2026",
+      "count": 5,
+      "status": "ok",
+      "code": 200,
+      "title": "MTAP Expression by Immunohistochemistry: A Novel Biomarker in NSCLC - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.modpat.2023.100420",
+      "expected_title_hint": "Comparison of Immunohistochemistry, Next-generation Sequencing and Fluorescence In Situ Hybridization for Detection of MTAP Loss in Pleural Mesothelioma",
+      "label": "Febres-Aldana CA 2024",
+      "count": 4,
+      "status": "ok",
+      "code": 200,
+      "title": "Redirecting",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26912360/",
+      "expected_title_hint": "MTAP deletion confers enhanced dependency on the PRMT5 arginine methyltransferase in cancer cells",
+      "label": "Kryukov GV 2016",
+      "count": 10,
+      "status": "ok",
+      "code": 200,
+      "title": "MTAP deletion confers enhanced dependency on the PRMT5 arginine methyltransferase in cancer cells - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34844637/",
+      "expected_title_hint": "recount3: summaries and queries for large-scale RNA-seq expression and splicing",
+      "label": "Wilks C 2021",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "recount3: summaries and queries for large-scale RNA-seq expression and splicing - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8616780/",
+      "expected_title_hint": "Co-deletion of the genes for p16INK4, methylthioadenosine phosphorylase, interferon-alpha1, interferon-beta1, and other 9p21 markers in human malignant cell lines",
+      "label": "Zhang H 1996",
+      "count": 3,
+      "status": "ok",
+      "code": 200,
+      "title": "Codeletion of the genes for p16INK4, methylthioadenosine phosphorylase, interferon-alpha1, interferon-beta1, and other 9p21 markers in human malignant cell lines - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29596782/",
+      "expected_title_hint": "Scalable Open Science Approach for Mutation Calling of Tumor Exomes Using Multiple Genomic Pipelines",
+      "label": "Ellrott K 2018",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "Scalable Open Science Approach for Mutation Calling of Tumor Exomes Using Multiple Genomic Pipelines - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28890946/",
+      "expected_title_hint": "OncoKB: A Precision Oncology Knowledge Base",
+      "label": "Chakravarty D 2017",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "OncoKB: A Precision Oncology Knowledge Base - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26912361/",
+      "expected_title_hint": "Disordered methionine metabolism in MTAP/CDKN2A-deleted cancers leads to dependence on PRMT5",
+      "label": "Mavrakis KJ 2016",
+      "count": 3,
+      "status": "ok",
+      "code": 200,
+      "title": "Disordered methionine metabolism in MTAP/CDKN2A-deleted cancers leads to dependence on PRMT5 - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27068473/",
+      "expected_title_hint": "MTAP Deletions in Cancer Create Vulnerability to Targeting of the MAT2A/PRMT5/RIOK1 Axis",
+      "label": "Marjon K 2016",
+      "count": 7,
+      "status": "ok",
+      "code": 200,
+      "title": "MTAP Deletions in Cancer Create Vulnerability to Targeting of the MAT2A/PRMT5/RIOK1 Axis - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25662273/",
+      "expected_title_hint": "The PRMT5 arginine methyltransferase: many roles in development, cancer and beyond",
+      "label": "Stopa N 2015",
+      "count": 2,
+      "status": "ok",
+      "code": 200,
+      "title": "The PRMT5 arginine methyltransferase: many roles in development, cancer and beyond - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33476604/",
+      "expected_title_hint": "MAT2A Inhibition Blocks the Growth of MTAP-Deleted Cancer Cells by Reducing PRMT5-Dependent mRNA Splicing and Inducing DNA Damage",
+      "label": "Kalev P 2021",
+      "count": 5,
+      "status": "ok",
+      "code": 200,
+      "title": "The Financial Burden of Applying to Urology Residency in 2020 - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37552839/",
+      "expected_title_hint": "MRTX1719 Is an MTA-Cooperative PRMT5 Inhibitor That Exhibits Synthetic Lethality in Preclinical Models and Patients with MTAP-Deleted Cancer",
+      "label": "Engstrom LD 2023",
+      "count": 4,
+      "status": "ok",
+      "code": 200,
+      "title": "MRTX1719 Is an MTA-Cooperative PRMT5 Inhibitor That Exhibits Synthetic Lethality in Preclinical Models and Patients with MTAP-Deleted Cancer - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282709/",
+      "expected_title_hint": "AMG 193, a Clinical Stage MTA-Cooperative PRMT5 Inhibitor, Drives Antitumor Activity Preclinically and in Patients with MTAP-Deleted Cancers",
+      "label": "Belmontes B 2025",
+      "count": 5,
+      "status": "ok",
+      "code": 200,
+      "title": "AMG 193, a Clinical Stage MTA-Cooperative PRMT5 Inhibitor, Drives Antitumor Activity Preclinically and in Patients with MTAP-Deleted Cancers - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41833902/",
+      "expected_title_hint": "MTAP Loss Is Frequent in Oncogene-Driven NSCLC and May Confer Sensitivity to Combined PRMT5 Inhibitors and Targeted Therapies",
+      "label": "Aldea M 2026",
+      "count": 5,
+      "status": "ok",
+      "code": 200,
+      "title": "MTAP loss is frequent in oncogene-driven NSCLC and may confer sensitivity to combined PRMT5 inhibitors and targeted therapies - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.annonc.2024.08.2339",
+      "expected_title_hint": "First-in-human study of AMG 193, an MTA-cooperative PRMT5 inhibitor, in patients with MTAP-deleted solid tumors: results from phase I dose exploration",
+      "label": "Rodon J 2024",
+      "count": 3,
+      "status": "ok",
+      "code": 200,
+      "title": "Redirecting",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://doi.org/10.1021/acs.jmedchem.4c00133",
+      "expected_title_hint": "Discovery of TNG908: A Selective, Brain Penetrant, MTA-Cooperative PRMT5 Inhibitor That Is Synthetically Lethal with MTAP-Deleted Cancers",
+      "label": "Cottrell KM 2024",
+      "count": 3,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.3011",
+      "expected_title_hint": "BMS-986504 in patients with advanced solid tumors with homozygous MTAP deletion: Clinical update and first report of pharmacokinetics and pharmacodynamic analyses from CA240-0007",
+      "label": "George B 2025",
+      "count": 2,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT079/761426/",
+      "expected_title_hint": "Pharmacodynamic and exploratory biomarker analysis of the PRMT5 inhibitor BMS-986504 in patients with advanced solid tumors with homozygous MTAP deletion",
+      "label": "Rodón J 2025",
+      "count": 2,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37909092/",
+      "expected_title_hint": "Early Clinical Success of MTA-Cooperative PRMT5 Inhibitors for the Treatment of CDKN2A/MTAP-Deleted Cancers",
+      "label": "Lin H 2023",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "Early Clinical Success of MTA-Cooperative PRMT5 Inhibitors for the Treatment of CDKN2A/MTAP-Deleted Cancers - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/4268/759900/",
+      "expected_title_hint": "The allosteric MAT2A inhibitor IDE397 uniquely exploits metabolic liabilities associated with MTAP deletion to perturb DNA replication and repair",
+      "label": "Konteatis Z 2025",
+      "count": 3,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.16.719008v1",
+      "expected_title_hint": "Acquired resistance to the PRMT5 inhibitor confers collateral sensitivity to MEK inhibition in MTAP-null non-small cell lung cancer",
+      "label": "[bioRxiv preprint authors — pending peer review] 2026",
+      "count": 2,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.26.714409v1",
+      "expected_title_hint": "Identification of a lineage-agnostic splicing signature caused by PRMT5 inhibition",
+      "label": "[bioRxiv preprint authors — pending peer review] 2026",
+      "count": 2,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://www.jto.org/article/S1556-0864(24)01507-7/fulltext",
+      "expected_title_hint": "Phase 1/2 Dose-expansion Study of AMG 193, an MTA-cooperative PRMT5 Inhibitor, in MTAP-deleted NSCLC (P3.12D.11)",
+      "label": "Sacher A 2024",
+      "count": 2,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.TPS796",
+      "expected_title_hint": "A phase 2/3 randomized study of BMS-986504 with nab-paclitaxel (nab-P) and gemcitabine (GEM) in first-line metastatic pancreatic ductal adenocarcinoma (PDAC) with homozygous MTAP deletion: MountainTAP-30",
+      "label": "Bristol Myers Squibb (sponsor); presented at ASCO GI 2026. 2026",
+      "count": 3,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://www.iaslc.org/iaslc-news/press-release/bms-986504-demonstrates-durable-responses-mtap-deleted-nsclc-including",
+      "expected_title_hint": "BMS-986504 Demonstrates Durable Responses in MTAP-Deleted NSCLC, Including EGFR and ALK-Positive Tumors",
+      "label": "Bristol Myers Squibb (presented at IASLC World Conference on Lung Cancer 2025) 2025",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": null,
+      "bucket": "ok"
+    },
+    {
+      "url": "https://tangotx.gcs-web.com/news-releases/news-release-details/tango-therapeutics-reports-positive-data-ongoing-phase-12-study",
+      "expected_title_hint": "TNG462 (vopimetostat) clinical update — positive Phase 1/2 data in MTAP-deleted cancers",
+      "label": "Tango Therapeutics 2024",
+      "count": 1,
+      "status": "http-error",
+      "code": 0,
+      "title": null,
+      "bucket": "broken"
+    },
+    {
+      "url": "https://www.onclive.com/view/vopimetostat-demonstrates-early-evidence-of-efficacy-in-mtap-deleted-solid-tumors",
+      "expected_title_hint": "Vopimetostat demonstrates early evidence of efficacy in MTAP-deleted solid tumors",
+      "label": "OncLive editorial (covering Tango Therapeutics WCLC 2025 / ESMO 2025 presentations) 2025",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/06/08/3307926/0/en/tango-therapeutics-announces-combination-of-vopimetostat-and-daraxonrasib-demonstrated-92-objective-response-rate-in-pancreatic-cancer.html",
+      "expected_title_hint": "Vopimetostat (TNG462) + daraxonrasib combination — 92% ORR in MTAP-deleted, RAS-mutant pancreatic cancer (Phase 1/2 update)",
+      "label": "Tango Therapeutics 2026",
+      "count": 4,
+      "status": "ok",
+      "code": 200,
+      "title": "Tango Therapeutics Announces Combination of Vopimetostat",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-024-55316-5",
+      "expected_title_hint": "MAT2A inhibitor AG-270/S095033 in patients with advanced malignancies: a phase I trial",
+      "label": "Gounder MM 2025",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "MAT2A inhibitor AG-270/S095033 in patients with advanced malignancies: a phase I trial | Nature Communications",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://ir.ideayabio.com/2025-09-08-IDEAYA-Biosciences-Announces-Positive-Data-From-Phase-1-2-Combination-Trial-of-IDE397,-a-potential-first-in-class-MAT2A-inhibitor,-and-Trodelvy-R-in-MTAP-Deletion-Urothelial-Cancer",
+      "expected_title_hint": "Positive Phase 1/2 Combination Trial Data of IDE397 + Trodelvy in MTAP-Deletion Urothelial Cancer",
+      "label": "IDEAYA Biosciences (press release) 2025",
+      "count": 2,
+      "status": "ok",
+      "code": 200,
+      "title": "IDEAYA Biosciences Announces Positive Data From Phase 1/2 Combination Trial of IDE397, a potential first-in-class MAT2A inhibitor, and Trodelvy® in MTAP-Deletion Urothelial Cancer - Sep 8, 2025",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://www.annalsofoncology.org/article/S0923-7534(25)04696-4/fulltext",
+      "expected_title_hint": "Phase Ib and dose-expansion study of GSK3326595, a PRMT5 inhibitor, as monotherapy and in combination with pembrolizumab in patients with advanced cancers (METEOR-1)",
+      "label": "Siu LL 2025",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37417951/",
+      "expected_title_hint": "Phase 1 Study of JNJ-64619178, a Protein Arginine Methyltransferase 5 Inhibitor, in Advanced Solid Tumors",
+      "label": "Pant S 2023",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "Lymph node metastasis: An immunological burden - PubMed",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11879867/",
+      "expected_title_hint": "Phase Ib study of PRT543, an oral PRMT5 inhibitor, in patients with advanced splicing factor-mutant myeloid malignancies",
+      "label": "Watts JM 2025",
+      "count": 1,
+      "status": "ok",
+      "code": 200,
+      "title": "Phase Ib study of PRT543, an oral protein arginine methyltransferase 5 (PRMT5) inhibitor, in patients with advanced splicing factor-mutant myeloid malignancies - PMC",
+      "bucket": "ok"
+    },
+    {
+      "url": "https://ascopubs.org/doi/10.1200/JCO.2023.41.16_suppl.3008",
+      "expected_title_hint": "Phase 1 study of the PRMT5 brain-penetrant inhibitor PRT811 in patients with recurrent high-grade glioma or uveal melanoma",
+      "label": "Wen PY 2023",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://ashpublications.org/blood/article/144/Supplement%201/1674.2/529179/PRIMAVERA-A-Modular-Phase-I-II-Study-to-Evaluate",
+      "expected_title_hint": "PRIMAVERA: A Modular Phase I/II Study to Evaluate the Safety, Tolerability, and Efficacy of AZD3470 in Participants with Relapsed/Refractory Hematologic Malignancies",
+      "label": "ASH 2024 abstract",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.6c00659",
+      "expected_title_hint": "Use of Human Dose Prediction Metrics to Enable Discovery of AZD3470, an MTA-Cooperative PRMT5 Inhibitor in Clinical Evaluation",
+      "label": "Buxton RL 2026 (J Med Chem)",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.e15097",
+      "expected_title_hint": "First-in-human phase I study of HSK41959, an MTA-cooperative PRMT5 inhibitor, in patients with MTAP-deleted advanced solid tumors",
+      "label": "ASCO 2026 abstract e15097",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    },
+    {
+      "url": "https://aacrjournals.org/cancerres/article/84/6_Supplement/4595/737898/Abstract-4595-HSK41959-2-An-oral-MTA-cooperative",
+      "expected_title_hint": "HSK41959-2: An oral MTA-cooperative PRMT5 inhibitor for MTAP deleted cancer",
+      "label": "AACR 2024 abstract 4595",
+      "count": 1,
+      "status": "http-error",
+      "code": 403,
+      "title": null,
+      "bucket": "bot-blocked"
+    }
+  ],
+  "summary": {
+    "urls_ok": 24,
+    "urls_bot_blocked": 15,
+    "urls_broken": 1,
+    "trials_audited": 42,
+    "tier_a_mismatches": 0,
+    "tier_a_synced": 0,
+    "tier_a_errors": 0,
+    "tier_b_rows_with_no_structured_claims": 42
+  }
+}
