@@ -1,0 +1,473 @@
+[
+  {
+    "nct": "NCT03361358",
+    "title": "Pre-Screening Study to Identify MTAP Loss in Advanced Solid Tumors or Lymphoma",
+    "sponsor": "Agios Pharmaceuticals, Inc.",
+    "start_date": "2018-03-01",
+    "interventions": [],
+    "conditions": [
+      "Advanced Solid Tumors",
+      "Lymphoma"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) []. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT03380468",
+    "title": "Adjuvant Chemotherapy for High Risk Stage I Lung Adenocarcinoma",
+    "sponsor": "Fudan University",
+    "start_date": "2018-01-01",
+    "interventions": [
+      "cisplatin plus pemetrexed"
+    ],
+    "conditions": [
+      "Lung Neoplasms"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['cisplatin plus pemetrexed']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT03951142",
+    "title": "Imaging Perfusion Restrictions From Extracellular Solid Stress - An Open-label Losartan Study",
+    "sponsor": "Kyrre Eeg Emblem",
+    "start_date": "2019-10-01",
+    "interventions": [
+      "Losartan"
+    ],
+    "conditions": [
+      "Glioblastoma",
+      "Brain Metastases"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Losartan']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04177953",
+    "title": "Nivolumab With Chemotherapy in Pleural Mesothelioma After Surgery",
+    "sponsor": "Institut für Klinische Krebsforschung IKF GmbH at Krankenhaus Nordwest",
+    "start_date": "2019-02-04",
+    "interventions": [
+      "Carboplatin AUC 5",
+      "Cisplatin 75 mg/m2",
+      "Pemetrexed 500 mg/m2",
+      "Nivolumab Injection"
+    ],
+    "conditions": [
+      "Pleural Mesothelioma Malignant"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Carboplatin AUC 5', 'Cisplatin 75 mg/m2', 'Pemetrexed 500 mg/m2']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04222972",
+    "title": "A Study of Pralsetinib Versus Standard of Care for First-Line Treatment of Advanced Non-Small Cell Lung Cancer (NSCLC)",
+    "sponsor": "Hoffmann-La Roche",
+    "start_date": "2020-07-24",
+    "interventions": [
+      "Pralsetinib",
+      "Carboplatin",
+      "Cisplatin",
+      "Pemetrexed",
+      "Pembrolizumab",
+      "Gemcitabine",
+      "Paclitaxel",
+      "Nab-Paclitaxel"
+    ],
+    "conditions": [
+      "RET-fusion Non Small Cell Lung Cancer",
+      "Lung Neoplasm",
+      "Carcinoma, Non-Small-Cell Lung"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pralsetinib', 'Carboplatin', 'Cisplatin']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04297605",
+    "title": "Study of Pembrolizumab and Single Agent Chemotherapy as First Line Treatment for Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer With Eastern Cooperative Oncology Group (ECOG) Performance Status of 2",
+    "sponsor": "University of Rochester",
+    "start_date": "2020-05-15",
+    "interventions": [
+      "Pembrolizumab",
+      "Pemetrexed (Chemotherapy)",
+      "Nab-paclitaxel (Chemotherapy)"
+    ],
+    "conditions": [
+      "Non-small Cell Lung Cancer"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pembrolizumab', 'Pemetrexed (Chemotherapy)', 'Nab-paclitaxel (Chemotherapy)']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04581824",
+    "title": "Efficacy Comparison of Dostarlimab Plus Chemotherapy Versus Pembrolizumab Plus Chemotherapy in Participants With Metastatic Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+    "sponsor": "GlaxoSmithKline",
+    "start_date": "2020-11-19",
+    "interventions": [
+      "Dostarlimab",
+      "Pembrolizumab",
+      "Chemotherapy"
+    ],
+    "conditions": [
+      "Lung Cancer, Non-Small Cell"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Dostarlimab', 'Pembrolizumab', 'Chemotherapy']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04736823",
+    "title": "A Trial of AK112 (PD1/VEGF Bispecific) in Combination With Chemotherapy in Patients With NSCLC",
+    "sponsor": "Akeso",
+    "start_date": "2021-02-01",
+    "interventions": [
+      "AK112",
+      "Pemetrexed",
+      "Paclitaxel",
+      "Carboplatin",
+      "Docetaxel"
+    ],
+    "conditions": [
+      "NSCLC"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['AK112', 'Pemetrexed', 'Paclitaxel']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04902703",
+    "title": "Phase II Trial to Evaluate Safety and Efficacy of GM-CSF/Sargramostim in Alzheimer's Disease",
+    "sponsor": "University of Colorado, Denver",
+    "start_date": "2022-06-01",
+    "interventions": [
+      "Sargramostim",
+      "Saline - placebo comparator"
+    ],
+    "conditions": [
+      "Alzheimer Disease"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Sargramostim', 'Saline - placebo comparator']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT04964960",
+    "title": "Pembro+Chemo in Brain Mets",
+    "sponsor": "John L. Villano, MD, PhD",
+    "start_date": "2022-05-19",
+    "interventions": [
+      "Pembrolizumab",
+      "Nab paclitaxel",
+      "Paclitaxel",
+      "Pemetrexed",
+      "Carboplatin"
+    ],
+    "conditions": [
+      "Lung Cancer",
+      "Lung Cancer Metastatic",
+      "Brain Cancer"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pembrolizumab', 'Nab paclitaxel', 'Paclitaxel']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT05299125",
+    "title": "Amivantamab, Lazertinib, and Pemetrexed for First-line Treatment of Recurrent/Metastatic Non-small Cell Lung Cancers With Epidermal Growth Factor Receptor Mutations",
+    "sponsor": "Latin American Cooperative Oncology Group",
+    "start_date": "2023-05-24",
+    "interventions": [
+      "Amivantamab",
+      "Lazertinib",
+      "Pemetrexed 500 mg"
+    ],
+    "conditions": [
+      "Metastatic Non-small Cell Lung Cancers"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Amivantamab', 'Lazertinib', 'Pemetrexed 500 mg']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT05335941",
+    "title": "A Phase 2 Study to Evaluate the Triplet Combination of Pemetrexed Plus AB928 (Etrumadenant) + AB122 (Zimberelimab) in Patients With Previously Treated Advanced or Metastatic MTAP Deficient Urothelial Carcinoma",
+    "sponsor": "M.D. Anderson Cancer Center",
+    "start_date": "2023-06-13",
+    "interventions": [
+      "Pemetrexed",
+      "Zimberelimab",
+      "Etrumadenant"
+    ],
+    "conditions": [
+      "Urothelial Carcinoma",
+      "Metastatic Cancer"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pemetrexed', 'Zimberelimab', 'Etrumadenant']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT05382559",
+    "title": "A Study of ASP3082 in Adults With Advanced Solid Tumors",
+    "sponsor": "Astellas Pharma Inc",
+    "start_date": "2022-06-08",
+    "interventions": [
+      "Setidegrasib",
+      "Cetuximab",
+      "Leucovorin",
+      "Oxaliplatin",
+      "Fluorouracil",
+      "Irinotecan",
+      "Nanoparticle albumin-bound-paclitaxel",
+      "Gemcitabine",
+      "Docetaxel",
+      "Pembrolizumab",
+      "Cisplatin",
+      "Carboplatin",
+      "Pemetrexed",
+      "Liposomal Irinotecan"
+    ],
+    "conditions": [
+      "Solid Tumor"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Setidegrasib', 'Cetuximab', 'Leucovorin']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT05528055",
+    "title": "A Study to Investigate the Safety and Tolerability of SCR-6920 Capsule in Patients With Advanced Malignant Tumors",
+    "sponsor": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+    "start_date": "2022-05-18",
+    "interventions": [
+      "SCR-6920 capsule",
+      "SCR-6920 capsule",
+      "SCR-6920 capsule",
+      "SCR-6920 capsule"
+    ],
+    "conditions": [
+      "Solid Tumor",
+      "Non Hodgkin Lymphoma"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['SCR-6920 capsule', 'SCR-6920 capsule', 'SCR-6920 capsule']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT05775796",
+    "title": "Evaluate the Efficacy and Safety of Serplulimab Plus Chemotherapy in Neoadjuvant and Adjuvant Treatment of Resectable NSCLC (ECTOP-1013)",
+    "sponsor": "Fudan University",
+    "start_date": "2023-03-15",
+    "interventions": [
+      "Serplulimab and Chemotherapy"
+    ],
+    "conditions": [
+      "Non-small Cell Lung Cancer",
+      "Stage II-IIIA",
+      "Immunotherapy"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Serplulimab and Chemotherapy']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT05904379",
+    "title": "AK112 and AK104 With or Without Chemotherapy in Advanced Non-small Cell Lung Cancer",
+    "sponsor": "Akeso",
+    "start_date": "2023-07-13",
+    "interventions": [
+      "AK112",
+      "AK104",
+      "Carboplatin",
+      "paclitaxel",
+      "pemetrexed",
+      "Docetaxel"
+    ],
+    "conditions": [
+      "Advanced Non-small-cell Lung Cancer"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['AK112', 'AK104', 'Carboplatin']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06241807",
+    "title": "Neoadjuvant Camrelizumab Combined With Chemotherapy for Resectable Stage IIIA-IIIB NSCLC",
+    "sponsor": "Shandong Cancer Hospital and Institute",
+    "start_date": "2022-12-02",
+    "interventions": [
+      "Camrelizumab Plus Chemotherapy"
+    ],
+    "conditions": [
+      "IMMUNOTHERAPY",
+      "Neoadjuvant Therapy",
+      "Resectable Lung Non-Small Cell Carcinoma"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Camrelizumab Plus Chemotherapy']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06380348",
+    "title": "JMT101 in Combination With Osimertinib, Versus Cisplatin-pemetrexed in Participants With Locally Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) Characterized by Epithermal Growth Factor Receptor (EGFR) Exon 20ins Mutations",
+    "sponsor": "Shanghai JMT-Bio Inc.",
+    "start_date": "2024-04-26",
+    "interventions": [
+      "JMT101 Injection",
+      "Osimertinib tablet",
+      "Cisplatin injection",
+      "Pemetrexed injection"
+    ],
+    "conditions": [
+      "Local Advanced or Metastatic NSCLC"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['JMT101 Injection', 'Osimertinib tablet', 'Cisplatin injection']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06414460",
+    "title": "Study of ISM3412 in Participants With Locally Advanced/Metastatic Solid Tumors",
+    "sponsor": "InSilico Medicine Hong Kong Limited",
+    "start_date": "2025-04-25",
+    "interventions": [
+      "ISM3412"
+    ],
+    "conditions": [
+      "Locally Advanced/Metastatic Solid Tumors"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['ISM3412']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06589596",
+    "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+    "sponsor": "BeOne Medicines",
+    "start_date": "2025-01-10",
+    "interventions": [
+      "BGB-58067",
+      "BG-89894",
+      "Standard of Care Therapy"
+    ],
+    "conditions": [
+      "Advanced Solid Tumor"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['BGB-58067', 'BG-89894', 'Standard of Care Therapy']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06593522",
+    "title": "A Phase 2 Study of Anvumetostat in Participants With MTAP-deleted Advanced NSCLC (MTAPESTRY 201)",
+    "sponsor": "Amgen",
+    "start_date": "2024-12-26",
+    "interventions": [
+      "anvumetostat"
+    ],
+    "conditions": [
+      "MTAP-deleted NSCLC"
+    ],
+    "reason": "Drug match: anvumetostat"
+  },
+  {
+    "nct": "NCT06769295",
+    "title": "A Phase II Study of AK112 (PD1/VEGF Bispecific) in Combination with Chemotherapy in Patients with NSCLC",
+    "sponsor": "Sichuan University",
+    "start_date": "2025-02-01",
+    "interventions": [
+      "AK112"
+    ],
+    "conditions": [
+      "Lung Cancer, Non-Small Cell"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['AK112']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06796699",
+    "title": "A Phase Ia/Ib Clinical Study of GH56 Capsules in Subjects With MTAP-Deleted Advanced Solid Tumors",
+    "sponsor": "Suzhou Genhouse Bio Co., Ltd.",
+    "start_date": "2025-03-07",
+    "interventions": [
+      "GH56 Capsule"
+    ],
+    "conditions": [
+      "Advanced Solid Tumors With MTAP Gene Deletion"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['GH56 Capsule']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06971523",
+    "title": "A Phase I/II Clinical Study of CTS3497 in Patients With MTAP Deficient Malignacies",
+    "sponsor": "CytosinLab Therapeutics Co., Ltd.",
+    "start_date": "2024-12-25",
+    "interventions": [
+      "CTS3497"
+    ],
+    "conditions": [
+      "Solid Tumor",
+      "Lymphoma"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['CTS3497']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT06973863",
+    "title": "A Study of PEP08 in Patients With MTAP-Del Advanced or Metastatic Solid Tumors",
+    "sponsor": "PharmaEngine",
+    "start_date": "2025-08-26",
+    "interventions": [
+      "PEP08"
+    ],
+    "conditions": [
+      "Advanced Solid Tumor",
+      "Solid Tumors",
+      "MTAP-deleted Solid Tumors"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['PEP08']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT07128303",
+    "title": "Study of GS-5319 in Adults With Solid Tumors",
+    "sponsor": "Gilead Sciences",
+    "start_date": "2025-08-28",
+    "interventions": [
+      "GS-5319"
+    ],
+    "conditions": [
+      "Advanced Solid Tumor"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['GS-5319']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT07485049",
+    "title": "BGB-58067 in Newly Diagnosed Glioblastoma Patients With MTAP-Deleted Tumors",
+    "sponsor": "Nader Sanai",
+    "start_date": "2026-05-07",
+    "interventions": [
+      "BGB-58067"
+    ],
+    "conditions": [
+      "Glioblastoma (GBM)"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['BGB-58067']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT07554846",
+    "title": "Comparison of Perioperative Immunotherapy, Adjuvant Immunotherapy or Neoadjuvant Immunotherapy for Resectable Stage II-IIIA NSCLC",
+    "sponsor": "Fudan University",
+    "start_date": "2026-05-01",
+    "interventions": [
+      "Peroperative immunotherapy",
+      "Neoadjuvant immunotherapy",
+      "Adjuvant immunotherapy"
+    ],
+    "conditions": [
+      "Resectable Stage II-IIIa NSCLC"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Peroperative immunotherapy', 'Neoadjuvant immunotherapy', 'Adjuvant immunotherapy']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT07567859",
+    "title": "A Study of HS-10587 in Patients With Advanced Solid Tumors",
+    "sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+    "start_date": "2026-06-04",
+    "interventions": [
+      "HS-10587"
+    ],
+    "conditions": [
+      "MTAP Deletion"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['HS-10587']. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT07593573",
+    "title": "the Exploration of MTAP Deletion in Osteosarcoma by Immunohistochemistry",
+    "sponsor": "Peking University People's Hospital",
+    "start_date": "2025-12-15",
+    "interventions": [],
+    "conditions": [
+      "Osteosarcoma",
+      "MTAP Deletion",
+      "Immunohistochemistry"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) []. May be a new programme — manual review needed."
+  },
+  {
+    "nct": "NCT07601243",
+    "title": "Study of GS-2426 in Participants With Advanced Solid Tumors",
+    "sponsor": "Gilead Sciences",
+    "start_date": "2026-05",
+    "interventions": [
+      "GS-2426"
+    ],
+    "conditions": [
+      "Advanced Solid Tumors"
+    ],
+    "reason": "Post-2018 trial with unrecognized drug(s) ['GS-2426']. May be a new programme — manual review needed."
+  }
+]
