@@ -1,0 +1,1028 @@
+{
+  "NCT00053209": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Pemetrexed Disodium and Gemcitabine in Treating Patients With Advanced Cancer of the Urothelium",
+      "sponsor": "Eastern Cooperative Oncology Group",
+      "start_date": "2004-08-10",
+      "interventions": [
+        "gemcitabine hydrochloride",
+        "pemetrexed disodium"
+      ],
+      "conditions": [
+        "Bladder Cancer",
+        "Transitional Cell Cancer of the Renal Pelvis and Ureter",
+        "Urethral Cancer"
+      ]
+    }
+  },
+  "NCT00078468": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Study of the GARFT Inhibitor AG2037 in Patients With Metastatic Colorectal Cancer Who Failed Treatment",
+      "sponsor": "Pfizer",
+      "start_date": "2003-12",
+      "interventions": [
+        "PELITREXOL/AG-2037"
+      ],
+      "conditions": [
+        "Colorectal Neoplasms"
+      ]
+    }
+  },
+  "NCT00090701": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "A Phase 2, Open-Label, Multicenter Study of the GARFT Inhibitor in Patients With Metastatic Non-Small Cell Lung Cancer",
+      "sponsor": "Pfizer",
+      "start_date": "2004-09",
+      "interventions": [
+        "AG2037"
+      ],
+      "conditions": [
+        "Lung Neoplasms"
+      ]
+    }
+  },
+  "NCT00101283": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Pemetrexed Plus Gemcitabine or Carboplatin for Patients With Advanced Malignant Pleural Mesothelioma",
+      "sponsor": "Eastern Cooperative Oncology Group",
+      "start_date": "2006-02-23",
+      "interventions": [
+        "pemetrexed disodium",
+        "gemcitabine hydrochloride",
+        "carboplatin"
+      ],
+      "conditions": [
+        "Mesothelioma"
+      ]
+    }
+  },
+  "NCT00107419": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "S0423 Pemetrexed Disodium in Treating Patients With Recurrent and Unresectable or Metastatic Chondrosarcoma",
+      "sponsor": "SWOG Cancer Research Network",
+      "start_date": "2005-09",
+      "interventions": [
+        "pemetrexed disodium"
+      ],
+      "conditions": [
+        "Sarcoma"
+      ]
+    }
+  },
+  "NCT00363415": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Study of Pemetrexed and Carboplatin Compared With Etoposide Carboplatin to Treat Extensive-Stage Small Cell Lung Cancer",
+      "sponsor": "Eli Lilly and Company",
+      "start_date": "2006-08",
+      "interventions": [
+        "pemetrexed",
+        "etoposide",
+        "carboplatin"
+      ],
+      "conditions": [
+        "Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT00434135": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Alimta and Gemcitabine in Non-Small Cell Lung Cancer",
+      "sponsor": "Southern Italy Cooperative Oncology Group",
+      "start_date": "2006-05",
+      "interventions": [
+        "gemcitabine plus pemetrexed, paclitaxel plus gemcitabine"
+      ],
+      "conditions": [
+        "Non-Small Cell Lung Cancer",
+        "Stage IIIB or IV"
+      ]
+    }
+  },
+  "NCT00517595": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Phase II Study Alimta and Gemzar + Avastin as First Line Chemotherapy for Elderly Patients With Stage IIIB/IV NSCLC",
+      "sponsor": "Accelerated Community Oncology Research Network",
+      "start_date": "2007-08",
+      "interventions": [
+        "Pemetrexed and Gemcitabine plus Bevacizumab"
+      ],
+      "conditions": [
+        "Non-Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT00523419": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Chemotherapy for Patients With Osteosarcoma",
+      "sponsor": "Eli Lilly and Company",
+      "start_date": "2007-09",
+      "interventions": [
+        "Pemetrexed"
+      ],
+      "conditions": [
+        "Osteosarcoma"
+      ]
+    }
+  },
+  "NCT00738881": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Pemetrexed Disodium or Erlotinib Hydrochloride as Second-Line Therapy in Treating Patients With Advanced Non-small Cell Lung Cancer",
+      "sponsor": "National Cancer Institute (NCI)",
+      "start_date": "2008-10",
+      "interventions": [
+        "Erlotinib Hydrochloride",
+        "Pemetrexed Disodium"
+      ],
+      "conditions": [
+        "Recurrent Non-Small Cell Lung Carcinoma",
+        "Stage IIIA Non-Small Cell Lung Cancer",
+        "Stage IIIB Non-Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT00806819": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Lume Lung 2 : BIBF 1120 Plus Pemetrexed Compared to Placebo Plus Pemetrexed in 2nd Line Nonsquamous NSCLC",
+      "sponsor": "Boehringer Ingelheim",
+      "start_date": "2008-12",
+      "interventions": [
+        "Nintedanib (BIBF1120)",
+        "Pemetrexed",
+        "pemetrexed",
+        "B12",
+        "dexamethasone (or corticosteroid equivalent)",
+        "placebo",
+        "dexamethasone (or corticosteroid equivalent)",
+        "B12",
+        "Folic Acid",
+        "B12",
+        "dexamethasone (or corticosteroid equivalent)",
+        "Folic Acid",
+        "placebo",
+        "Folic Acid",
+        "Nintedanib (BIBF1120)",
+        "Pemetrexed"
+      ],
+      "conditions": [
+        "Carcinoma, Non-Small-Cell Lung"
+      ]
+    }
+  },
+  "NCT00898820": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Tumor Response to Pemetrexed Disodium in Patients With Stage III or Stage IV Non-Small Cell Lung Cancer Enrolled in Clinical Trial MCCRC-RC0524",
+      "sponsor": "Mayo Clinic",
+      "start_date": "2006-11",
+      "interventions": [
+        "gene expression analysis",
+        "polymorphism analysis",
+        "protein expression analysis"
+      ],
+      "conditions": [
+        "Lung Cancer"
+      ]
+    }
+  },
+  "NCT00949650": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "BIBW 2992 (Afatinib) Versus Chemotherapy as First Line Treatment in NSCLC With EGFR Mutation",
+      "sponsor": "Boehringer Ingelheim",
+      "start_date": "2009-08-14",
+      "interventions": [
+        "Pemetrexed",
+        "BIBW 2992",
+        "Cisplatin"
+      ],
+      "conditions": [
+        "Carcinoma, Non-Small-Cell Lung",
+        "Adenocarcinoma"
+      ]
+    }
+  },
+  "NCT01105390": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "AMG 102, Pemetrexed Disodium, and Cisplatin in Treating Patients With Malignant Pleural Mesothelioma",
+      "sponsor": "National Cancer Institute (NCI)",
+      "start_date": "2010-04",
+      "interventions": [
+        "rilotumumab",
+        "cisplatin",
+        "pemetrexed disodium",
+        "laboratory biomarker analysis"
+      ],
+      "conditions": [
+        "Advanced Malignant Mesothelioma",
+        "Epithelial Mesothelioma",
+        "Recurrent Malignant Mesothelioma"
+      ]
+    }
+  },
+  "NCT01714037": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "A Clinical Study on the Safety and Efficacy of Debio 0932 in Combination With Standard of Care in Patients With Non-small Cell Lung Cancer [NSCLC]",
+      "sponsor": "Debiopharm International SA",
+      "start_date": "2012-08",
+      "interventions": [
+        "Debio 0932",
+        "Cisplatin",
+        "Pemetrexed",
+        "Gemcitabine",
+        "Docetaxel"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT01918761": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Dacomitinib + Pemetrexed for Patients With Advanced Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Central European Cooperative Oncology Group",
+      "start_date": "2013-07-30",
+      "interventions": [
+        "Dacomitinib, Pemetrexed"
+      ],
+      "conditions": [
+        "Non Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT01982955": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Tepotinib With Gefitinib in Participants With Locally Advanced or Metastatic NSCLC (INSIGHT)",
+      "sponsor": "Merck KGaA, Darmstadt, Germany",
+      "start_date": "2013-12-23",
+      "interventions": [
+        "Tepotinib",
+        "Gefitinib",
+        "Pemetrexed",
+        "Cisplatin",
+        "Carboplatin"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT02211833": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Dose Escalation Study of BI 2536 With Pemetrexed in Previously Treated Patients With Non-small-cell Lung Cancer",
+      "sponsor": "Boehringer Ingelheim",
+      "start_date": "2006-10",
+      "interventions": [
+        "BI 2536",
+        "Pemetrexed"
+      ],
+      "conditions": [
+        "Carcinoma, Non-Small-Cell Lung"
+      ]
+    }
+  },
+  "NCT02397239": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Comparison of Cost-effectiveness of Continuation Maintenance Therapy With Six Cycles of Pemetrexed Versus Pemetrexed Until Disease Progression for Metastatic Non-squamous Non-small-cell Lung Cancer",
+      "sponsor": "National Cheng-Kung University Hospital",
+      "start_date": "2015-03",
+      "interventions": [],
+      "conditions": [
+        "Non-Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT02426658": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Pemetrexed Disodium in Treating Patients With Stage IV Non-small Cell Lung Cancer and ECOG Performance Status 3",
+      "sponsor": "Wake Forest University Health Sciences",
+      "start_date": "2015-05",
+      "interventions": [
+        "Laboratory Biomarker Analysis",
+        "Pemetrexed Disodium",
+        "Quality-of-Life Assessment"
+      ],
+      "conditions": [
+        "Stage IV Non-Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT02518711": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Effectiveness Study of a Behavioral Teacher Program Targeting ADHD Symptoms",
+      "sponsor": "VU University of Amsterdam",
+      "start_date": "2011-09",
+      "interventions": [
+        "Behavioral Teacher Program"
+      ],
+      "conditions": [
+        "Attention Deficit Hyperactivity Disorder"
+      ]
+    }
+  },
+  "NCT02576574": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Avelumab in First-line NSCLC (JAVELIN Lung 100)",
+      "sponsor": "EMD Serono Research & Development Institute, Inc.",
+      "start_date": "2015-10-29",
+      "interventions": [
+        "Avelumab",
+        "Pemetrexed",
+        "Paclitaxel",
+        "Gemcitabine",
+        "Gemcitabine",
+        "Carboplatin",
+        "Cisplatin",
+        "Carboplatin",
+        "Avelumab Weekly"
+      ],
+      "conditions": [
+        "First Line Non-Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT02631460": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "S1 vs.Pemetrexed Plus Carboplatin in Patients With EGFR Wild Type Stage IIIB or IV Nonsquamous NSCLC",
+      "sponsor": "Sun Yat-sen University",
+      "start_date": "2015-12",
+      "interventions": [
+        "S1 80-120 mg/d",
+        "pemetrexed 500 mg/m2",
+        "carboplatin AUC=5"
+      ],
+      "conditions": [
+        "NSCLC"
+      ]
+    }
+  },
+  "NCT02693717": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Pemetrexed Disodium in Treating Patients With Previously Treated Metastatic Urothelial Cancer",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "start_date": "2017-05-09",
+      "interventions": [
+        "Laboratory Biomarker Analysis",
+        "Pemetrexed Disodium"
+      ],
+      "conditions": [
+        "Metastatic Urothelial Carcinoma"
+      ]
+    }
+  },
+  "NCT02817633": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "A Study of TSR-022 in Participants With Advanced Solid Tumors (AMBER)",
+      "sponsor": "Tesaro, Inc.",
+      "start_date": "2016-07-08",
+      "interventions": [
+        "TSR-022",
+        "Nivolumab",
+        "TSR-042",
+        "TSR-033",
+        "Docetaxel",
+        "Pemetrexed",
+        "Cisplatin",
+        "Carboplatin"
+      ],
+      "conditions": [
+        "Neoplasms"
+      ]
+    }
+  },
+  "NCT02944396": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Study of Veliparib in Combination With Nivolumab and Platinum Doublet Chemotherapy in Participants With Metastatic or Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "AbbVie",
+      "start_date": "2016-12-23",
+      "interventions": [
+        "pemetrexed",
+        "nivolumab",
+        "paclitaxel",
+        "veliparib",
+        "carboplatin"
+      ],
+      "conditions": [
+        "Non-Small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT02980991": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Pemetrexed and Platinum Use in the Neoadjuvant Setting for Resectable Stage II and IIIA Lung Adenocarcinoma (ECTOP-1002)",
+      "sponsor": "Fudan University",
+      "start_date": "2015-12",
+      "interventions": [
+        "Pemetrexed",
+        "Cisplatin"
+      ],
+      "conditions": [
+        "Lung Adenocarcinoma"
+      ]
+    }
+  },
+  "NCT03003962": {
+    "decision": "out-of-scope",
+    "reason": "Pre-2018 trial (predates MTAP/PRMT5 synthetic-lethality clinical-translation era; Kryukov/Marjon/Mavrakis 2016) and no axis-targeting drug in interventions; likely uses 'methylthioadenosine' as a metabolite term in metabolic/imaging research, not as a therapeutic target.",
+    "evidence": {
+      "title": "Study of Durvalumab Alone or Chemotherapy for Patients With Advanced Non Small-Cell Lung Cancer (PEARL)",
+      "sponsor": "AstraZeneca",
+      "start_date": "2017-01-02",
+      "interventions": [
+        "Durvalumab (MEDI4736)",
+        "Paclitaxel + carboplatin",
+        "Gemcitabine + cisplatin",
+        "Gemcitabine + carboplatin",
+        "Pemetrexed + cisplatin",
+        "Pemetrexed + carboplatin"
+      ],
+      "conditions": [
+        "Non Small Cell Lung Carcinoma NSCLC"
+      ]
+    }
+  },
+  "NCT03361358": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) []. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Pre-Screening Study to Identify MTAP Loss in Advanced Solid Tumors or Lymphoma",
+      "sponsor": "Agios Pharmaceuticals, Inc.",
+      "start_date": "2018-03-01",
+      "interventions": [],
+      "conditions": [
+        "Advanced Solid Tumors",
+        "Lymphoma"
+      ]
+    }
+  },
+  "NCT03380468": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['cisplatin plus pemetrexed']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Adjuvant Chemotherapy for High Risk Stage I Lung Adenocarcinoma",
+      "sponsor": "Fudan University",
+      "start_date": "2018-01-01",
+      "interventions": [
+        "cisplatin plus pemetrexed"
+      ],
+      "conditions": [
+        "Lung Neoplasms"
+      ]
+    }
+  },
+  "NCT03951142": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Losartan']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Imaging Perfusion Restrictions From Extracellular Solid Stress - An Open-label Losartan Study",
+      "sponsor": "Kyrre Eeg Emblem",
+      "start_date": "2019-10-01",
+      "interventions": [
+        "Losartan"
+      ],
+      "conditions": [
+        "Glioblastoma",
+        "Brain Metastases"
+      ]
+    }
+  },
+  "NCT04177953": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Carboplatin AUC 5', 'Cisplatin 75 mg/m2', 'Pemetrexed 500 mg/m2']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Nivolumab With Chemotherapy in Pleural Mesothelioma After Surgery",
+      "sponsor": "Institut für Klinische Krebsforschung IKF GmbH at Krankenhaus Nordwest",
+      "start_date": "2019-02-04",
+      "interventions": [
+        "Carboplatin AUC 5",
+        "Cisplatin 75 mg/m2",
+        "Pemetrexed 500 mg/m2",
+        "Nivolumab Injection"
+      ],
+      "conditions": [
+        "Pleural Mesothelioma Malignant"
+      ]
+    }
+  },
+  "NCT04222972": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pralsetinib', 'Carboplatin', 'Cisplatin']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Study of Pralsetinib Versus Standard of Care for First-Line Treatment of Advanced Non-Small Cell Lung Cancer (NSCLC)",
+      "sponsor": "Hoffmann-La Roche",
+      "start_date": "2020-07-24",
+      "interventions": [
+        "Pralsetinib",
+        "Carboplatin",
+        "Cisplatin",
+        "Pemetrexed",
+        "Pembrolizumab",
+        "Gemcitabine",
+        "Paclitaxel",
+        "Nab-Paclitaxel"
+      ],
+      "conditions": [
+        "RET-fusion Non Small Cell Lung Cancer",
+        "Lung Neoplasm",
+        "Carcinoma, Non-Small-Cell Lung"
+      ]
+    }
+  },
+  "NCT04297605": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pembrolizumab', 'Pemetrexed (Chemotherapy)', 'Nab-paclitaxel (Chemotherapy)']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Study of Pembrolizumab and Single Agent Chemotherapy as First Line Treatment for Patients With Locally Advanced or Metastatic Non-small Cell Lung Cancer With Eastern Cooperative Oncology Group (ECOG) Performance Status of 2",
+      "sponsor": "University of Rochester",
+      "start_date": "2020-05-15",
+      "interventions": [
+        "Pembrolizumab",
+        "Pemetrexed (Chemotherapy)",
+        "Nab-paclitaxel (Chemotherapy)"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT04581824": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Dostarlimab', 'Pembrolizumab', 'Chemotherapy']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Efficacy Comparison of Dostarlimab Plus Chemotherapy Versus Pembrolizumab Plus Chemotherapy in Participants With Metastatic Non-squamous Non-small Cell Lung Cancer (NSCLC)",
+      "sponsor": "GlaxoSmithKline",
+      "start_date": "2020-11-19",
+      "interventions": [
+        "Dostarlimab",
+        "Pembrolizumab",
+        "Chemotherapy"
+      ],
+      "conditions": [
+        "Lung Cancer, Non-Small Cell"
+      ]
+    }
+  },
+  "NCT04736823": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['AK112', 'Pemetrexed', 'Paclitaxel']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Trial of AK112 (PD1/VEGF Bispecific) in Combination With Chemotherapy in Patients With NSCLC",
+      "sponsor": "Akeso",
+      "start_date": "2021-02-01",
+      "interventions": [
+        "AK112",
+        "Pemetrexed",
+        "Paclitaxel",
+        "Carboplatin",
+        "Docetaxel"
+      ],
+      "conditions": [
+        "NSCLC"
+      ]
+    }
+  },
+  "NCT04902703": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Sargramostim', 'Saline - placebo comparator']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Phase II Trial to Evaluate Safety and Efficacy of GM-CSF/Sargramostim in Alzheimer's Disease",
+      "sponsor": "University of Colorado, Denver",
+      "start_date": "2022-06-01",
+      "interventions": [
+        "Sargramostim",
+        "Saline - placebo comparator"
+      ],
+      "conditions": [
+        "Alzheimer Disease"
+      ]
+    }
+  },
+  "NCT04964960": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pembrolizumab', 'Nab paclitaxel', 'Paclitaxel']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Pembro+Chemo in Brain Mets",
+      "sponsor": "John L. Villano, MD, PhD",
+      "start_date": "2022-05-19",
+      "interventions": [
+        "Pembrolizumab",
+        "Nab paclitaxel",
+        "Paclitaxel",
+        "Pemetrexed",
+        "Carboplatin"
+      ],
+      "conditions": [
+        "Lung Cancer",
+        "Lung Cancer Metastatic",
+        "Brain Cancer"
+      ]
+    }
+  },
+  "NCT05299125": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Amivantamab', 'Lazertinib', 'Pemetrexed 500 mg']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Amivantamab, Lazertinib, and Pemetrexed for First-line Treatment of Recurrent/Metastatic Non-small Cell Lung Cancers With Epidermal Growth Factor Receptor Mutations",
+      "sponsor": "Latin American Cooperative Oncology Group",
+      "start_date": "2023-05-24",
+      "interventions": [
+        "Amivantamab",
+        "Lazertinib",
+        "Pemetrexed 500 mg"
+      ],
+      "conditions": [
+        "Metastatic Non-small Cell Lung Cancers"
+      ]
+    }
+  },
+  "NCT05335941": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Pemetrexed', 'Zimberelimab', 'Etrumadenant']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Phase 2 Study to Evaluate the Triplet Combination of Pemetrexed Plus AB928 (Etrumadenant) + AB122 (Zimberelimab) in Patients With Previously Treated Advanced or Metastatic MTAP Deficient Urothelial Carcinoma",
+      "sponsor": "M.D. Anderson Cancer Center",
+      "start_date": "2023-06-13",
+      "interventions": [
+        "Pemetrexed",
+        "Zimberelimab",
+        "Etrumadenant"
+      ],
+      "conditions": [
+        "Urothelial Carcinoma",
+        "Metastatic Cancer"
+      ]
+    }
+  },
+  "NCT05382559": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Setidegrasib', 'Cetuximab', 'Leucovorin']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Study of ASP3082 in Adults With Advanced Solid Tumors",
+      "sponsor": "Astellas Pharma Inc",
+      "start_date": "2022-06-08",
+      "interventions": [
+        "Setidegrasib",
+        "Cetuximab",
+        "Leucovorin",
+        "Oxaliplatin",
+        "Fluorouracil",
+        "Irinotecan",
+        "Nanoparticle albumin-bound-paclitaxel",
+        "Gemcitabine",
+        "Docetaxel",
+        "Pembrolizumab",
+        "Cisplatin",
+        "Carboplatin",
+        "Pemetrexed",
+        "Liposomal Irinotecan"
+      ],
+      "conditions": [
+        "Solid Tumor"
+      ]
+    }
+  },
+  "NCT05528055": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['SCR-6920 capsule', 'SCR-6920 capsule', 'SCR-6920 capsule']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Study to Investigate the Safety and Tolerability of SCR-6920 Capsule in Patients With Advanced Malignant Tumors",
+      "sponsor": "Jiangsu Simcere Pharmaceutical Co., Ltd.",
+      "start_date": "2022-05-18",
+      "interventions": [
+        "SCR-6920 capsule",
+        "SCR-6920 capsule",
+        "SCR-6920 capsule",
+        "SCR-6920 capsule"
+      ],
+      "conditions": [
+        "Solid Tumor",
+        "Non Hodgkin Lymphoma"
+      ]
+    }
+  },
+  "NCT05775796": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Serplulimab and Chemotherapy']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Evaluate the Efficacy and Safety of Serplulimab Plus Chemotherapy in Neoadjuvant and Adjuvant Treatment of Resectable NSCLC (ECTOP-1013)",
+      "sponsor": "Fudan University",
+      "start_date": "2023-03-15",
+      "interventions": [
+        "Serplulimab and Chemotherapy"
+      ],
+      "conditions": [
+        "Non-small Cell Lung Cancer",
+        "Stage II-IIIA",
+        "Immunotherapy"
+      ]
+    }
+  },
+  "NCT05904379": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['AK112', 'AK104', 'Carboplatin']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "AK112 and AK104 With or Without Chemotherapy in Advanced Non-small Cell Lung Cancer",
+      "sponsor": "Akeso",
+      "start_date": "2023-07-13",
+      "interventions": [
+        "AK112",
+        "AK104",
+        "Carboplatin",
+        "paclitaxel",
+        "pemetrexed",
+        "Docetaxel"
+      ],
+      "conditions": [
+        "Advanced Non-small-cell Lung Cancer"
+      ]
+    }
+  },
+  "NCT06241807": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Camrelizumab Plus Chemotherapy']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Neoadjuvant Camrelizumab Combined With Chemotherapy for Resectable Stage IIIA-IIIB NSCLC",
+      "sponsor": "Shandong Cancer Hospital and Institute",
+      "start_date": "2022-12-02",
+      "interventions": [
+        "Camrelizumab Plus Chemotherapy"
+      ],
+      "conditions": [
+        "IMMUNOTHERAPY",
+        "Neoadjuvant Therapy",
+        "Resectable Lung Non-Small Cell Carcinoma"
+      ]
+    }
+  },
+  "NCT06380348": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['JMT101 Injection', 'Osimertinib tablet', 'Cisplatin injection']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "JMT101 in Combination With Osimertinib, Versus Cisplatin-pemetrexed in Participants With Locally Advanced or Metastatic Non-small Cell Lung Cancer (NSCLC) Characterized by Epithermal Growth Factor Receptor (EGFR) Exon 20ins Mutations",
+      "sponsor": "Shanghai JMT-Bio Inc.",
+      "start_date": "2024-04-26",
+      "interventions": [
+        "JMT101 Injection",
+        "Osimertinib tablet",
+        "Cisplatin injection",
+        "Pemetrexed injection"
+      ],
+      "conditions": [
+        "Local Advanced or Metastatic NSCLC"
+      ]
+    }
+  },
+  "NCT06414460": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['ISM3412']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Study of ISM3412 in Participants With Locally Advanced/Metastatic Solid Tumors",
+      "sponsor": "InSilico Medicine Hong Kong Limited",
+      "start_date": "2025-04-25",
+      "interventions": [
+        "ISM3412"
+      ],
+      "conditions": [
+        "Locally Advanced/Metastatic Solid Tumors"
+      ]
+    }
+  },
+  "NCT06589596": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['BGB-58067', 'BG-89894', 'Standard of Care Therapy']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "An Investigational Study of BGB-58067 As a Single Agent and in Combination With Anticancer Agents in Participants With Advanced Solid Tumors",
+      "sponsor": "BeOne Medicines",
+      "start_date": "2025-01-10",
+      "interventions": [
+        "BGB-58067",
+        "BG-89894",
+        "Standard of Care Therapy"
+      ],
+      "conditions": [
+        "Advanced Solid Tumor"
+      ]
+    }
+  },
+  "NCT06593522": {
+    "decision": "in-scope-candidate",
+    "reason": "Drug match: anvumetostat",
+    "evidence": {
+      "title": "A Phase 2 Study of Anvumetostat in Participants With MTAP-deleted Advanced NSCLC (MTAPESTRY 201)",
+      "sponsor": "Amgen",
+      "start_date": "2024-12-26",
+      "interventions": [
+        "anvumetostat"
+      ],
+      "conditions": [
+        "MTAP-deleted NSCLC"
+      ]
+    }
+  },
+  "NCT06769295": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['AK112']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Phase II Study of AK112 (PD1/VEGF Bispecific) in Combination with Chemotherapy in Patients with NSCLC",
+      "sponsor": "Sichuan University",
+      "start_date": "2025-02-01",
+      "interventions": [
+        "AK112"
+      ],
+      "conditions": [
+        "Lung Cancer, Non-Small Cell"
+      ]
+    }
+  },
+  "NCT06796699": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['GH56 Capsule']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Phase Ia/Ib Clinical Study of GH56 Capsules in Subjects With MTAP-Deleted Advanced Solid Tumors",
+      "sponsor": "Suzhou Genhouse Bio Co., Ltd.",
+      "start_date": "2025-03-07",
+      "interventions": [
+        "GH56 Capsule"
+      ],
+      "conditions": [
+        "Advanced Solid Tumors With MTAP Gene Deletion"
+      ]
+    }
+  },
+  "NCT06971523": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['CTS3497']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Phase I/II Clinical Study of CTS3497 in Patients With MTAP Deficient Malignacies",
+      "sponsor": "CytosinLab Therapeutics Co., Ltd.",
+      "start_date": "2024-12-25",
+      "interventions": [
+        "CTS3497"
+      ],
+      "conditions": [
+        "Solid Tumor",
+        "Lymphoma"
+      ]
+    }
+  },
+  "NCT06973863": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['PEP08']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Study of PEP08 in Patients With MTAP-Del Advanced or Metastatic Solid Tumors",
+      "sponsor": "PharmaEngine",
+      "start_date": "2025-08-26",
+      "interventions": [
+        "PEP08"
+      ],
+      "conditions": [
+        "Advanced Solid Tumor",
+        "Solid Tumors",
+        "MTAP-deleted Solid Tumors"
+      ]
+    }
+  },
+  "NCT07128303": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['GS-5319']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Study of GS-5319 in Adults With Solid Tumors",
+      "sponsor": "Gilead Sciences",
+      "start_date": "2025-08-28",
+      "interventions": [
+        "GS-5319"
+      ],
+      "conditions": [
+        "Advanced Solid Tumor"
+      ]
+    }
+  },
+  "NCT07485049": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['BGB-58067']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "BGB-58067 in Newly Diagnosed Glioblastoma Patients With MTAP-Deleted Tumors",
+      "sponsor": "Nader Sanai",
+      "start_date": "2026-05-07",
+      "interventions": [
+        "BGB-58067"
+      ],
+      "conditions": [
+        "Glioblastoma (GBM)"
+      ]
+    }
+  },
+  "NCT07554846": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['Peroperative immunotherapy', 'Neoadjuvant immunotherapy', 'Adjuvant immunotherapy']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Comparison of Perioperative Immunotherapy, Adjuvant Immunotherapy or Neoadjuvant Immunotherapy for Resectable Stage II-IIIA NSCLC",
+      "sponsor": "Fudan University",
+      "start_date": "2026-05-01",
+      "interventions": [
+        "Peroperative immunotherapy",
+        "Neoadjuvant immunotherapy",
+        "Adjuvant immunotherapy"
+      ],
+      "conditions": [
+        "Resectable Stage II-IIIa NSCLC"
+      ]
+    }
+  },
+  "NCT07567859": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['HS-10587']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "A Study of HS-10587 in Patients With Advanced Solid Tumors",
+      "sponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
+      "start_date": "2026-06-04",
+      "interventions": [
+        "HS-10587"
+      ],
+      "conditions": [
+        "MTAP Deletion"
+      ]
+    }
+  },
+  "NCT07593573": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) []. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "the Exploration of MTAP Deletion in Osteosarcoma by Immunohistochemistry",
+      "sponsor": "Peking University People's Hospital",
+      "start_date": "2025-12-15",
+      "interventions": [],
+      "conditions": [
+        "Osteosarcoma",
+        "MTAP Deletion",
+        "Immunohistochemistry"
+      ]
+    }
+  },
+  "NCT07601243": {
+    "decision": "review-needed",
+    "reason": "Post-2018 trial with unrecognized drug(s) ['GS-2426']. May be a new programme — manual review needed.",
+    "evidence": {
+      "title": "Study of GS-2426 in Participants With Advanced Solid Tumors",
+      "sponsor": "Gilead Sciences",
+      "start_date": "2026-05",
+      "interventions": [
+        "GS-2426"
+      ],
+      "conditions": [
+        "Advanced Solid Tumors"
+      ]
+    }
+  }
+}
