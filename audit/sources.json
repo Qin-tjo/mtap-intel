@@ -101,6 +101,17 @@
       "last_url_check": "2026-06-23",
       "url_status": "ok-200"
     },
+    "tng462_monotherapy_press_oct2025": {
+      "tier": 4,
+      "type": "press-release",
+      "authors": "Tango Therapeutics, Inc. (press release via GlobeNewswire)",
+      "title": "Tango Therapeutics Reports Positive Data from Ongoing Phase 1/2 Study with Vopimetostat (TNG462) in Patients with MTAP-deleted Cancers.",
+      "year": 2025,
+      "url": "https://www.globenewswire.com/news-release/2025/10/23/3171895/0/en/Tango-Therapeutics-Reports-Positive-Data-from-Ongoing-Phase-1-2-Study-with-Vopimetostat-TNG462-in-Patients-with-MTAP-deleted-Cancers.html",
+      "snapshot_path": "audit/snapshots/tng462_monotherapy_press_oct2025__2026-06-23.html",
+      "last_url_check": "2026-06-23",
+      "url_status": "ok-200"
+    },
     "tng462_daraxonrasib_press_2026": {
       "tier": 4,
       "type": "press-release",
